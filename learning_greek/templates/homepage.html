@@ -1,39 +1,34 @@
-{% extends "banner_base.html" %}
+{% extends "site_base.html" %}
 
-{% load i18n %}
-
-{% block head_title %}{% trans "Welcome" %}{% endblock %}
+{% block head_title %}researching how to improve the way people learn Koine Greek{% endblock %}
 
 {% block body_class %}home{% endblock %}
 
-{% block banner %}
-    <h1>{% trans "Welcome to Pinax" %}</h1>
-    <p>
-        {% blocktrans %}
-        <b>Pinax</b> is a <a href="http://djangoproject.com/">Django</a>
-        project intended to provide a starting point for websites. By
-        integrating numerous reusable Django apps to take care of the
-        things that many sites have in common, it lets you focus on what
-        makes your site different.
-        {% endblocktrans %}
+{% block body %}
+    
+    <h1>Learning Greek</h1>
+    
+    <p class="lead">
+        I'm building a site partly to help people learn Koine Greek and partly to research how to improve the way people learn Koine Greek.
     </p>
     
-    <h2>About Account Project</h2>
-    <p>
-        {% blocktrans %}
-        In addition to what is provided by the "zero" project, this project
-        provides thorough integration with django-user-accounts, adding
-        comprehensive account management functionality. It is a foundation
-        suitable for most sites that have user accounts.
-        {% endblocktrans %}
+    <p class="lead">
+        I'm bringing together lessons learnt from linguistics, learning sciences, MorphGNT, graded-reader, Quisition, Typewar and more. This project will combine many of my interests and endeavours from the last twenty years.
     </p>
-    
-    {% if user.is_authenticated %}
-        {% url what_next as what_next_url %}
-        <p class="what_next">{% blocktrans %}Wondering <a href="{{ what_next_url }}" class="btn primary large">What Next</a>?{% endblocktrans %}</p>
-    {% else %}
-        {% url account_login as login_url %}
-        {% url account_signup as signup_url %}
-        <p>{% blocktrans %}You can <a href="{{ login_url }}" class="btn">Log In</a> or <a href="{{ signup_url }}" class="btn primary">Sign Up</a> to try out the site.{% endblocktrans %}</p>
-    {% endif %}
+
+    <p class="lead">
+        It will kick off with short surveys and games and will be built up incrementally with a strong focus on gathering data and performing learning experiments.
+    </p>
+
+    <p class="lead">
+        I'm starting small but have ambitious goals. I'm eventually going to need a lot of people to use the site to get the data I need. But I also want to teach a lot of people Koine Greek.
+    </p>
+
+    <p class="lead">
+        All the code will be open source and hopefully most of the content will be open as well. Data about individuals will not be public but data in the aggregate will be shared as potentially will de-personalized data.
+    </p>
+
+    <p class="lead">
+        Stay tuned.
+    </p>
 {% endblock %}
