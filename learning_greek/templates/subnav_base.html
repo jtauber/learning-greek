@@ -15,5 +15,13 @@
                 {% endblock %}
             </div>
         </div>
+        {% block footer_base %}
+            <hr />
+            <footer>
+                {% block footer %}
+                    {% include "_footer.html" %}
+                {% endblock %}
+            </footer>
+        {% endblock %}
     </div>
 {% endblock %}
