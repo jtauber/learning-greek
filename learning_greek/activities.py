@@ -6,7 +6,10 @@ from learning_greek.forms import SurveyForm
 
 
 class DemographicSurvey(object):
-    
+
+    title = "Demographic Survey"
+    description = "basic demographic questions"
+
     def __init__(self, activity_state):
         self.questions = [
             {

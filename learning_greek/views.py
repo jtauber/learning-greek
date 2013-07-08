@@ -28,14 +28,13 @@ class SettingsView(AccountSettingsView):
 
 @login_required
 def dashboard(request):
-    # faked
-    activities = [
-        {
-            "slug": "demographic",
-            "title": "Demographic Survey",
-            "description": "basic demographic questions",
-        }
-    ]
+    activities = []
+    for slug, activity in ACTIVITIES.items():
+        activities.append({
+            "slug": slug,
+            "title": activity.title,
+            "description": activity.description,
+        })
     
     for activity in activities:
         try:
