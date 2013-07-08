@@ -26,6 +26,12 @@ class SettingsView(AccountSettingsView):
         return super(SettingsView, self).form_valid(form)
 
 
+def home(request):
+    if request.user.is_authenticated():
+        return redirect("dashboard")
+    return render(request, "homepage.html")
+
+
 @login_required
 def dashboard(request):
     activities = []
