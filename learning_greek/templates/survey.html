@@ -1,0 +1,17 @@
+{% extends "site_base.html" %}
+
+{% load bootstrap_tags %}
+
+{% block head_title %}{% endblock %}
+
+{% block body_class %}{% endblock %}
+
+{% block body %}
+    <form class="form survey" method="post" action=".">
+        {% csrf_token %}
+        {{ form|as_bootstrap }}
+        <div class="form-actions">
+            <button class="btn btn-primary">Save</button>
+        </div>
+    </form>
+{% endblock %}

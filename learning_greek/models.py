@@ -1,7 +1,10 @@
 from django.db import models
 from django.db.models.signals import post_save
+from django.utils import timezone
 
 from django.contrib.auth.models import User
+
+import jsonfield
 
 
 ADOPTION_LEVEL_CHOICES = [
@@ -24,3 +27,18 @@ def create_preferences(sender, instance, created, **kwargs):
 
 
 post_save.connect(create_preferences, sender=User)
+
+
+class ActivityState(models.Model):
+    
+    user = models.ForeignKey(User)
+    activity_slug = models.CharField(max_length=50)
+    
+    started = models.DateTimeField(default=timezone.now)
+    completed = models.DateTimeField(null=True)  # NULL means in progress
+    
+    state = jsonfield.JSONField()
+    
+    class Meta:
+        # @@@ initially assume an activity is only done once per user
+        unique_together = [("user", "activity_slug")]

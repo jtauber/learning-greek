@@ -1,0 +1,25 @@
+{% extends "site_base.html" %}
+
+{% block head_title %}researching how to improve the way people learn Koine Greek{% endblock %}
+
+{% block body_class %}dashboard{% endblock %}
+
+{% block body %}
+    
+    <div class="row">
+        <div class="span6">
+            <h1>Activities</h1>
+            
+            {% for activity in activities %}
+                <div>
+                    <h2>{{ activity.title }}</h2>
+                    <p>{{ activity.description }}</p>
+                    <form action="{% url 'activity_start' activity.slug %}" method="post">
+                        {% csrf_token %}
+                        <button class="btn btn-mini">start</button>
+                    </form>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+{% endblock %}
