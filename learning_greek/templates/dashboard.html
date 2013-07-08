@@ -15,6 +15,7 @@
                     <h2>{{ activity.title }}</h2>
                     <p>{{ activity.description }}</p>
                     {% if activity.state %}
+                        <p>{{ activity.state.state }}</p>
                         {% if activity.state.completed %}
                             COMPLETED
                         {% else %}

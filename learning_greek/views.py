@@ -67,5 +67,5 @@ def activity_play(request, slug):
     except ActivityState.DoesNotExist:
         # @@@ error message?
         return redirect("dashboard")
-    activity = Activity(activity_state.state)
+    activity = Activity(activity_state)
     return activity.handle_request(request)
