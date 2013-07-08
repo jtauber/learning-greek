@@ -81,7 +81,7 @@ class DemographicSurvey2(object):
             data = {"page": 0}
         elif not data.get("page"):
             data["page"] = 0
-        elif data["page"] == 2:
+        elif data["page"] == len(self.pages):
             # done
             return redirect("dashboard")  # @@@
         
@@ -92,7 +92,7 @@ class DemographicSurvey2(object):
             if form.is_valid():
                 self.activity_state.state.update({"answers_%d" % data["page"]: form.cleaned_data})
                 self.activity_state.state.update({"page": data["page"] + 1})
-                if data["page"] == 2:
+                if data["page"] == len(self.pages):
                     self.activity_state.completed = timezone.now()
                     self.activity_state.save()
                     return redirect("dashboard")
