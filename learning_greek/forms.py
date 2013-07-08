@@ -27,7 +27,7 @@ class SurveyForm(forms.Form):
         for question in self.questions:
             field_class = question["field_class"]
             kwargs = {
-                "label": question["name"],
+                "label": question["label"],
                 "help_text": question["help_text"],
             }
             kwargs.update(question.get("extra_args", {}))
