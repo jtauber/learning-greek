@@ -37,6 +37,13 @@ def dashboard(request):
         }
     ]
     
+    for activity in activities:
+        try:
+            activity_state = ActivityState.objects.get(user=request.user, activity_slug=activity["slug"])
+            activity.update({"state": activity_state})
+        except ActivityState.DoesNotExist:
+            activity.update({"state": None})
+    
     return render(request, "dashboard.html", {
         "activities": activities,
     })

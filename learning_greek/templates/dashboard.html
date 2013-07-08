@@ -16,6 +16,10 @@
                     <p>{{ activity.description }}</p>
                     <form action="{% url 'activity_start' activity.slug %}" method="post">
                         {% csrf_token %}
+                        {{ activity.state.started }}
+                        &ndash;
+                        {{ activity.state.completed|default:"" }}
+                        <br>
                         <button class="btn btn-mini">start</button>
                     </form>
                 </div>
