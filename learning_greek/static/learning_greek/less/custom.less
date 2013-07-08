@@ -5,16 +5,30 @@
 }
 
 footer {
+    font-weight: 400;
     font-size: 14px;
     line-height: 16px;
     color: #777;
+    small {
+        font-weight: 300;
+    }
+}
+
+.lead em {
+    font-style: normal;
+    font-weight: 400;
+}
+
+label {
+    font-weight: 300;
 }
 
 .help-block {
+    font-weight: 300;
     color: #555;
     small {
         display: block;
-        color: #777;
+        .muted;
         line-height: 16px;
     }
 }
@@ -30,11 +44,13 @@ body.survey {
             .page-number {
                 font-size: 20px;
                 .muted;
+                font-weight: 300;
                 .pull-right;
             }
         }
         .description {
             .muted;
+            font-weight: 300;
             font-style: italic;
         }
     }
@@ -44,6 +60,7 @@ body.survey {
     .help-block {
         font-size: 14px;
         .muted;
+        font-weight: 300;
         font-style: italic;
     }
 }
@@ -56,11 +73,12 @@ body.survey {
     h2 {
         font-size: 26px;
         line-height: 24px;
-        font-weight: normal;
+        font-weight: 400;
         margin: 0;
     }
     .description {
         .muted;
+        font-weight: 300;
         font-style: italic;
     }
     pre {
