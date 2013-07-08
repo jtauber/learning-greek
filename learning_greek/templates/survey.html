@@ -10,7 +10,7 @@
     <div class="row">
         <div class="span8 offset2">
             <header>
-                <h1>{{ title }}{% if page_number %} page {{ page_number }}{% endif %}</h1>
+                <h1>{{ title }}{% if page_number %}<span class="page-number">page {{ page_number }}/{{ num_pages }}</span>{% endif %}</h1>
                 <div class="description">{{ description }}</div>
             </header>
             <form method="post" action=".">

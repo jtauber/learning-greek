@@ -106,6 +106,7 @@ class DemographicSurvey2(object):
             "title": self.title,
             "description": self.description,
             "page_number": data["page"] + 1,
+            "num_pages": len(self.pages),
             "form": form
         })
 
