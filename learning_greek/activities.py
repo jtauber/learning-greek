@@ -10,8 +10,9 @@ class DemographicSurvey(object):
     def __init__(self, activity_state):
         self.questions = [
             {
-                "name": "Age",
-                "help_text": "what is your age?",
+                "name": "birthyear",
+                "label": "Year of Birth",
+                "help_text": "what year were you born in?",
                 "field_class": forms.CharField,
             }
         ]
