@@ -14,6 +14,14 @@ class DemographicSurvey(object):
                 "label": "Year of Birth",
                 "help_text": "what year were you born in?",
                 "field_class": forms.CharField,
+            },
+            {
+                "name": "gender",
+                "label": "Gender",
+                "field_class": forms.ChoiceField,
+                "extra_args": {
+                    "choices": [("", ""), ("M", "Male"), ("F", "Female")]
+                }
             }
         ]
         self.activity_state = activity_state
