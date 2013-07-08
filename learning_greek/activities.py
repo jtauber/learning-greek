@@ -1,5 +1,6 @@
 from django import forms
 from django.shortcuts import redirect, render
+from django.utils import timezone
 
 
 from learning_greek.forms import SurveyForm
@@ -34,6 +35,7 @@ class DemographicSurvey(object):
             form = SurveyForm(request.POST, questions=self.questions)
             if form.is_valid():
                 self.activity_state.state.update({"answers": form.cleaned_data})
+                self.activity_state.completed = timezone.now()
                 self.activity_state.save()
                 return redirect("dashboard")  # @@@
         else:
@@ -90,8 +92,13 @@ class DemographicSurvey2(object):
             if form.is_valid():
                 self.activity_state.state.update({"answers_%d" % data["page"]: form.cleaned_data})
                 self.activity_state.state.update({"page": data["page"] + 1})
-                self.activity_state.save()
-                return redirect("activity_play", self.activity_state.activity_slug)
+                if data["page"] == 2:
+                    self.activity_state.completed = timezone.now()
+                    self.activity_state.save()
+                    return redirect("dashboard")
+                else:
+                    self.activity_state.save()
+                    return redirect("activity_play", self.activity_state.activity_slug)
         else:
             form = SurveyForm(questions=questions)
         
