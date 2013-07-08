@@ -38,7 +38,11 @@ class DemographicSurvey(object):
                 return redirect("dashboard")  # @@@
         else:
             form = SurveyForm(questions=self.questions)
-        return render(request, "survey.html", {"form": form})
+        return render(request, "survey.html", {
+            "title": self.title,
+            "description": self.description,
+            "form": form
+        })
 
 
 ACTIVITIES = {

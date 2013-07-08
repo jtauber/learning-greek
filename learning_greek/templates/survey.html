@@ -2,16 +2,25 @@
 
 {% load bootstrap_tags %}
 
-{% block head_title %}{% endblock %}
+{% block head_title %}{{ title }}{% endblock %}
 
-{% block body_class %}{% endblock %}
+{% block body_class %}survey{% endblock %}
 
 {% block body %}
-    <form class="form survey" method="post" action=".">
-        {% csrf_token %}
-        {{ form|as_bootstrap }}
-        <div class="form-actions">
-            <button class="btn btn-primary">Save</button>
+    <div class="row">
+        <div class="span8 offset2">
+            <header>
+                <h1>{{ title }}</h1>
+                <div class="description">{{ description }}</div>
+            </header>
+            <form method="post" action=".">
+                {% csrf_token %}
+                {{ form|as_bootstrap }}
+                <div class="form-actions">
+                    <button class="btn btn-primary">Save</button>
+                    <a href="{% url 'dashboard' %}" class="btn">Cancel</a>
+                </div>
+            </form>
         </div>
-    </form>
+    </div>
 {% endblock %}
