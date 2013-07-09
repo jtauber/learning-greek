@@ -137,6 +137,7 @@ INSTALLED_APPS = [
     
     # project
     "learning_greek",
+    "learning_greek.activities",
 ]
 
 # A sample logging configuration. The only tangible logging

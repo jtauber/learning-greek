@@ -15,9 +15,9 @@ urlpatterns = patterns("",
     url(r"^account/settings/$", SettingsView.as_view(), name="account_settings"),
     url(r"^account/", include("account.urls")),
     
+    url(r"^activity/", include("learning_greek.activities.urls")),
+    
     url(r"^dashboard/", "learning_greek.views.dashboard", name="dashboard"),
-    url(r"^activity/(?P<slug>\w+)/start/$", "learning_greek.views.activity_start", name="activity_start"),
-    url(r"^activity/(?P<slug>\w+)/play/$", "learning_greek.views.activity_play", name="activity_play"),
 )
 
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

@@ -1,13 +1,11 @@
-from django.http import Http404
 from django.shortcuts import redirect, render
-from django.views.decorators.http import require_POST
 
 from account.decorators import login_required
 from account.views import SettingsView as AccountSettingsView
 
-from learning_greek.activities import ACTIVITIES
+from learning_greek.activities.custom import ACTIVITIES
 from learning_greek.forms import SettingsForm
-from learning_greek.models import ActivityState, get_activity_state
+from learning_greek.activities.models import get_activity_state
 
 
 class SettingsView(AccountSettingsView):
@@ -55,26 +53,3 @@ def dashboard(request):
     return render(request, "dashboard.html", {
         "activities": activities,
     })
-
-
-# @@@ should we just get rid of this and merge with "play"?
-@require_POST
-@login_required
-def activity_start(request, slug):
-    ActivityState.objects.get_or_create(user=request.user, activity_slug=slug)
-    return redirect("activity_play", slug)
-
-
-@login_required
-def activity_play(request, slug):
-    Activity = ACTIVITIES.get(slug)
-    if Activity is None:
-        raise Http404
-    
-    activity_state = get_activity_state(request.user, slug)
-    if activity_state is None:
-        # @@@ error message?
-        return redirect("dashboard")
-    
-    activity = Activity(activity_state)
-    return activity.handle_request(request)
