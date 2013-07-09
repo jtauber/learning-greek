@@ -34,6 +34,9 @@ def home(request):
 
 @login_required
 def dashboard(request):
+    
+    # construct a list of available activities
+    
     activities = []
     for slug, activity in ACTIVITIES.items():
         activities.append({
@@ -41,6 +44,8 @@ def dashboard(request):
             "title": activity.title,
             "description": activity.description,
         })
+    
+    # annotate list with state for this user
     
     for activity in activities:
         try:
