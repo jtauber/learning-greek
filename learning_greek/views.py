@@ -7,7 +7,7 @@ from account.views import SettingsView as AccountSettingsView
 
 from learning_greek.activities import ACTIVITIES
 from learning_greek.forms import SettingsForm
-from learning_greek.models import ActivityState
+from learning_greek.models import ActivityState, get_activity_state
 
 
 class SettingsView(AccountSettingsView):
@@ -48,11 +48,9 @@ def dashboard(request):
     # annotate list with state for this user
     
     for activity in activities:
-        try:
-            activity_state = ActivityState.objects.get(user=request.user, activity_slug=activity["slug"])
-            activity.update({"state": activity_state})
-        except ActivityState.DoesNotExist:
-            activity.update({"state": None})
+        activity.update({
+            "state": get_activity_state(request.user, activity["slug"])
+        })
     
     return render(request, "dashboard.html", {
         "activities": activities,
@@ -72,10 +70,11 @@ def activity_play(request, slug):
     Activity = ACTIVITIES.get(slug)
     if Activity is None:
         raise Http404
-    try:
-        activity_state = ActivityState.objects.get(user=request.user, activity_slug=slug)
-    except ActivityState.DoesNotExist:
+    
+    activity_state = get_activity_state(request.user, slug)
+    if activity_state is None:
         # @@@ error message?
         return redirect("dashboard")
+    
     activity = Activity(activity_state)
     return activity.handle_request(request)

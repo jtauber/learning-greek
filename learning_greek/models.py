@@ -42,3 +42,12 @@ class ActivityState(models.Model):
     class Meta:
         # @@@ initially assume an activity is only done once per user
         unique_together = [("user", "activity_slug")]
+
+
+def get_activity_state(user, activity_slug):
+    try:
+        activity_state = ActivityState.objects.get(user=user, activity_slug=activity_slug)
+    except ActivityState.DoesNotExist:
+        activity_state = None
+    
+    return activity_state
