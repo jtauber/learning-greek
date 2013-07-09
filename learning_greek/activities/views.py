@@ -12,6 +12,10 @@ from .models import ActivityState, get_activity_state
 @require_POST
 @login_required
 def activity_start(request, slug):
+    Activity = settings.ACTIVITIES.get(slug)
+    if Activity is None:
+        raise Http404
+    
     ActivityState.objects.get_or_create(user=request.user, activity_slug=slug)
     return redirect("activity_play", slug)
 
