@@ -120,7 +120,7 @@ class DemographicSurvey2(MultiPageSurvey):
     ]
 
 
-class UpperCaseQuiz(object):
+class TwoChoiceQuiz(object):
     
     title = "Upper Case"
     description = "given a lower-case letter, what's the upper-case equivalent"
@@ -134,15 +134,6 @@ class UpperCaseQuiz(object):
         elif not self.activity_state.state.get("questions"):
             self.activity_state.state["questions"] = self.construct_quiz()
             self.activity_state.save()
-    
-    def construct_quiz(self):
-        questions = []
-        letters = u"αβγδεζηθικλμνξοπρστυφχψω"
-        for i in range(10):
-            choices = random.sample(letters, 2)
-            question = random.choice(choices)
-            questions.append((question, [choice.upper() for choice in choices]))
-        return questions
     
     def handle_request(self, request):
         data = self.activity_state.state
@@ -179,8 +170,39 @@ class UpperCaseQuiz(object):
         })
 
 
+class UpperCaseQuiz(TwoChoiceQuiz):
+    
+    title = "Upper Case"
+    description = "given a lower-case letter, what's the upper-case equivalent"
+    
+    def construct_quiz(self):
+        questions = []
+        letters = u"αβγδεζηθικλμνξοπρστυφχψω"
+        for i in range(10):
+            choices = random.sample(letters, 2)
+            question = random.choice(choices)
+            questions.append((question, [choice.upper() for choice in choices]))
+        return questions
+
+
+class LowerCaseQuiz(TwoChoiceQuiz):
+    
+    title = "Lower Case"
+    description = "given an upper-case letter, what's the lower-case equivalent"
+    
+    def construct_quiz(self):
+        questions = []
+        letters = u"αβγδεζηθικλμνξοπρστυφχψω"
+        for i in range(10):
+            choices = random.sample(letters, 2)
+            question = random.choice(choices).upper()
+            questions.append((question, choices))
+        return questions
+
+
 ACTIVITIES = {
     "demographic": DemographicSurvey,
     "demographic2": DemographicSurvey2,
     "uppercase": UpperCaseQuiz,
+    "lowercase": LowerCaseQuiz,
 }
