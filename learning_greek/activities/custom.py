@@ -85,11 +85,3 @@ class LowerCaseQuiz(TwoChoiceQuiz):
             question = random.choice(choices).upper()
             questions.append((question, choices))
         return questions
-
-
-ACTIVITIES = {
-    "demographic": DemographicSurvey,
-    "demographic2": DemographicSurvey2,
-    "uppercase": UpperCaseQuiz,
-    "lowercase": LowerCaseQuiz,
-}

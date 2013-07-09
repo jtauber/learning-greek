@@ -1,10 +1,10 @@
+from django.conf import settings
 from django.http import Http404
 from django.shortcuts import redirect
 
 from account.decorators import login_required
 from django.views.decorators.http import require_POST
 
-from .custom import ACTIVITIES
 from .models import ActivityState, get_activity_state
 
 
@@ -18,7 +18,7 @@ def activity_start(request, slug):
 
 @login_required
 def activity_play(request, slug):
-    Activity = ACTIVITIES.get(slug)
+    Activity = settings.ACTIVITIES.get(slug)
     if Activity is None:
         raise Http404
     

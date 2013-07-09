@@ -1,3 +1,4 @@
+from django.conf import settings
 from django.db import models
 from django.utils import timezone
 
@@ -28,3 +29,24 @@ def get_activity_state(user, activity_slug):
         activity_state = None
     
     return activity_state
+
+
+def get_activities(user):
+    # construct a list of available activities
+    
+    activities = []
+    for slug, activity in settings.ACTIVITIES.items():
+        activities.append({
+            "slug": slug,
+            "title": activity.title,
+            "description": activity.description,
+        })
+    
+    # annotate list with state for this user
+    
+    for activity in activities:
+        activity.update({
+            "state": get_activity_state(user, activity["slug"])
+        })
+    
+    return activities

@@ -187,3 +187,12 @@ ACCOUNT_EMAIL_CONFIRMATION_EXPIRE_DAYS = 2
 AUTHENTICATION_BACKENDS = [
     "account.auth_backends.UsernameAuthenticationBackend",
 ]
+
+from learning_greek.activities.custom import *
+
+ACTIVITIES = {
+    "demographic": DemographicSurvey,
+    "demographic2": DemographicSurvey2,
+    "uppercase": UpperCaseQuiz,
+    "lowercase": LowerCaseQuiz,
+}

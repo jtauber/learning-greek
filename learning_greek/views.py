@@ -3,9 +3,8 @@ from django.shortcuts import redirect, render
 from account.decorators import login_required
 from account.views import SettingsView as AccountSettingsView
 
-from learning_greek.activities.custom import ACTIVITIES
 from learning_greek.forms import SettingsForm
-from learning_greek.activities.models import get_activity_state
+from learning_greek.activities.models import get_activities
 
 
 class SettingsView(AccountSettingsView):
@@ -33,23 +32,6 @@ def home(request):
 @login_required
 def dashboard(request):
     
-    # construct a list of available activities
-    
-    activities = []
-    for slug, activity in ACTIVITIES.items():
-        activities.append({
-            "slug": slug,
-            "title": activity.title,
-            "description": activity.description,
-        })
-    
-    # annotate list with state for this user
-    
-    for activity in activities:
-        activity.update({
-            "state": get_activity_state(request.user, activity["slug"])
-        })
-    
     return render(request, "dashboard.html", {
-        "activities": activities,
+        "activities": get_activities(request.user),
     })
