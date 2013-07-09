@@ -6,28 +6,9 @@ from django.utils import timezone
 from learning_greek.forms import SurveyForm
 
 
-class DemographicSurvey(object):
-
-    title = "Demographic Survey"
-    description = "basic demographic questions"
-
+class Survey(object):
+    
     def __init__(self, activity_state):
-        self.questions = [
-            {
-                "name": "birthyear",
-                "label": "Year of Birth",
-                "help_text": "what year were you born in?",
-                "field_class": forms.CharField,
-            },
-            {
-                "name": "gender",
-                "label": "Gender",
-                "field_class": forms.ChoiceField,
-                "extra_args": {
-                    "choices": [("", ""), ("M", "Male"), ("F", "Female")]
-                }
-            }
-        ]
         self.activity_state = activity_state
     
     def handle_request(self, request):
@@ -47,33 +28,7 @@ class DemographicSurvey(object):
         })
 
 
-class DemographicSurvey2(object):
-
-    title = "Demographic Survey"
-    description = "basic demographic questions (over two pages)"
-
-    def __init__(self, activity_state):
-        self.pages = [
-            [
-                {
-                    "name": "birthyear",
-                    "label": "Year of Birth",
-                    "help_text": "what year were you born in?",
-                    "field_class": forms.CharField,
-                }
-            ],
-            [
-                {
-                    "name": "gender",
-                    "label": "Gender",
-                    "field_class": forms.ChoiceField,
-                    "extra_args": {
-                        "choices": [("", ""), ("M", "Male"), ("F", "Female")]
-                    }
-                }
-            ]
-        ]
-        self.activity_state = activity_state
+class MultiPageSurvey(Survey):
     
     def handle_request(self, request):
         data = self.activity_state.state
@@ -109,6 +64,56 @@ class DemographicSurvey2(object):
             "num_pages": len(self.pages),
             "form": form
         })
+
+
+class DemographicSurvey(Survey):
+
+    title = "Demographic Survey"
+    description = "basic demographic questions"
+
+    questions = [
+        {
+            "name": "birthyear",
+            "label": "Year of Birth",
+            "help_text": "what year were you born in?",
+            "field_class": forms.CharField,
+        },
+        {
+            "name": "gender",
+            "label": "Gender",
+            "field_class": forms.ChoiceField,
+            "extra_args": {
+                "choices": [("", ""), ("M", "Male"), ("F", "Female")]
+            }
+        }
+    ]
+
+
+class DemographicSurvey2(MultiPageSurvey):
+
+    title = "Demographic Survey"
+    description = "basic demographic questions (over two pages)"
+
+    pages = [
+        [
+            {
+                "name": "birthyear",
+                "label": "Year of Birth",
+                "help_text": "what year were you born in?",
+                "field_class": forms.CharField,
+            }
+        ],
+        [
+            {
+                "name": "gender",
+                "label": "Gender",
+                "field_class": forms.ChoiceField,
+                "extra_args": {
+                    "choices": [("", ""), ("M", "Male"), ("F", "Female")]
+                }
+            }
+        ]
+    ]
 
 
 ACTIVITIES = {
