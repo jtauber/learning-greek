@@ -98,7 +98,7 @@ class TwoChoiceQuiz(object):
             if request.POST.get("question_number") == str(data["question_number"] + 1):
                 answer = request.POST.get("answer")
                 if answer in ["left", "right"]:
-                    self.activity_state.state.update({"answers_%d" % data["question_number"]: answer})
+                    self.activity_state.state.update({"answer_%d" % data["question_number"]: answer})
                     self.activity_state.state.update({"question_number": data["question_number"] + 1})
                     if data["question_number"] == len(data["questions"]):
                         self.activity_state.completed = timezone.now()
