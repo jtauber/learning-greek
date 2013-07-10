@@ -31,7 +31,7 @@
                     <h2>{{ activity.title }}</h2>
                     <div class="description">{{ activity.description }}</div>
                     {% if activity.state %}
-                        <pre>{{ activity.state.state }}</pre>
+                        <pre>{{ activity.state.data }}</pre>
                     {% endif %}
                 </div>
             {% endfor %}

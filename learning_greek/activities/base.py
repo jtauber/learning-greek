@@ -19,7 +19,7 @@ class Survey(object):
             form = SurveyForm(request.POST, questions=self.questions)
             
             if form.is_valid():
-                self.activity_state.state.update({"answers": form.cleaned_data})
+                self.activity_state.data.update({"answers": form.cleaned_data})
                 self.activity_state.completed = timezone.now()
                 self.activity_state.save()
                 
@@ -38,7 +38,7 @@ class MultiPageSurvey(Survey):
     
     def handle_request(self, request):
         
-        data = self.activity_state.state
+        data = self.activity_state.data
         
         if not data:
             data = {"page": 0}
@@ -54,8 +54,8 @@ class MultiPageSurvey(Survey):
             form = SurveyForm(request.POST, questions=questions)
             
             if form.is_valid():
-                self.activity_state.state.update({"answers_%d" % data["page"]: form.cleaned_data})
-                self.activity_state.state.update({"page": data["page"] + 1})
+                self.activity_state.data.update({"answers_%d" % data["page"]: form.cleaned_data})
+                self.activity_state.data.update({"page": data["page"] + 1})
                 
                 if data["page"] == len(self.pages):
                     self.activity_state.completed = timezone.now()
@@ -87,16 +87,16 @@ class TwoChoiceQuiz(object):
         
         self.activity_state = activity_state
         
-        if not self.activity_state.state:
-            self.activity_state.state = {"questions": self.construct_quiz()}
+        if not self.activity_state.data:
+            self.activity_state.data = {"questions": self.construct_quiz()}
             self.activity_state.save()
-        elif not self.activity_state.state.get("questions"):
-            self.activity_state.state["questions"] = self.construct_quiz()
+        elif not self.activity_state.data.get("questions"):
+            self.activity_state.data["questions"] = self.construct_quiz()
             self.activity_state.save()
     
     def handle_request(self, request):
         
-        data = self.activity_state.state
+        data = self.activity_state.data
         
         if not data:
             data = {"question_number": 0}
@@ -113,8 +113,8 @@ class TwoChoiceQuiz(object):
                 answer = request.POST.get("answer")
                 
                 if answer in ["left", "right"]:
-                    self.activity_state.state.update({"answer_%d" % data["question_number"]: answer})
-                    self.activity_state.state.update({"question_number": data["question_number"] + 1})
+                    self.activity_state.data.update({"answer_%d" % data["question_number"]: answer})
+                    self.activity_state.data.update({"question_number": data["question_number"] + 1})
                     
                     if data["question_number"] == len(data["questions"]):
                         self.activity_state.completed = timezone.now()

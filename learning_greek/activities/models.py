@@ -15,7 +15,7 @@ class ActivityState(models.Model):
     started = models.DateTimeField(default=timezone.now)
     completed = models.DateTimeField(null=True)  # NULL means in progress
     
-    state = jsonfield.JSONField()
+    data = jsonfield.JSONField()
     
     class Meta:
         # @@@ initially assume an activity is only done once per user
