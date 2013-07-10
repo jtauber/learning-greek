@@ -63,12 +63,15 @@ class UpperCaseQuiz(TwoChoiceQuiz):
     description = "given a lower-case letter, what's the upper-case equivalent"
     
     def construct_quiz(self):
+        
         questions = []
         letters = u"αβγδεζηθικλμνξοπρστυφχψω"
+        
         for i in range(10):
             choices = random.sample(letters, 2)
             question = random.choice(choices)
             questions.append((question, [choice.upper() for choice in choices]))
+        
         return questions
 
 
@@ -78,10 +81,13 @@ class LowerCaseQuiz(TwoChoiceQuiz):
     description = "given an upper-case letter, what's the lower-case equivalent"
     
     def construct_quiz(self):
+        
         questions = []
         letters = u"αβγδεζηθικλμνξοπρστυφχψω"
+        
         for i in range(10):
             choices = random.sample(letters, 2)
             question = random.choice(choices).upper()
             questions.append((question, choices))
+        
         return questions

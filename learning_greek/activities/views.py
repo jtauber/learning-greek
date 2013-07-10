@@ -12,24 +12,31 @@ from .models import ActivityState, get_activity_state
 @require_POST
 @login_required
 def activity_start(request, slug):
+    
     Activity = settings.ACTIVITIES.get(slug)
+    
     if Activity is None:
         raise Http404
     
     ActivityState.objects.get_or_create(user=request.user, activity_slug=slug)
+    
     return redirect("activity_play", slug)
 
 
 @login_required
 def activity_play(request, slug):
+    
     Activity = settings.ACTIVITIES.get(slug)
+    
     if Activity is None:
         raise Http404
     
     activity_state = get_activity_state(request.user, slug)
+    
     if activity_state is None:
         # @@@ error message?
         return redirect("dashboard")
     
     activity = Activity(activity_state)
+    
     return activity.handle_request(request)

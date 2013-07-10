@@ -23,6 +23,7 @@ class ActivityState(models.Model):
 
 
 def get_activity_state(user, activity_slug):
+    
     try:
         activity_state = ActivityState.objects.get(user=user, activity_slug=activity_slug)
     except ActivityState.DoesNotExist:
@@ -32,9 +33,11 @@ def get_activity_state(user, activity_slug):
 
 
 def get_activities(user):
+    
     # construct a list of available activities
     
     activities = []
+    
     for slug, activity in settings.ACTIVITIES.items():
         activities.append({
             "slug": slug,

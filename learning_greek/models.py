@@ -19,6 +19,7 @@ class Preference(models.Model):
 
 
 def create_preferences(sender, instance, created, **kwargs):
+    
     if created:
         Preference.objects.create(user=instance)
 
