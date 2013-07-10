@@ -113,24 +113,28 @@ class SpokenLanguagesSurvey(Survey):
             "label": "Full Professional",
             "help_text": "list languages separated by commas or leave blank if none",
             "field_class": forms.CharField,
+            "required": False,
         },
         {
             "name": "level3",
             "label": "Minimum Professional",
             "help_text": "list languages separated by commas or leave blank if none",
             "field_class": forms.CharField,
+            "required": False,
         },
         {
             "name": "level2",
             "label": "Limited Working",
             "help_text": "list languages separated by commas or leave blank if none",
             "field_class": forms.CharField,
+            "required": False,
         },
         {
             "name": "level1",
             "label": "Elementary",
             "help_text": "list languages separated by commas or leave blank if none",
             "field_class": forms.CharField,
+            "required": False,
         }
     ]
 
