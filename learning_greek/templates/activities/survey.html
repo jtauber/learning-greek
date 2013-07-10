@@ -13,6 +13,13 @@
                 <h1>{{ title }}{% if page_number %}<span class="page-number">page {{ page_number }}/{{ num_pages }}</span>{% endif %}</h1>
                 <div class="description">{{ description }}</div>
             </header>
+            
+            {% if help_text %}
+                <div class="help_text">
+                    {{ help_text|safe }}
+                </div>
+            {% endif %}
+            
             <form method="post" action=".">
                 {% csrf_token %}
                 {{ form|as_bootstrap }}
