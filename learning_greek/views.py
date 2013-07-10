@@ -39,8 +39,9 @@ def home(request):
 def dashboard(request):
     
     debug_mode = request.GET.get("debug") is not None
+    activities = get_activities(request.user)
     
     return render(request, "dashboard.html", {
         "debug_mode": debug_mode,
-        "activities": get_activities(request.user),
+        "activities": activities,
     })

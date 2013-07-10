@@ -13,33 +13,33 @@
             
             <h1>Activities</h1>
             
-            {% for activity in activities %}
-                <div class="dashboard-activity">
-                    <div class="pull-right clearfix">
-                        {% if activity.state %}
-                            <p>
-                                {% if activity.state.completed %}
-                                    COMPLETED
-                                {% else %}
-                                    <a class="btn btn-mini" href="{% url 'activity_play' activity.slug %}">continue</a>
-                                {% endif %}
-                            </p>
-                        {% else %}
-                            <form action="{% url 'activity_start' activity.slug %}" method="post">
-                                {% csrf_token %}
-                                <button class="btn btn-mini">start</button>
-                            </form>
-                        {% endif %}
-                    </div>
-                    <h2>{{ activity.title }}</h2>
-                    <div class="description">{{ activity.description }}</div>
-                    {% if debug_mode %}
-                        {% if activity.state %}
-                            <pre>{{ activity.state.data }}</pre>
-                        {% endif %}
-                    {% endif %}
-                </div>
-            {% endfor %}
+            {% if activities.inprogress %}
+                <h2>In Progress</h2>
+                {% for activity in activities.inprogress %}
+                    {% include "_dashboard_activity.html" %}
+                {% endfor %}
+            {% endif %}
+            
+            {% if activities.available %}
+                <h2>Available</h2>
+                {% for activity in activities.available %}
+                    {% include "_dashboard_activity.html" %}
+                {% endfor %}
+            {% endif %}
+            
+            {% if activities.completed %}
+                <h2>Completed</h2>
+                {% for activity in activities.completed %}
+                    {% include "_dashboard_activity.html" %}
+                {% endfor %}
+            {% endif %}
+            
+            {% if activities.unavailable %}
+                <h2>Unavailable</h2>
+                {% for activity in activities.unavailable %}
+                    {% include "_dashboard_activity.html" %}
+                {% endfor %}
+            {% endif %}
         </div>
     </div>
 {% endblock %}

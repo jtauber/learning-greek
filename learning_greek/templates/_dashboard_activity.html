@@ -1,0 +1,25 @@
+<div class="dashboard-activity">
+    <div class="pull-right clearfix">
+        {% if activity.state %}
+            <p>
+                {% if activity.state.completed %}
+                    COMPLETED
+                {% else %}
+                    <a class="btn btn-mini" href="{% url 'activity_play' activity.slug %}">continue</a>
+                {% endif %}
+            </p>
+        {% else %}
+            <form action="{% url 'activity_start' activity.slug %}" method="post">
+                {% csrf_token %}
+                <button class="btn btn-mini">start</button>
+            </form>
+        {% endif %}
+    </div>
+    <h3>{{ activity.title }}</h3>
+    <div class="description">{{ activity.description }}</div>
+    {% if debug_mode %}
+        {% if activity.state %}
+            <pre>{{ activity.state.data }}</pre>
+        {% endif %}
+    {% endif %}
+</div>

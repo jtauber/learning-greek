@@ -34,22 +34,27 @@ def get_activity_state(user, activity_slug):
 
 def get_activities(user):
     
-    # construct a list of available activities
-    
-    activities = []
+    activities = {
+        "available": [],
+        "inprogress": [],
+        "completed": [],
+        "unavailable": [],
+    }
     
     for slug, activity in settings.ACTIVITIES.items():
-        activities.append({
+        state = get_activity_state(user, slug)
+        activity_entry = {
             "slug": slug,
             "title": activity.title,
             "description": activity.description,
-        })
-    
-    # annotate list with state for this user
-    
-    for activity in activities:
-        activity.update({
-            "state": get_activity_state(user, activity["slug"])
-        })
+            "state": state,
+        }
+        if state:
+            if state.completed:
+                activities["completed"].append(activity_entry)
+            else:
+                activities["inprogress"].append(activity_entry)
+        else:
+            activities["available"].append(activity_entry)
     
     return activities
