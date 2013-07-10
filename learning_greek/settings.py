@@ -195,4 +195,5 @@ ACTIVITIES = {
     "demographic2": DemographicSurvey2,
     "uppercase": UpperCaseQuiz,
     "lowercase": LowerCaseQuiz,
+    "spoken-languages": SpokenLanguagesSurvey,
 }
