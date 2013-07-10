@@ -38,6 +38,9 @@ def home(request):
 @login_required
 def dashboard(request):
     
+    debug_mode = request.GET.get("debug") is not None
+    
     return render(request, "dashboard.html", {
+        "debug_mode": debug_mode,
         "activities": get_activities(request.user),
     })
