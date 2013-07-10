@@ -16,6 +16,9 @@ class SurveyForm(forms.Form):
         
             if question.get("help_text"):
                 kwargs.update({"help_text": question["help_text"]})
-        
+            
+            if question.get("required") is not None:
+                kwargs.update({"required": question["required"]})
+            
             kwargs.update(question.get("extra_args", {}))
             self.fields[question["name"]] = field_class(**kwargs)
