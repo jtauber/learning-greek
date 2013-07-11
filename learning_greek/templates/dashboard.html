@@ -43,7 +43,10 @@
             {% endif %}
             
             {% if activities.unavailable %}
-                <h2>Unavailable</h2>
+                <h2>
+                    Unavailable
+                    <div class="subhead">not enough people have completed the activity given your adoption level setting</div>
+                </h2>
                 {% for activity in activities.unavailable %}
                     {% include "_dashboard_activity.html" %}
                 {% endfor %}

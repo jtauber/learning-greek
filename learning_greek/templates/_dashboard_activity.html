@@ -1,4 +1,4 @@
-<div class="dashboard-activity">
+<div class="dashboard-activity{% if activity.unavailable %} muted{% endif %}">
     <div class="pull-right clearfix">
         {% if activity.state %}
             <p>
