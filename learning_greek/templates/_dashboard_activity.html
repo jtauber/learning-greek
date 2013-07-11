@@ -8,6 +8,8 @@
                     <a class="btn btn-mini" href="{% url 'activity_play' activity.slug %}">continue</a>
                 {% endif %}
             </p>
+        {% elif activity.unavailable %}
+            {{ activity.num_completions }} completion{{ activity.num_completions|pluralize }}
         {% else %}
             <form action="{% url 'activity_start' activity.slug %}" method="post">
                 {% csrf_token %}

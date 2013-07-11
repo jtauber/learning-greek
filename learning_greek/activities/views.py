@@ -5,7 +5,7 @@ from django.shortcuts import redirect
 from account.decorators import login_required
 from django.views.decorators.http import require_POST
 
-from .models import ActivityState, get_activity_state
+from .models import ActivityState, get_activity_state, availability
 
 
 # @@@ should we just get rid of this and merge with "play"?
@@ -17,6 +17,11 @@ def activity_start(request, slug):
     
     if Activity is None:
         raise Http404
+    
+    available, num_completions = availability(request.user, slug)
+    if not available:
+        # @@@ error message?
+        return redirect("dashboard")
     
     ActivityState.objects.get_or_create(user=request.user, activity_slug=slug)
     

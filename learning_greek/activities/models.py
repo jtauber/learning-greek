@@ -32,6 +32,26 @@ def get_activity_state(user, activity_slug):
     return activity_state
 
 
+def availability(user, activity_slug):
+    
+    adoption_level = user.preference.adoption_level
+    
+    num_completions = ActivityState.objects.filter(
+        activity_slug=activity_slug, completed__isnull=False
+    ).count()
+
+    if adoption_level == "bleeding-edge":
+        available = True
+    elif adoption_level == "early-adopter" and num_completions >= 10:
+        available = True
+    elif adoption_level == "maintream" and num_completions >= 100:
+        available = True
+    else:
+        available = False
+    
+    return available, num_completions
+
+
 def get_activities(user):
     
     activities = {
@@ -55,6 +75,12 @@ def get_activities(user):
             else:
                 activities["inprogress"].append(activity_entry)
         else:
-            activities["available"].append(activity_entry)
+            available, num_completions = availability(user, slug)
+            if available:
+                activities["available"].append(activity_entry)
+            else:
+                activity_entry["unavailable"] = True
+                activity_entry["num_completions"] = num_completions
+                activities["unavailable"].append(activity_entry)
     
     return activities
