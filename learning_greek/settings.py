@@ -196,4 +196,5 @@ ACTIVITIES = {
     "uppercase": UpperCaseQuiz,
     "lowercase": LowerCaseQuiz,
     "spoken-languages": SpokenLanguagesSurvey,
+    "goals": GoalsSurvey,
 }

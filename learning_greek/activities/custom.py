@@ -139,6 +139,36 @@ class SpokenLanguagesSurvey(Survey):
     ]
 
 
+class GoalsSurvey(Survey):
+
+    title = "Goals for Using Site"
+    description = "what your goals in using / contributing to the site are"
+
+    questions = [
+        {
+            "name": "goals",
+            "label": "Goals in using site",
+            "help_text": "select any of the above goals you have for using and/or contributing to the site",
+            "field_class": forms.MultipleChoiceField,
+            "required": False,
+            "extra_args": {
+                "widget": forms.CheckboxSelectMultiple,
+                "choices": [
+                    ("1", "I want to learn enough Greek to make better use of tools such as lexicons and commentaries"),
+                    ("2", "I want to be able to read the New Testament in the original language"),
+                    ("2", "I want to be able to read other texts in Koine Greek"),
+                    ("3", "I want to refresh the Greek I've already studied"),
+                    ("3", "I teach Greek and am assessing this site for my students"),
+                    ("3", "I teach Greek and want to contribute ideas and activities for this site"),
+                    ("4", "I'm a developer who wants to help contribute to the code behind this site"),
+                    ("4", "I'm a linguist or philologist who is interested in the data gathered by this site for research purposes"),
+                    ("4", "I'm a learning scientist who is interested in the data gathered by this site for research purposes"),
+                ]
+            }
+        }
+    ]
+
+
 class UpperCaseQuiz(TwoChoiceQuiz):
     
     title = "Upper Case"
