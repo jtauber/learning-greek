@@ -30,7 +30,7 @@ class Survey(object):
         return render(request, "activities/survey.html", {
             "title": self.title,
             "description": self.description,
-            "help_text": self.help_text,
+            "help_text": getattr(self, "help_text", None),
             "form": form
         })
 
@@ -73,7 +73,7 @@ class MultiPageSurvey(Survey):
         return render(request, "activities/survey.html", {
             "title": self.title,
             "description": self.description,
-            "help_text": self.help_text,
+            "help_text": getattr(self, "help_text", None),
             "page_number": data["page"] + 1,
             "num_pages": len(self.pages),
             "form": form
@@ -131,7 +131,7 @@ class TwoChoiceQuiz(object):
         return render(request, "activities/two_choice_quiz.html", {
             "title": self.title,
             "description": self.description,
-            "help_text": self.help_text,
+            "help_text": getattr(self, "help_text", None),
             "question_number": data["question_number"] + 1,
             "num_questions": len(data["questions"]),
             "question": question,

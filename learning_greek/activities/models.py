@@ -47,7 +47,6 @@ def get_activities(user):
             "slug": slug,
             "title": activity.title,
             "description": activity.description,
-            "help_text": getattr(activity, "help_text", ""),
             "state": state,
         }
         if state:
