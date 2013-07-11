@@ -21,8 +21,6 @@
         
         <div class="span6">
             
-            <p>Add <code>?debug</code> to URL to see activity state.</p>
-            
             {% if activities.inprogress %}
                 <h2>In Progress</h2>
                 {% for activity in activities.inprogress %}
@@ -50,6 +48,9 @@
                     {% include "_dashboard_activity.html" %}
                 {% endfor %}
             {% endif %}
+            
+            <p>Add <code>?debug</code> to URL to see activity state.</p>
+            
         </div>
     </div>
 {% endblock %}
