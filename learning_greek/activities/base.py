@@ -82,9 +82,6 @@ class MultiPageSurvey(Survey):
 
 class TwoChoiceQuiz(object):
     
-    title = "Upper Case"
-    description = "given a lower-case letter, what's the upper-case equivalent"
-    
     def __init__(self, activity_state):
         
         self.activity_state = activity_state
