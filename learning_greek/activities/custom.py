@@ -156,13 +156,13 @@ class GoalsSurvey(Survey):
                 "choices": [
                     ("1", "I want to learn enough Greek to make better use of tools such as lexicons and commentaries"),
                     ("2", "I want to be able to read the New Testament in the original language"),
-                    ("2", "I want to be able to read other texts in Koine Greek"),
-                    ("3", "I want to refresh the Greek I've already studied"),
-                    ("3", "I teach Greek and am assessing this site for my students"),
-                    ("3", "I teach Greek and want to contribute ideas and activities for this site"),
-                    ("4", "I'm a developer who wants to help contribute to the code behind this site"),
-                    ("4", "I'm a linguist or philologist who is interested in the data gathered by this site for research purposes"),
-                    ("4", "I'm a learning scientist who is interested in the data gathered by this site for research purposes"),
+                    ("3", "I want to be able to read other texts in Koine Greek"),
+                    ("4", "I want to refresh the Greek I've already studied"),
+                    ("5", "I teach Greek and am assessing this site for my students"),
+                    ("6", "I teach Greek and want to contribute ideas and activities for this site"),
+                    ("7", "I'm a developer who wants to help contribute to the code behind this site"),
+                    ("8", "I'm a linguist or philologist who is interested in the data gathered by this site for research purposes"),
+                    ("9", "I'm a learning scientist who is interested in the data gathered by this site for research purposes"),
                 ]
             }
         }
