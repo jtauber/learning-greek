@@ -8,7 +8,6 @@ from django.views.decorators.http import require_POST
 from .models import ActivityState, get_activity_state, availability
 
 
-# @@@ should we just get rid of this and merge with "play"?
 @require_POST
 @login_required
 def activity_start(request, slug):
