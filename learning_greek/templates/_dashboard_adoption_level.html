@@ -1,0 +1,13 @@
+<div class="alert alert-block alert-info">
+    <p>
+    Your adoption level is currently set to 
+    {% if user.preference.adoption_level == "bleeding-edge" %}
+        <b>Bleeding Edge</b> which gives you immediate access to activities as they are released (so there may be problems).
+    {% elif user.preference.adoption_level == "early-adopter" %}
+        <b>Early Adopter</b> which means you will have access to activities once they have been tried out by at least 10 other people.
+    {% elif user.preference.adoption_level == "mainstream" %}
+        <b>Mainstream</b> which means 100 people have to already have tried an activity before you can. Note that this means it may be a long time before activities are available to you. 
+    {% endif %}
+    </p>
+    <p>If you would like to change this, go to <a href="{% url 'account_settings' %}"><i class="icon-user"></i> Settings</a> in the top right nav bar.</p>
+</div>
