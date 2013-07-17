@@ -22,7 +22,7 @@ def activity_start(request, slug):
         # @@@ error message?
         return redirect("dashboard")
     
-    ActivityState.objects.get_or_create(user=request.user, activity_slug=slug)
+    activity_state, _ = ActivityState.objects.get_or_create(user=request.user, activity_slug=slug)
     
     return redirect("activity_play", slug)
 
@@ -41,6 +41,6 @@ def activity_play(request, slug):
         # @@@ error message?
         return redirect("dashboard")
     
-    activity = Activity(activity_state)
+    activity = Activity(activity_state.latest)
     
     return activity.handle_request(request)

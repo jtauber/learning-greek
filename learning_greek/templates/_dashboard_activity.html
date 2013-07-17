@@ -2,10 +2,10 @@
     <div class="pull-right clearfix">
         {% if activity.state %}
             <p>
-                {% if activity.state.completed %}
-                    COMPLETED
-                {% else %}
+                {% if activity.state.in_progress %}
                     <a class="btn btn-mini" href="{% url 'activity_play' activity.slug %}">continue</a>
+                {% else %}
+                    COMPLETED
                 {% endif %}
             </p>
         {% elif activity.unavailable %}
@@ -22,6 +22,9 @@
     {% if debug_mode %}
         {% if activity.state %}
             <pre>{{ activity.state.data }}</pre>
+            {% for occurrence in activity.state.all_occurrences %}
+                <pre>{{ occurrence.data }}</pre>
+            {% endfor %}
         {% endif %}
     {% endif %}
 </div>

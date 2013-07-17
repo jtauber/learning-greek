@@ -8,6 +8,55 @@ import jsonfield
 
 
 class ActivityState(models.Model):
+    """
+    this stores the overall state of a particular user doing a particular
+    activity across all occurences of that activity.
+    """
+    
+    user = models.ForeignKey(User)
+    activity_slug = models.CharField(max_length=50)
+    
+    # how many occurences have been completed by this user
+    completed_count = models.IntegerField(default=0)
+    
+    data = jsonfield.JSONField()
+    
+    class Meta:
+        unique_together = [("user", "activity_slug")]
+    
+    @property
+    def in_progress(self):
+        try:
+            return ActivityOccurrenceState.objects.get(
+                user=self.user,
+                activity_slug=self.activity_slug,
+                completed=None
+            )
+        except ActivityOccurrenceState.DoesNotExist:
+            return None
+    
+    @property
+    def latest(self):
+        occurrence, _ = ActivityOccurrenceState.objects.get_or_create(
+            user=self.user,
+            activity_slug=self.activity_slug,
+            completed=None
+        )
+        return occurrence
+    
+    @property
+    def all_occurrences(self):
+        return ActivityOccurrenceState.objects.filter(
+            user=self.user,
+            activity_slug=self.activity_slug,
+        ).order_by("started")
+
+
+class ActivityOccurrenceState(models.Model):
+    """
+    this stores the state of a particular occurence of a particular user
+    doing a particular activity.
+    """
     
     user = models.ForeignKey(User)
     activity_slug = models.CharField(max_length=50)
@@ -18,8 +67,7 @@ class ActivityState(models.Model):
     data = jsonfield.JSONField()
     
     class Meta:
-        # @@@ initially assume an activity is only done once per user
-        unique_together = [("user", "activity_slug")]
+        unique_together = [("user", "activity_slug", "started")]
 
 
 def get_activity_state(user, activity_slug):
@@ -36,8 +84,11 @@ def availability(user, activity_slug):
     
     adoption_level = user.preference.adoption_level
     
+    # number of people who have completed this at least once
     num_completions = ActivityState.objects.filter(
-        activity_slug=activity_slug, completed__isnull=False
+        activity_slug=activity_slug
+    ).exclude(
+        completed_count=0
     ).count()
 
     if adoption_level == "bleeding-edge":
@@ -70,10 +121,10 @@ def get_activities(user):
             "state": state,
         }
         if state:
-            if state.completed:
-                activities["completed"].append(activity_entry)
-            else:
+            if state.in_progress:
                 activities["inprogress"].append(activity_entry)
+            else:
+                activities["completed"].append(activity_entry)
         else:
             available, num_completions = availability(user, slug)
             if available:
