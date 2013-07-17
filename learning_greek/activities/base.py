@@ -129,3 +129,58 @@ class TwoChoiceQuiz(object):
             "num_questions": len(data["questions"]),
             "question": question,
         })
+
+
+class LikertQuiz(object):
+    
+    def __init__(self, activity_state):
+        
+        self.activity_state = activity_state
+        
+        if not self.activity_state.data:
+            self.activity_state.data = {"questions": self.construct_quiz()}
+            self.activity_state.save()
+        elif not self.activity_state.data.get("questions"):
+            self.activity_state.data["questions"] = self.construct_quiz()
+            self.activity_state.save()
+    
+    def handle_request(self, request):
+        
+        data = self.activity_state.data
+        
+        if not data:
+            data = {"question_number": 0}
+        elif not data.get("question_number"):
+            data["question_number"] = 0
+        elif data["question_number"] == len(data["questions"]):
+            # done
+            return redirect("dashboard")  # @@@
+        
+        question = data["questions"][data["question_number"]]
+        
+        if request.method == "POST":
+            if request.POST.get("question_number") == str(data["question_number"] + 1):
+                answer = request.POST.get("answer")
+                
+                if answer in ["1", "2", "3", "4", "5"]:
+                    self.activity_state.data.update({"answer_%d" % data["question_number"]: answer})
+                    self.activity_state.data.update({"question_number": data["question_number"] + 1})
+                    
+                    if data["question_number"] == len(data["questions"]):
+                        self.activity_state.mark_completed()
+                        
+                        return redirect("dashboard")
+                    else:
+                        self.activity_state.save()
+                        
+                        return redirect("activity_play", self.activity_state.activity_slug)
+        
+        return render(request, "activities/likert_quiz.html", {
+            "title": self.title,
+            "description": self.description,
+            "scale": self.scale,
+            "help_text": getattr(self, "help_text", None),
+            "question_number": data["question_number"] + 1,
+            "num_questions": len(data["questions"]),
+            "question": question,
+        })

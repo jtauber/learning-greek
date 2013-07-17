@@ -74,7 +74,7 @@ body.survey {
     }
 }
 
-body.two-choice-quiz {
+body.two-choice-quiz, body.likert-quiz {
     header {
         margin-bottom: 50px;
         h1 {
@@ -100,11 +100,30 @@ body.two-choice-quiz {
             font-size: 48px;
             margin-bottom: 50px;
         }
+    }
+}
+
+body.two-choice-quiz {
+    form {
         .answers button {
             margin: 20px;
             padding: 10px 30px;
             font-size: 32px;
             line-height: 40px;
+        }
+    }
+}
+
+body.likert-quiz {
+    .answers {
+        button {
+            padding: 10px 20px;
+            margin: 5px;
+        }
+        td {
+            vertical-align: top;
+            font-size: 14px;
+            line-height: 18px;
         }
     }
 }
