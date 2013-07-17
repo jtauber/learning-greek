@@ -245,3 +245,32 @@ class NounFamiliarity(LikertQuiz):
                 questions.append(noun)
         
         return questions
+
+
+class PreviousGreekKnowledge(Survey):
+    
+    title = "Previous Greek Knowledge"
+    description = "how much have you already studied Ancient Greek (if at all)?"
+    
+    repeatable = False
+    
+    questions = [
+        {
+            "name": "previous_greek",
+            "label": "What's the furthest you've studied Ancient Greek?",
+            "field_class": forms.ChoiceField,
+            "required": True,
+            "extra_args": {
+                "widget": forms.RadioSelect,
+                "choices": [
+                    ("1", "I've never studied any Ancient Greek"),
+                    ("2", "I know the alphabet and a few words"),
+                    ("3", "I've taught myself from a textbook or two"),
+                    ("4", "I've done a semester of formal study"),
+                    ("5", "I've done more than one semester of formal study"),
+                    ("6", "I majored in Ancient Greek"),
+                    ("7", "I did graduate study in Ancient Greek"),
+                ]
+            }
+        }
+    ]
