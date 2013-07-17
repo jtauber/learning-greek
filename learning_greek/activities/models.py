@@ -68,6 +68,16 @@ class ActivityOccurrenceState(models.Model):
     
     class Meta:
         unique_together = [("user", "activity_slug", "started")]
+    
+    def mark_completed(self):
+        self.completed = timezone.now()
+        self.save()
+        activity_state = ActivityState.objects.get(
+            user=self.user,
+            activity_slug=self.activity_slug
+        )
+        activity_state.completed_count = models.F("completed_count") + 1
+        activity_state.save()
 
 
 def get_activity_state(user, activity_slug):
@@ -109,6 +119,7 @@ def get_activities(user):
         "available": [],
         "inprogress": [],
         "completed": [],
+        "repeatable": [],
         "unavailable": [],
     }
     
@@ -119,10 +130,13 @@ def get_activities(user):
             "title": activity.title,
             "description": activity.description,
             "state": state,
+            "repeatable": activity.repeatable,
         }
         if state:
             if state.in_progress:
                 activities["inprogress"].append(activity_entry)
+            elif activity.repeatable:
+                activities["repeatable"].append(activity_entry)
             else:
                 activities["completed"].append(activity_entry)
         else:

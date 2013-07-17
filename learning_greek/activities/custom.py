@@ -8,10 +8,12 @@ from .base import Survey, MultiPageSurvey, TwoChoiceQuiz
 
 
 class DemographicSurvey(Survey):
-
+    
     title = "Demographic Survey"
     description = "basic demographic questions"
-
+    
+    repeatable = False
+    
     questions = [
         {
             "name": "birthyear",
@@ -31,10 +33,12 @@ class DemographicSurvey(Survey):
 
 
 class DemographicSurvey2(MultiPageSurvey):
-
+    
     title = "Demographic Survey"
     description = "basic demographic questions (over two pages)"
-
+    
+    repeatable = False
+    
     pages = [
         [
             {
@@ -99,6 +103,8 @@ class SpokenLanguagesSurvey(Survey):
     title = "Spoken Languages You Know"
     description = "spoken languages you know and your proficiency at them"
     
+    repeatable = False
+    
     help_text = SPOKEN_LANGUAGES_HELP_TEXT
     
     questions = [
@@ -140,10 +146,12 @@ class SpokenLanguagesSurvey(Survey):
 
 
 class GoalsSurvey(Survey):
-
+    
     title = "Goals for Using Site"
     description = "what your goals in using / contributing to the site are"
-
+    
+    repeatable = False
+    
     questions = [
         {
             "name": "goals",
@@ -174,6 +182,8 @@ class UpperCaseQuiz(TwoChoiceQuiz):
     title = "Upper Case"
     description = "given a lower-case letter, what's the upper-case equivalent"
     
+    repeatable = True
+    
     def construct_quiz(self):
         
         questions = []
@@ -191,6 +201,8 @@ class LowerCaseQuiz(TwoChoiceQuiz):
     
     title = "Lower Case"
     description = "given an upper-case letter, what's the lower-case equivalent"
+    
+    repeatable = True
     
     def construct_quiz(self):
         

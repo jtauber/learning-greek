@@ -24,6 +24,12 @@ def activity_start(request, slug):
     
     activity_state, _ = ActivityState.objects.get_or_create(user=request.user, activity_slug=slug)
     
+    print Activity, activity_state.completed_count, Activity.repeatable
+    
+    if activity_state.completed_count > 0 and not Activity.repeatable:
+        # @@@ error message?
+        return redirect("dashboard")
+    
     return redirect("activity_play", slug)
 
 

@@ -1,7 +1,6 @@
 # coding: utf-8
 
 from django.shortcuts import redirect, render
-from django.utils import timezone
 
 
 from learning_greek.activities.forms import SurveyForm
@@ -20,8 +19,7 @@ class Survey(object):
             
             if form.is_valid():
                 self.activity_state.data.update({"answers": form.cleaned_data})
-                self.activity_state.completed = timezone.now()
-                self.activity_state.save()
+                self.activity_state.mark_completed()
                 
                 return redirect("dashboard")  # @@@
         else:
@@ -59,8 +57,7 @@ class MultiPageSurvey(Survey):
                 self.activity_state.data.update({"page": data["page"] + 1})
                 
                 if data["page"] == len(self.pages):
-                    self.activity_state.completed = timezone.now()
-                    self.activity_state.save()
+                    self.activity_state.mark_completed()
                     
                     return redirect("dashboard")
                 else:
@@ -116,8 +113,7 @@ class TwoChoiceQuiz(object):
                     self.activity_state.data.update({"question_number": data["question_number"] + 1})
                     
                     if data["question_number"] == len(data["questions"]):
-                        self.activity_state.completed = timezone.now()
-                        self.activity_state.save()
+                        self.activity_state.mark_completed()
                         
                         return redirect("dashboard")
                     else:

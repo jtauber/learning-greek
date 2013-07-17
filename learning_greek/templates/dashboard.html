@@ -33,6 +33,13 @@
                 {% endfor %}
             {% endif %}
             
+            {% if activities.repeatable %}
+                <h2>Repeatable</h2>
+                {% for activity in activities.repeatable %}
+                    {% include "_dashboard_activity.html" %}
+                {% endfor %}
+            {% endif %}
+            
             {% if activities.completed %}
                 <h2>Completed</h2>
                 {% for activity in activities.completed %}
