@@ -138,6 +138,7 @@ INSTALLED_APPS = [
     # project
     "learning_greek",
     "learning_greek.activities",
+    "learning_greek.language_data",
 ]
 
 # A sample logging configuration. The only tangible logging
@@ -197,4 +198,5 @@ ACTIVITIES = {
     "lowercase": LowerCaseQuiz,
     "spoken-languages": SpokenLanguagesSurvey,
     "goals": GoalsSurvey,
+    "noun-familiarity": NounFamiliarity,
 }
