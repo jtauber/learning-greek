@@ -7,6 +7,27 @@ from django.contrib.auth.models import User
 import jsonfield
 
 
+class UserState(models.Model):
+    """
+    this stores the overall state of a particular user.
+    """
+    user = models.OneToOneField(User)
+    
+    data = jsonfield.JSONField()
+    
+    @classmethod
+    def for_user(cls, user):
+        user_state, _ = cls.objects.get_or_create(user=user)
+        return user_state
+    
+    def get(self, key):
+        return self.data.get(key)
+    
+    def set(self, key, value):
+        self.data[key] = value
+        self.save()
+
+
 class ActivityState(models.Model):
     """
     this stores the overall state of a particular user doing a particular
