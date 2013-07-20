@@ -6,18 +6,10 @@
 
 {% block body %}
     
-    <h1>Activities</h1>
-    
     <div class="row">
-        <div class="span6">
-            <p class="lead">
-                At the moment, this site is a small collection of surveys and brief assessments (collectively called <b>Activities</b>). Don&rsquo;t expect to learn too much at the moment&mdash;we&rsquo;re focused on building the platform and gathering some initial data about what people already know. Over time there will be more learning experiments designed to actually teach new things. We&rsquo;re laying a foundation first.
-            </p>
+        <div class="span8">
             
-            {% include "_dashboard_adoption_level.html" %}
-        </div>
-        
-        <div class="span6">
+            <h1>Activities</h1>
             
             {% if activities.inprogress %}
                 <h2>In Progress</h2>
@@ -60,5 +52,9 @@
             <p>Add <code>?debug</code> to URL to see activity state.</p>
             
         </div>
-    </div>
+        <div class="span4">
+            {% include "_dashboard_adoption_level.html" %}
+        </div>
+        
+</div>
 {% endblock %}

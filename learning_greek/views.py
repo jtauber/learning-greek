@@ -4,7 +4,7 @@ from account.decorators import login_required
 from account.views import SettingsView as AccountSettingsView
 
 from learning_greek.forms import SettingsForm
-from learning_greek.activities.models import get_activities
+from learning_greek.activities.models import get_activities, UserState
 
 
 class SettingsView(AccountSettingsView):
@@ -37,6 +37,15 @@ def home(request):
 
 @login_required
 def dashboard(request):
+    
+    user_state = UserState.for_user(request.user)
+    # @@@ would be nice to generalize this
+    if not user_state.get("intro_dashboard_blurb"):
+        if request.method == "POST" and "read_blurb" in request.POST:
+            user_state.set("intro_dashboard_blurb", True)
+            return redirect("dashboard")
+        else:
+            return render(request, "intro_dashboard_blurb.html")
     
     debug_mode = request.GET.get("debug") is not None
     activities = get_activities(request.user)
