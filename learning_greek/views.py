@@ -4,6 +4,8 @@ from account.decorators import login_required
 from account.views import SettingsView as AccountSettingsView
 
 from learning_greek.forms import SettingsForm
+from learning_greek.signals import adoption_level_change
+
 from learning_greek.activities.models import get_activities, UserState
 
 
@@ -23,6 +25,7 @@ class SettingsView(AccountSettingsView):
         preference = self.request.user.preference
         preference.adoption_level = form.cleaned_data["adoption_level"]
         preference.save()
+        adoption_level_change.send(sender=self.request.user, level=preference.adoption_level, request=self.request)
         
         return super(SettingsView, self).form_valid(form)
 
