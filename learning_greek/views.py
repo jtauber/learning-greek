@@ -4,7 +4,7 @@ from account.decorators import login_required
 from account.views import SettingsView as AccountSettingsView
 
 from learning_greek.forms import SettingsForm
-from learning_greek.signals import adoption_level_change
+from learning_greek.signals import adoption_level_change, blurb_read
 
 from learning_greek.activities.models import get_activities, UserState
 
@@ -49,6 +49,7 @@ def dashboard(request):
     if not user_state.get("intro_dashboard_blurb"):
         if request.method == "POST" and "read_blurb" in request.POST:
             user_state.set("intro_dashboard_blurb", True)
+            blurb_read.send(sender=request.user, request=request)
             return redirect("dashboard")
         else:
             return render(request, "intro_dashboard_blurb.html")
