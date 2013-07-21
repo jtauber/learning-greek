@@ -23,9 +23,12 @@ class SettingsView(AccountSettingsView):
     def form_valid(self, form):
         
         preference = self.request.user.preference
+        previous_level = preference.adoption_level
         preference.adoption_level = form.cleaned_data["adoption_level"]
         preference.save()
-        adoption_level_change.send(sender=self.request.user, level=preference.adoption_level, request=self.request)
+        
+        if preference.adoption_level != previous_level:
+            adoption_level_change.send(sender=self.request.user, level=preference.adoption_level, request=self.request)
         
         return super(SettingsView, self).form_valid(form)
 
