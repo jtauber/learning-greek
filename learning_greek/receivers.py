@@ -6,7 +6,7 @@ from account.signals import user_login_attempt, user_logged_in
 
 from eventlog.models import log
 
-from learning_greek.signals import adoption_level_change
+from learning_greek.signals import adoption_level_change, blurb_read
 
 
 @receiver(user_logged_in)
@@ -69,4 +69,13 @@ def handle_adoption_level_change(sender, **kwargs):
         extra={
             "level": kwargs.get("level"),
         }
+    )
+
+
+@receiver(blurb_read)
+def handle_blurb_read(sender, **kwargs):
+    log(
+        user=kwargs.get("request").user,
+        action="BLURB_READ",
+        extra={}
     )
