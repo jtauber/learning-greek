@@ -6,6 +6,8 @@ from account.signals import user_login_attempt, user_logged_in
 
 from eventlog.models import log
 
+from learning_greek.signals import adoption_level_change
+
 
 @receiver(user_logged_in)
 def handle_user_logged_in(sender, **kwargs):
@@ -56,4 +58,15 @@ def handle_user_signed_up(sender, **kwargs):
         user=kwargs.get("user"),
         action="USER_SIGNED_UP",
         extra={}
+    )
+
+
+@receiver(adoption_level_change)
+def handle_adoption_level_change(sender, **kwargs):
+    log(
+        user=kwargs.get("request").user,
+        action="ADOPTION_LEVEL_CHANGE",
+        extra={
+            "level": kwargs.get("level"),
+        }
     )
