@@ -200,4 +200,5 @@ ACTIVITIES = {
     "goals": GoalsSurvey,
     "noun-familiarity": NounFamiliarity,
     "previous-greek-knowledge": PreviousGreekKnowledge,
+    "suggestion-box": SuggestionBox,
 }
