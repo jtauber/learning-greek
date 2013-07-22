@@ -8,6 +8,7 @@ from django.views.decorators.http import require_POST
 from eventlog.models import log
 
 from .models import ActivityState, get_activity_state, availability
+from .signals import activity_start as activity_start_signal, activity_play as activity_play_signal
 
 
 @require_POST
@@ -46,6 +47,7 @@ def activity_start(request, slug):
         # @@@ user message
         return redirect("dashboard")
     
+    activity_start_signal.send(sender=request.user, slug=slug, activity_state=activity_state, request=request)
     return redirect("activity_play", slug)
 
 
@@ -73,4 +75,5 @@ def activity_play(request, slug):
     
     activity = Activity(activity_state.latest)
     
+    activity_play_signal.send(sender=request.user, slug=slug, activity_occurrence_state=activity_state.latest, request=request)
     return activity.handle_request(request)
