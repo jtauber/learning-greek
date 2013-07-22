@@ -5,6 +5,8 @@ from django.shortcuts import redirect
 from account.decorators import login_required
 from django.views.decorators.http import require_POST
 
+from eventlog.models import log
+
 from .models import ActivityState, get_activity_state, availability
 
 
@@ -19,13 +21,29 @@ def activity_start(request, slug):
     
     available, num_completions = availability(request.user, slug)
     if not available:
-        # @@@ error message?
+        log(
+            user=request.user,
+            action="ACTIVITY_ERROR",
+            extra={
+                "error": "not available",
+                "slug": slug,
+            }
+        )
+        # @@@ user message
         return redirect("dashboard")
     
     activity_state, _ = ActivityState.objects.get_or_create(user=request.user, activity_slug=slug)
     
     if activity_state.completed_count > 0 and not Activity.repeatable:
-        # @@@ error message?
+        log(
+            user=request.user,
+            action="ACTIVITY_ERROR",
+            extra={
+                "error": "not repeatable",
+                "slug": slug,
+            }
+        )
+        # @@@ user message
         return redirect("dashboard")
     
     return redirect("activity_play", slug)
@@ -42,7 +60,15 @@ def activity_play(request, slug):
     activity_state = get_activity_state(request.user, slug)
     
     if activity_state is None:
-        # @@@ error message?
+        log(
+            user=request.user,
+            action="ACTIVITY_ERROR",
+            extra={
+                "error": "not started",
+                "slug": slug,
+            }
+        )
+        # @@@ user message
         return redirect("dashboard")
     
     activity = Activity(activity_state.latest)
