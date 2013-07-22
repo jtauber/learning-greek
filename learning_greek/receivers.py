@@ -7,6 +7,7 @@ from account.signals import user_login_attempt, user_logged_in
 from eventlog.models import log
 
 from learning_greek.signals import adoption_level_change, blurb_read
+from learning_greek.activities.signals import activity_start, activity_play
 
 
 @receiver(user_logged_in)
@@ -78,4 +79,32 @@ def handle_blurb_read(sender, **kwargs):
         user=kwargs.get("request").user,
         action="BLURB_READ",
         extra={}
+    )
+
+
+@receiver(activity_start)
+def handle_activity_start(sender, **kwargs):
+    log(
+        user=kwargs.get("request").user,
+        action="ACTIVITY_START",
+        extra={
+            "slug": kwargs.get("slug"),
+            "activity_state_pk": kwargs.get("activity_state").pk,
+        }
+    )
+
+
+@receiver(activity_play)
+def handle_activity_play(sender, **kwargs):
+    log(
+        user=kwargs.get("request").user,
+        action="ACTIVITY_PLAY",
+        extra={
+            "slug": kwargs.get("slug"),
+            "activity_occurence_state_pk": kwargs.get("activity_occurrence_state").pk,
+            "post": {
+                key: value for key, value in kwargs.get("request").POST.items()
+                if key != u"csrfmiddlewaretoken"
+            },
+        }
     )
