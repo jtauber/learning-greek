@@ -237,6 +237,28 @@ class NounFamiliarity(LikertQuiz):
         return questions
 
 
+class LetterFamiliarity(LikertQuiz):
+    
+    title = "Letter Familiarity"
+    description = "are you familiar with these Greek letters?"
+    
+    repeatable = True
+    
+    scale = [
+        "I definitely don't know it",
+        "I don't think I know it",
+        "I'm not sure if I know it or not",
+        "I think I know it",
+        "I definitely know it",
+    ]
+    
+    def construct_quiz(self):
+        letters = u"ΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩαβγδεζηθικλμνξοπρσςτυφχψω"
+        questions = random.sample(letters, 10)
+        
+        return questions
+
+
 class PreviousGreekKnowledge(Survey):
     
     title = "Previous Greek Knowledge"
