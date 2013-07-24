@@ -53,35 +53,6 @@ class DemographicSurvey(Survey):
     ]
 
 
-class DemographicSurvey2(MultiPageSurvey):
-    
-    title = "Demographic Survey"
-    description = "basic demographic questions (over two pages)"
-    
-    repeatable = False
-    
-    pages = [
-        [
-            {
-                "name": "birthyear",
-                "label": "Year of Birth",
-                "help_text": "what year were you born in?",
-                "field_class": forms.CharField,
-            }
-        ],
-        [
-            {
-                "name": "gender",
-                "label": "Gender",
-                "field_class": forms.ChoiceField,
-                "extra_args": {
-                    "choices": [("", ""), ("M", "Male"), ("F", "Female")]
-                }
-            }
-        ]
-    ]
-
-
 SPOKEN_LANGUAGES_HELP_TEXT = """
 
 <p>Use the following standard definitions to assess your proficiency at any languages you speak.</p>

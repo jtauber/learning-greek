@@ -193,7 +193,6 @@ from learning_greek.activities.custom import *
 
 ACTIVITIES = {
     "demographic": DemographicSurvey,
-    "demographic2": DemographicSurvey2,
     "uppercase": UpperCaseQuiz,
     "lowercase": LowerCaseQuiz,
     "spoken-languages": SpokenLanguagesSurvey,
