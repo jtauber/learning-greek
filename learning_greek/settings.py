@@ -200,5 +200,6 @@ ACTIVITIES = {
     "noun-familiarity": NounFamiliarity,
     "previous-greek-knowledge": PreviousGreekKnowledge,
     "suggestion-box": SuggestionBox,
-    "letter-familiarity": LetterFamiliarity
+    "letter-familiarity": LetterFamiliarity,
+    "noun-inflection": NounInflectionQuiz,
 }

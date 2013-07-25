@@ -3,10 +3,11 @@
 import random
 
 from django import forms
+from django.shortcuts import render, redirect
 
 from .base import Survey, MultiPageSurvey, TwoChoiceQuiz, LikertQuiz
 
-from learning_greek.language_data.models import NounCumulativeCount
+from learning_greek.language_data.models import NounCumulativeCount, NounCaseNumberGender
 
 
 class SuggestionBox(Survey):
@@ -286,3 +287,88 @@ class PreviousGreekKnowledge(Survey):
             }
         }
     ]
+
+
+class NounInflectionQuiz(object):
+    
+    title = "Noun Inflection Quiz"
+    description = "what is the case, number of gender of these nouns?"
+    
+    repeatable = True
+
+    def __init__(self, activity_state):
+        
+        self.activity_state = activity_state
+        
+        if not self.activity_state.data:
+            self.activity_state.data = {"questions": self.construct_quiz()}
+            self.activity_state.save()
+        elif not self.activity_state.data.get("questions"):
+            self.activity_state.data["questions"] = self.construct_quiz()
+            self.activity_state.save()
+    
+    def construct_quiz(self):
+        questions = []
+        
+        for i in range(10):
+            noun = NounCaseNumberGender.objects.order_by("?")[0]
+            lemma = noun.lemma
+            question_type = random.choice(["case", "number", "gender"])
+            
+            if question_type == "case":
+                alternatives = ["nominative", "accusative", "nominative or accusative", "genitive", "dative"]
+                answer = noun.get_case_display()
+            elif question_type == "number":
+                alternatives = ["singular", "plural"]
+                answer = noun.get_number_display()
+            elif question_type == "gender":
+                alternatives = ["masculine", "feminine", "neuter"]
+                answer = noun.get_gender_display()
+            
+            alternatives.remove(answer)
+            alternative = random.choice(alternatives)
+            
+            question = (lemma, question_type, random.sample([answer, alternative], 2))
+            questions.append(question)
+        
+        return questions
+    
+    def handle_request(self, request):
+        
+        data = self.activity_state.data
+        
+        if not data:
+            data = {"question_number": 0}
+        elif not data.get("question_number"):
+            data["question_number"] = 0
+        elif data["question_number"] == len(data["questions"]):
+            # done
+            return redirect("dashboard")  # @@@
+        
+        question = data["questions"][data["question_number"]]
+        
+        if request.method == "POST":
+            if request.POST.get("question_number") == str(data["question_number"] + 1):
+                answer = request.POST.get("answer")
+                
+                if answer in ["left", "right"]:
+                    self.activity_state.data.update({"answer_%d" % data["question_number"]: answer})
+                    self.activity_state.data.update({"question_number": data["question_number"] + 1})
+                    
+                    if data["question_number"] == len(data["questions"]):
+                        self.activity_state.mark_completed()
+                        
+                        return redirect("dashboard")
+                    else:
+                        self.activity_state.save()
+                        
+                        return redirect("activity_play", self.activity_state.activity_slug)
+        
+        return render(request, "activities/two_choice_quiz_variant.html", {
+            "title": self.title,
+            "description": self.description,
+            "help_text": getattr(self, "help_text", None),
+            "question_number": data["question_number"] + 1,
+            "num_questions": len(data["questions"]),
+            "question": question,
+        })

@@ -29,7 +29,7 @@ class NounCaseNumberGender(models.Model):
     case = models.CharField(max_length=1, choices=[
         ("N", "nominative"),
         ("A", "accusative"),
-        ("C", "core"),  # nominative or accusative
+        ("C", "nominative or accusative"),
         ("G", "genitive"),
         ("D", "dative"),
     ])
