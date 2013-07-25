@@ -21,3 +21,32 @@ def import_nouncumulativecount(filename):
             total += int(count)
             NounCumulativeCount(lemma=lemma, cumulative_count=total).save()
             print lemma, total
+
+
+class NounCaseNumberGender(models.Model):
+    
+    lemma = models.CharField(max_length=50)
+    case = models.CharField(max_length=1, choices=[
+        ("N", "nominative"),
+        ("A", "accusative"),
+        ("C", "core"),  # nominative or accusative
+        ("G", "genitive"),
+        ("D", "dative"),
+    ])
+    number = models.CharField(max_length=1, choices=[
+        ("S", "singular"),
+        ("P", "plural"),
+    ])
+    gender = models.CharField(max_length=1, choices=[
+        ("M", "masculine"),
+        ("F", "feminine"),
+        ("N", "neuter"),
+    ])
+
+
+def import_nouncng(filename):
+    with open(filename) as f:
+        for line in f:
+            lemma, cng = line.strip().split()
+            case, number, gender = cng
+            NounCaseNumberGender(lemma=lemma, case=case, number=number, gender=gender).save()
