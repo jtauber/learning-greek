@@ -19,8 +19,13 @@
                 <input type="hidden" name="question_number" value="{{ question_number }}">
                 <div class="question">what is the <span>{{ question.1 }}</span> of <span>{{ question.0 }}</span>?</div>
                 <div class="answers">
-                    <button class="btn" name="answer" value="left">{{ question.2.0 }}</button>
-                    <button class="btn" name="answer" value="right">{{ question.2.1 }}</button>
+                    <p>
+                        <button class="btn" name="answer" value="left">{{ question.2.0 }}</button>
+                        <button class="btn" name="answer" value="right">{{ question.2.1 }}</button>
+                    </p>
+                    <p>
+                        <button class="btn btn-mini" name="answer" value="unknown">don't know</button>
+                    </p>
                 </div>
             </form>
         </div>

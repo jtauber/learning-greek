@@ -351,7 +351,7 @@ class NounInflectionQuiz(object):
             if request.POST.get("question_number") == str(data["question_number"] + 1):
                 answer = request.POST.get("answer")
                 
-                if answer in ["left", "right"]:
+                if answer in ["left", "right", "unknown"]:
                     self.activity_state.data.update({"answer_%d" % data["question_number"]: answer})
                     self.activity_state.data.update({"question_number": data["question_number"] + 1})
                     
