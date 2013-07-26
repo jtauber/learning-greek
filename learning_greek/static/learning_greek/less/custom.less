@@ -74,7 +74,7 @@ body.survey {
     }
 }
 
-body.two-choice-quiz, body.likert-quiz {
+body.two-choice-quiz, body.two-choice-quiz-variant, body.likert-quiz {
     header {
         margin-bottom: 50px;
         h1 {
@@ -94,11 +94,28 @@ body.two-choice-quiz, body.likert-quiz {
             font-weight: 300;
         }
     }
+}
+
+body.two-choice-quiz, body.likert-quiz {
     form {
         text-align: center;
         .question {
             font-size: 48px;
             margin-bottom: 50px;
+        }
+    }
+}
+
+body.two-choice-quiz-variant {
+    form {
+        text-align: center;
+        .question {
+            font-size: 36px;
+            margin-bottom: 50px;
+            font-weight: 300;
+            span {
+                font-weight: 400;
+            }
         }
     }
 }

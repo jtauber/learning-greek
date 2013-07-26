@@ -4,7 +4,7 @@
 
 {% block head_title %}{{ title }}{% endblock %}
 
-{% block body_class %}two-choice-quiz{% endblock %}
+{% block body_class %}two-choice-quiz-variant{% endblock %}
 
 {% block body %}
     <div class="row">
@@ -17,7 +17,7 @@
             <form method="post" action=".">
                 {% csrf_token %}
                 <input type="hidden" name="question_number" value="{{ question_number }}">
-                <div class="question">what is the {{ question.1 }} of {{ question.0 }}?</div>
+                <div class="question">what is the <span>{{ question.1 }}</span> of <span>{{ question.0 }}</span>?</div>
                 <div class="answers">
                     <button class="btn" name="answer" value="left">{{ question.2.0 }}</button>
                     <button class="btn" name="answer" value="right">{{ question.2.1 }}</button>
