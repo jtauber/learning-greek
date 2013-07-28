@@ -135,6 +135,7 @@ INSTALLED_APPS = [
     "account",
     "metron",
     "eventlog",
+    "nashvegas",
     
     # project
     "learning_greek",
@@ -189,6 +190,8 @@ ACCOUNT_EMAIL_CONFIRMATION_EXPIRE_DAYS = 2
 AUTHENTICATION_BACKENDS = [
     "account.auth_backends.UsernameAuthenticationBackend",
 ]
+
+NASHVEGAS_MIGRATIONS_DIRECTORY = os.path.join(PROJECT_ROOT, "migrations")
 
 from learning_greek.activities.custom import *
 
