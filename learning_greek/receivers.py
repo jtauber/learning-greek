@@ -96,15 +96,25 @@ def handle_activity_start(sender, **kwargs):
 
 @receiver(activity_play)
 def handle_activity_play(sender, **kwargs):
-    log(
-        user=kwargs.get("request").user,
-        action="ACTIVITY_PLAY",
-        extra={
-            "slug": kwargs.get("slug"),
-            "activity_occurence_state_pk": kwargs.get("activity_occurrence_state").pk,
-            "post": {
-                key: value for key, value in kwargs.get("request").POST.items()
-                if key != u"csrfmiddlewaretoken"
-            },
-        }
-    )
+    if kwargs.get("request").method == "POST":
+        log(
+            user=kwargs.get("request").user,
+            action="ACTIVITY_PLAY_POST",
+            extra={
+                "slug": kwargs.get("slug"),
+                "activity_occurence_state_pk": kwargs.get("activity_occurrence_state").pk,
+                "post": {
+                    key: value for key, value in kwargs.get("request").POST.items()
+                    if key != u"csrfmiddlewaretoken"
+                },
+            }
+        )
+    else:
+        log(
+            user=kwargs.get("request").user,
+            action="ACTIVITY_PLAY_GET",
+            extra={
+                "slug": kwargs.get("slug"),
+                "activity_occurence_state_pk": kwargs.get("activity_occurrence_state").pk,
+            }
+        )
