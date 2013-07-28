@@ -182,10 +182,11 @@ class UpperCaseQuiz(TwoChoiceQuiz):
         questions = []
         letters = u"αβγδεζηθικλμνξοπρστυφχψω"
         
-        for i in range(10):
+        while len(questions) < 10:
             choices = random.sample(letters, 2)
             question = random.choice(choices)
-            questions.append((question, [choice.upper() for choice in choices]))
+            if question not in [item[0] for item in questions]:
+                questions.append((question, [choice.upper() for choice in choices]))
         
         return questions
 
@@ -202,10 +203,11 @@ class LowerCaseQuiz(TwoChoiceQuiz):
         questions = []
         letters = u"αβγδεζηθικλμνξοπρστυφχψω"
         
-        for i in range(10):
+        while len(questions) < 10:
             choices = random.sample(letters, 2)
             question = random.choice(choices).upper()
-            questions.append((question, choices))
+            if question not in [item[0] for item in questions]:
+                questions.append((question, choices))
         
         return questions
 
@@ -337,7 +339,7 @@ class NounInflectionQuiz(object):
     def construct_quiz(self):
         questions = []
         
-        for i in range(10):
+        while len(questions) < 10:
             noun = NounCaseNumberGender.objects.order_by("?")[0]
             lemma = noun.lemma
             question_type = random.choice(["case", "number", "gender"])
@@ -355,8 +357,9 @@ class NounInflectionQuiz(object):
             alternatives.remove(answer)
             alternative = random.choice(alternatives)
             
-            question = (lemma, question_type, random.sample([answer, alternative], 2))
-            questions.append(question)
+            if (lemma, question_type) not in [(item[0], item[1]) for item in questions]:
+                question = (lemma, question_type, random.sample([answer, alternative], 2))
+                questions.append(question)
         
         return questions
     
