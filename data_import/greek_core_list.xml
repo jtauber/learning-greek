@@ -1,0 +1,3601 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<nodes>
+  <node>
+    <HEADWORD>ἡγεμών ἡγεμόνος, ὁ</HEADWORD>
+    <DEFINITION>guide, leader, commander</DEFINITION>
+    <PART-OF-SPEECH>noun: 3rd declension consonant stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Government and Society</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>458</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἔθνος ἔθνους, τό</HEADWORD>
+    <DEFINITION>nation</DEFINITION>
+    <PART-OF-SPEECH>noun: 3rd declension σ-stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Government and Society</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>280</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἐλεύθερος ἐλευθέρα ἐλεύθερον</HEADWORD>
+    <DEFINITION>free, independent</DEFINITION>
+    <PART-OF-SPEECH>adjective: 1st and 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Government and Society</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>490</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>τίκτω, τέξω or τέξομαι, ἔτεκον, τέτοκα, τέτεγμαι, ἐτέχθην</HEADWORD>
+    <DEFINITION>beget, give birth to, produce</DEFINITION>
+    <PART-OF-SPEECH>verb: -ω dental stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Family and Friendship and the Home</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>435</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>πόλις πόλεως, ἡ</HEADWORD>
+    <DEFINITION>city, city-state</DEFINITION>
+    <PART-OF-SPEECH>noun: 3rd declension ι-stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Government and Society</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>61</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>πλῆθος πλήθους, τό</HEADWORD>
+    <DEFINITION>mass, throng, crowd</DEFINITION>
+    <PART-OF-SPEECH>noun: 3rd declension σ-stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Government and Society</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>187</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>πλέω, πλεύσομαι, ἔπλευσα, πέπλευκα, πέπλευσμαι, ἐπλεύσθην</HEADWORD>
+    <DEFINITION>sail</DEFINITION>
+    <PART-OF-SPEECH>verb: contracted</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Government and Society</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>155</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>πατρίς πατρίδος, ἡ</HEADWORD>
+    <DEFINITION>fatherland</DEFINITION>
+    <PART-OF-SPEECH>noun: 3rd declension consonant stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Government and Society</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>345</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ὁδός ὁδοῦ, ἡ</HEADWORD>
+    <DEFINITION>road, way, path</DEFINITION>
+    <PART-OF-SPEECH>noun: 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Government and Society</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>279</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>κρατέω, κρατήσω, ἐκράτησα, κεκράτηκα, κεκράτημαι, ἐκρατήθην</HEADWORD>
+    <DEFINITION>be victorious, conquer, rule, surpass, excel (+gen.)</DEFINITION>
+    <PART-OF-SPEECH>verb: contracted</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Government and Society</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>295</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>κύριος κυρίου, ὁ</HEADWORD>
+    <DEFINITION>lord, master</DEFINITION>
+    <PART-OF-SPEECH>noun: 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Government and Society</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>97</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>λανθάνω, λήσω, ἔλαθον, λέληθα</HEADWORD>
+    <DEFINITION>escape the notice of (+acc. and nom. participle), be unknown; (mid. and pass.) forget</DEFINITION>
+    <PART-OF-SPEECH>verb: -ω liquid stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Government and Society</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>418</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ναῦς νεώς, ἡ</HEADWORD>
+    <DEFINITION>ship</DEFINITION>
+    <PART-OF-SPEECH>noun: 3rd declension irregular</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Work and Leisure</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>207</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ξένος ξένου, ὁ</HEADWORD>
+    <DEFINITION>guest-friend; foreigner, stranger</DEFINITION>
+    <PART-OF-SPEECH>noun: 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Government and Society</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>405</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>κοινός –ή –όν</HEADWORD>
+    <DEFINITION>common, shared, mutual</DEFINITION>
+    <PART-OF-SPEECH>adjective: 1st and 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Government and Society</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>169</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>αἷμα αἵματος, τό</HEADWORD>
+    <DEFINITION>blood</DEFINITION>
+    <PART-OF-SPEECH>noun: 3rd declension consonant stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Body Parts</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>261</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>δύναμις δυνάμεως, ἡ</HEADWORD>
+    <DEFINITION>power, strength, ability</DEFINITION>
+    <PART-OF-SPEECH>noun: 3rd declension ι-stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>War and Peace</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>95</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>διαφθείρω, διαφθερῶ, διέφθειρα, διέφθαρκα, διέφθαρμαι, διεφθάρην</HEADWORD>
+    <DEFINITION>destroy; corrupt</DEFINITION>
+    <PART-OF-SPEECH>verb: -ω liquid stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>War and Peace</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>397</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>βουλεύω βουλεύσω, ἐβούλευσα, βεβούλευκα, βεβούλευμαι, ἐβουλεύθην</HEADWORD>
+    <DEFINITION>plan (to), decide (to); (mid.) deliberate</DEFINITION>
+    <PART-OF-SPEECH>verb: -ω vowel stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>War and Peace</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>470</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἀποκτείνω, ἀποκτενῶ, ἀπέκτεινα, ἀπέκτονα</HEADWORD>
+    <DEFINITION>kill</DEFINITION>
+    <PART-OF-SPEECH>verb: -ω liquid stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>War and Peace</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>385</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἀναιρέω, ἀναιρήσω, ἀνεῖλον, ἀνῄρηκα, ἀνῄρημαι, ἀνῃρέθην</HEADWORD>
+    <DEFINITION>raise, take up; kill, destroy</DEFINITION>
+    <PART-OF-SPEECH>verb: contracted</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>War and Peace</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>288</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>χωρίον χωρίου, τό</HEADWORD>
+    <DEFINITION>place, spot, district</DEFINITION>
+    <PART-OF-SPEECH>noun: 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Earth</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>331</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>χρῆμα χρήματος, τό</HEADWORD>
+    <DEFINITION>thing, matter; (more commonly in pl.) goods or property, esp. money</DEFINITION>
+    <PART-OF-SPEECH>noun: 3rd declension consonant stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Government and Society</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>271</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>τέχνη τέχνης, ἡ</HEADWORD>
+    <DEFINITION>art, skill, craft</DEFINITION>
+    <PART-OF-SPEECH>noun: 1st declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Government and Society</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>270</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>τεῖχος τείχους, τό</HEADWORD>
+    <DEFINITION>wall</DEFINITION>
+    <PART-OF-SPEECH>noun: 3rd declension σ-stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Government and Society</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>382</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>θάνατος θανάτου, ὁ</HEADWORD>
+    <DEFINITION>death</DEFINITION>
+    <PART-OF-SPEECH>noun: 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Life and Death</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>277</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>θνῄσκω, 2 aor. -έθανον, τέθνηκα, θανοῦμαι</HEADWORD>
+    <DEFINITION>to die, be dying</DEFINITION>
+    <PART-OF-SPEECH>verb: -ω palatal stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Life and Death</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>380</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>βίος βίου, ὁ</HEADWORD>
+    <DEFINITION>life</DEFINITION>
+    <PART-OF-SPEECH>noun: 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Life and Death</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>196</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>δεῖ, δεήσει, impf. ἔδει</HEADWORD>
+    <DEFINITION>it is necessary, one must, one ought (+acc. and infin.)</DEFINITION>
+    <PART-OF-SPEECH>verb: impersonal</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Ethics and Morals</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>79</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ζάω, ζήσω, ἔζησα, ἔζηκα</HEADWORD>
+    <DEFINITION>live</DEFINITION>
+    <PART-OF-SPEECH>verb: contracted</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Life and Death</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>186</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>τροφή τροφῆς, ἡ</HEADWORD>
+    <DEFINITION>nourishment, food</DEFINITION>
+    <PART-OF-SPEECH>noun: 1st declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Life and Death</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>255</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>τρέφω, θρέψω, ἔθρεψα, τέθραμμαι, ἐτράφην</HEADWORD>
+    <DEFINITION>nourish, feed, support, maintain; rear, educate</DEFINITION>
+    <PART-OF-SPEECH>verb: -ω labial stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Life and Death</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>320</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>τέλος τέλους, τό</HEADWORD>
+    <DEFINITION>end, fulfillment, achievement</DEFINITION>
+    <PART-OF-SPEECH>noun: 3rd declension σ-stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Life and Death</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>237</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>τελευτάω, τελευτήσω, ἐτελεύτησα, τετελεύτηκα, τετελεύτημαι, ἐτελευτήθην</HEADWORD>
+    <DEFINITION>finish; die</DEFINITION>
+    <PART-OF-SPEECH>verb: contracted</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Life and Death</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>360</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>συμφορά –ᾶς, ἡ</HEADWORD>
+    <DEFINITION>event, circumstance, misfortune</DEFINITION>
+    <PART-OF-SPEECH>noun: 1st declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Life and Death</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>493</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>πάσχω, πείσομαι, ἔπαθον, πέπονθα</HEADWORD>
+    <DEFINITION>suffer, experience, be affected in a certain way (+adv.)</DEFINITION>
+    <PART-OF-SPEECH>verb: -ω palatal stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Life and Death</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>172</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>πάθος πάθους, τό</HEADWORD>
+    <DEFINITION>incident, accident, misfortune, experience; passion, emotion; state, condition</DEFINITION>
+    <PART-OF-SPEECH>noun: 3rd declension σ-stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>The Senses and Feelings</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>198</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>νόσος νόσου, ὁ</HEADWORD>
+    <DEFINITION>disease, sickness</DEFINITION>
+    <PART-OF-SPEECH>noun: 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Life and Death</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>333</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>τάσσω, τάξω, ἔταξα, τέταχα, τέταγμαι, ἐτάχθην</HEADWORD>
+    <DEFINITION>arrange, put in order</DEFINITION>
+    <PART-OF-SPEECH>verb: -ω palatal stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Government and Society</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>313</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>εἰρήνη εἰρήνης, ἡ</HEADWORD>
+    <DEFINITION>peace</DEFINITION>
+    <PART-OF-SPEECH>noun: 1st declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>War and Peace</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>462</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>δοῦλος δούλου, ὁ</HEADWORD>
+    <DEFINITION>slave</DEFINITION>
+    <PART-OF-SPEECH>noun: 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Government and Society</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>410</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>δεσπότης –ου, ὁ</HEADWORD>
+    <DEFINITION>master (of the household); absolute ruler</DEFINITION>
+    <PART-OF-SPEECH>noun: 1st declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Government and Society</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>481</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>βουλή βουλῆς, ἡ</HEADWORD>
+    <DEFINITION>will, determination; counsel, piece of advice; council of elders</DEFINITION>
+    <PART-OF-SPEECH>noun: 1st declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Government and Society</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>432</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>βασιλεύς βασιλέως, ὁ</HEADWORD>
+    <DEFINITION>king</DEFINITION>
+    <PART-OF-SPEECH>noun: 3rd declension -εύς, -έως</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Government and Society</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>111</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>βάρβαρος –ον</HEADWORD>
+    <DEFINITION>non-Greek, foreign; barbarous</DEFINITION>
+    <PART-OF-SPEECH>adjective: 1st and 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Government and Society</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>406</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἀργύριον ἀργυρίου, τό</HEADWORD>
+    <DEFINITION>money</DEFINITION>
+    <PART-OF-SPEECH>noun: 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Government and Society</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>499</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἀνάγκη ἀνάγκης, ἡ</HEADWORD>
+    <DEFINITION>necessity</DEFINITION>
+    <PART-OF-SPEECH>noun: 1st declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>World Order</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>182</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἀδύνατος –ον</HEADWORD>
+    <DEFINITION>impossible; powerless</DEFINITION>
+    <PART-OF-SPEECH>adjective: 1st and 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Government and Society</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>321</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἀγών ἀγῶνος, ὁ</HEADWORD>
+    <DEFINITION>contest; struggle</DEFINITION>
+    <PART-OF-SPEECH>noun: 3rd declension consonant stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Government and Society</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>394</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>υἱός υἱοῦ, ὁ</HEADWORD>
+    <DEFINITION>son</DEFINITION>
+    <PART-OF-SPEECH>noun: 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Family and Friendship and the Home</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>138</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ὅπλον ὅπλου, τό</HEADWORD>
+    <DEFINITION>weapon, tool, implement (mostly pl.)</DEFINITION>
+    <PART-OF-SPEECH>noun: 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>War and Peace</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>414</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>πολιτεία –ας, ἡ</HEADWORD>
+    <DEFINITION>constitution, citizenship, republic</DEFINITION>
+    <PART-OF-SPEECH>noun: 1st declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Government and Society</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>440</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>πρέσβυς πρέσβεως, ὁ</HEADWORD>
+    <DEFINITION>old man; (pl.) ambassadors</DEFINITION>
+    <PART-OF-SPEECH>noun: 3rd declension -εύς, -έως</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Government and Society</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>358</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἱππεύς ἱππέως, ὁ</HEADWORD>
+    <DEFINITION>horseman, rider, charioteer</DEFINITION>
+    <PART-OF-SPEECH>noun: 3rd declension -εύς, -έως</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>War and Peace</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>429</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>κίνδυνος κινδύνου, ὁ</HEADWORD>
+    <DEFINITION>danger</DEFINITION>
+    <PART-OF-SPEECH>noun: 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>War and Peace</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>424</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>πολέμιος πολεμία πολέμιον</HEADWORD>
+    <DEFINITION>hostile; οἱ πολέμιοι the enemy</DEFINITION>
+    <PART-OF-SPEECH>adjective: 1st and 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>War and Peace</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>243</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>πολεμέω, πολεμήσω, ἐπολέμησα, πεπολέμηκα</HEADWORD>
+    <DEFINITION>make war</DEFINITION>
+    <PART-OF-SPEECH>verb: contracted</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>War and Peace</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>453</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>πίπτω, πεσοῦμαι, ἔπεσον, πέπτωκα</HEADWORD>
+    <DEFINITION>fall, fall down</DEFINITION>
+    <PART-OF-SPEECH>verb: -ω dental stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>War and Peace</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>390</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>κωλύω, κωλύσω, ἐκώλυσα, κεκώλυκα, κεκώλυμαι, ἐκωλύθην</HEADWORD>
+    <DEFINITION>hinder, check, prevent (+acc. and infin.)</DEFINITION>
+    <PART-OF-SPEECH>verb: -ω vowel stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>War and Peace</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>395</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>νίκη νίκης, ἡ</HEADWORD>
+    <DEFINITION>victory</DEFINITION>
+    <PART-OF-SPEECH>noun: 1st declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>War and Peace</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>495</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>νικάω, νικήσω, ἐνίκησα, νενίκηκα, νενίκημαι, ἐνικήθην</HEADWORD>
+    <DEFINITION>conquer, win</DEFINITION>
+    <PART-OF-SPEECH>verb: contracted</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>War and Peace</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>341</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>μάχομαι, μαχοῦμαι, ἐμαχεσάμην, μεμάχημαι</HEADWORD>
+    <DEFINITION>fight (against) (+dat.)</DEFINITION>
+    <PART-OF-SPEECH>verb: deponent</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>War and Peace</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>377</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>μάχη μάχης, ἡ</HEADWORD>
+    <DEFINITION>battle</DEFINITION>
+    <PART-OF-SPEECH>noun: 1st declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>War and Peace</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>319</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>λύω, λύσω, ἔλυσα, λέλυκα, λέλυμαι, ἐλύθην</HEADWORD>
+    <DEFINITION>loosen, unbind, set free; undo, destroy</DEFINITION>
+    <PART-OF-SPEECH>verb: -ω vowel stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>War and Peace</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>379</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>τυγχάνω, τεύξομαι, ἔτυχον, τετύχηκα. τέτυγμαι, ἐτύχθην</HEADWORD>
+    <DEFINITION>hit, light upon, meet by chance (+gen.); reach, gain, obtain; happen to be (+ptc.)</DEFINITION>
+    <PART-OF-SPEECH>verb: -ω liquid stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Humanity and Being</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>143</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ὑπάρχω, ὑπάρξω, ὑπῆρξα, ὑπῆργμαι, ὑπήρχθην</HEADWORD>
+    <DEFINITION>exist, be, belong to; τὰ ὑπάρχοντα existing circumstances</DEFINITION>
+    <PART-OF-SPEECH>verb: -ω palatal stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Humanity and Being</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>121</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ψυχή ψυχῆς, ἡ</HEADWORD>
+    <DEFINITION>breath, life, soul</DEFINITION>
+    <PART-OF-SPEECH>noun: 1st declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Humanity and Being</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>117</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>καλέω, καλῶ, ἐκάλεσα, κέκληκα, κέκλημαι, ἐκλήθην</HEADWORD>
+    <DEFINITION>call, summon</DEFINITION>
+    <PART-OF-SPEECH>verb: contracted</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Writing and Talking</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>77</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἀδελφός –οῦ, ὁ</HEADWORD>
+    <DEFINITION>brother</DEFINITION>
+    <PART-OF-SPEECH>noun: 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Family and Friendship and the Home</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>245</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>λαός λαοῦ, ὁ</HEADWORD>
+    <DEFINITION>the people, folk</DEFINITION>
+    <PART-OF-SPEECH>noun: 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Humanity and Being</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>362</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>εἰμί, ἔσομαι, impf. ἦν, infin. εἶναι</HEADWORD>
+    <DEFINITION>be, exist</DEFINITION>
+    <PART-OF-SPEECH>verb: irregular</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Humanity and Being</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>6</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>δῆμος δήμου, ὁ</HEADWORD>
+    <DEFINITION>country district (opp. πόλις); the (common) people</DEFINITION>
+    <PART-OF-SPEECH>noun: 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Humanity and Being</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>296</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>γυνή γυναικός, ἡ</HEADWORD>
+    <DEFINITION>woman, wife</DEFINITION>
+    <PART-OF-SPEECH>noun: 3rd declension irregular</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Humanity and Being</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>123</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>γίγνομαι, γενήσομαι, 2 aor. ἐγενόμην, γέγονα, γεγένημαι, ἐγενήθην</HEADWORD>
+    <DEFINITION>become; be born; happen, be</DEFINITION>
+    <PART-OF-SPEECH>verb: deponent</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Humanity and Being</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>23</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἄνθρωπος –ου, ὁ/ἡ</HEADWORD>
+    <DEFINITION>human being</DEFINITION>
+    <PART-OF-SPEECH>noun: 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Humanity and Being</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>65</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>λαλέω, λαλήσω, ἐλάλησα, λελάληκα, ἐλαλήθην</HEADWORD>
+    <DEFINITION>talk, chatter, babble</DEFINITION>
+    <PART-OF-SPEECH>verb: contracted</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Writing and Talking</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>446</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>λέγω, ἐρῶ, εἶπον, εἴρηκα, λέλεγμαι, ἐλέχθην and ἐρρήθην</HEADWORD>
+    <DEFINITION>say, speak (of), recount; pick up, collect, count</DEFINITION>
+    <PART-OF-SPEECH>verb: -ω palatal stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Writing and Talking</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>14</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>φωνή φωνῆς, ἡ</HEADWORD>
+    <DEFINITION>sound, voice</DEFINITION>
+    <PART-OF-SPEECH>noun: 1st declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>The Senses and Feelings</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>274</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>φόβος φόβου, ὁ</HEADWORD>
+    <DEFINITION>panic, fear, flight</DEFINITION>
+    <PART-OF-SPEECH>noun: 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>The Senses and Feelings</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>438</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἔρομαι, ἐρήσομαι, 2 aor. ἠρόμην</HEADWORD>
+    <DEFINITION>ask, ask one about (+double acc.)</DEFINITION>
+    <PART-OF-SPEECH>verb: deponent</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Writing and Talking</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>244</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἐρωτάω, ἐρήσομαι, 2 aor. ἠρόμην</HEADWORD>
+    <DEFINITION>ask someone (acc.) something (acc.); question, beg</DEFINITION>
+    <PART-OF-SPEECH>verb: contracted</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Writing and Talking</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>452</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>φημί, φήσω, impf. ἔφην</HEADWORD>
+    <DEFINITION>say, assert, declare; οὐ φημί deny, refuse, say that...not</DEFINITION>
+    <PART-OF-SPEECH>verb: -μι</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Writing and Talking</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>41</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>φράζω, φράσω, ἔφρασα, πέφρακα, πέφρασμαι, ἐφράσθην</HEADWORD>
+    <DEFINITION>tell, declare; (mid. and pass.) think (about)</DEFINITION>
+    <PART-OF-SPEECH>verb: -ω dental stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Writing and Talking</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>498</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ποιητής –οῦ, ὁ</HEADWORD>
+    <DEFINITION>creator, poet</DEFINITION>
+    <PART-OF-SPEECH>noun: 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Writing and Talking</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>417</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>πείθω, πείσω, ἔπεισα, πέποιθα, πέπεισμαι, ἐπείσθην</HEADWORD>
+    <DEFINITION>persuade, win over; (mid. and pass.) obey, believe in, trust in (+dat.)</DEFINITION>
+    <PART-OF-SPEECH>verb: -ω dental stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Writing and Talking</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>190</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ὀνομάζω, ὀνομάσω, ὠνόμασα, ὠνόμακα, ὠνόμασμαι, ὠνομάσθην</HEADWORD>
+    <DEFINITION>call by name</DEFINITION>
+    <PART-OF-SPEECH>verb: -ω dental stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Writing and Talking</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>201</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ὄνομα ὀνόματος, τό</HEADWORD>
+    <DEFINITION>name; fame</DEFINITION>
+    <PART-OF-SPEECH>noun: 3rd declension consonant stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Writing and Talking</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>126</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>λόγος λόγου, ὁ</HEADWORD>
+    <DEFINITION>word, speech, discourse; thought, reason, account</DEFINITION>
+    <PART-OF-SPEECH>noun: 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Writing and Talking</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>45</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>πάρειμι</HEADWORD>
+    <DEFINITION>be present, be ready or at hand; (impers.) πάρεστί μοι it depends on me, it is in my power; τὰ παρόντα the present circumstances; τὸ παρόν just now</DEFINITION>
+    <PART-OF-SPEECH>verb: irregular</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Humanity and Being</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>191</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>γένος γένους, τό</HEADWORD>
+    <DEFINITION>race, family; kind, class</DEFINITION>
+    <PART-OF-SPEECH>noun: 3rd declension σ-stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Family and Friendship and the Home</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>131</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>τύχη τύχης, ἡ</HEADWORD>
+    <DEFINITION>luck, fortune (good or bad), fate, chance</DEFINITION>
+    <PART-OF-SPEECH>noun: 1st declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Life and Death</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>308</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἀπόλλυμι, ἀπολῶ, ἀπώλεσα, 2 aor. mid. ἀπωλόμην, pf. ἀπολώλεκα (“I have utterly destroyed”) or ἀπόλωλα (“I am undone”)</HEADWORD>
+    <DEFINITION>kill, destroy; (mid.) perish, die</DEFINITION>
+    <PART-OF-SPEECH>verb: -μι</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Life and Death</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>276</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἀποθνῄσκω, ἀποθανοῦμαι, 2 aor. ἀπέθανον, ἀποτέθνηκα</HEADWORD>
+    <DEFINITION>die</DEFINITION>
+    <PART-OF-SPEECH>verb: -ω palatal stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Life and Death</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>284</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>χείρ χειρός, ἡ</HEADWORD>
+    <DEFINITION>hand</DEFINITION>
+    <PART-OF-SPEECH>noun: 3rd declension consonant stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Body Parts</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>165</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>σῶμα σώματος, τό</HEADWORD>
+    <DEFINITION>body</DEFINITION>
+    <PART-OF-SPEECH>noun: 3rd declension consonant stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Body Parts</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>78</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>στόμα στόματος, τό</HEADWORD>
+    <DEFINITION>mouth, face, opening</DEFINITION>
+    <PART-OF-SPEECH>noun: 3rd declension consonant stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Body Parts</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>324</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>πρόσωπον προσώπου, τό</HEADWORD>
+    <DEFINITION>face, mask, person</DEFINITION>
+    <PART-OF-SPEECH>noun: 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Body Parts</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>309</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>πούς ποδός, ὁ</HEADWORD>
+    <DEFINITION>foot</DEFINITION>
+    <PART-OF-SPEECH>noun: 3rd declension consonant stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Body Parts</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>218</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ὀφθαλμός –οῦ, ὁ</HEADWORD>
+    <DEFINITION>eye</DEFINITION>
+    <PART-OF-SPEECH>noun: 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Body Parts</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>314</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>κεφαλή –ῆς, ἡ</HEADWORD>
+    <DEFINITION>head</DEFINITION>
+    <PART-OF-SPEECH>noun: 1st declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Body Parts</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>215</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>γλῶσσα –ης, ἡ</HEADWORD>
+    <DEFINITION>tongue; language</DEFINITION>
+    <PART-OF-SPEECH>noun: 1st declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Body Parts</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>478</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἀνήρ ἀνδρός, ὁ</HEADWORD>
+    <DEFINITION>man, husband</DEFINITION>
+    <PART-OF-SPEECH>noun: 3rd declension irregular</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Humanity and Being</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>74</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>τέκνον τέκνου, τό</HEADWORD>
+    <DEFINITION>child</DEFINITION>
+    <PART-OF-SPEECH>noun: 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Family and Friendship and the Home</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>375</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>δέχομαι, δέξομαι, ἐδεξάμην, δέδεγμαι, -εδέχθην</HEADWORD>
+    <DEFINITION>take, accept; welcome, entertain</DEFINITION>
+    <PART-OF-SPEECH>verb: deponent</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Family and Friendship and the Home</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>315</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>συμβαίνω, συμβήσομαι, 2 aor. συνέβην, συμβέβηκα</HEADWORD>
+    <DEFINITION>meet, come to an agreement, correspond; happen, occur, come to pass; turn out in a certain way (+adv.), result</DEFINITION>
+    <PART-OF-SPEECH>verb: -ω liquid stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Family and Friendship and the Home</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>153</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>πατήρ πατρός, ὁ</HEADWORD>
+    <DEFINITION>father</DEFINITION>
+    <PART-OF-SPEECH>noun: 3rd declension irregular</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Family and Friendship and the Home</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>129</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>παῖς παιδός, ὁ/ἡ</HEADWORD>
+    <DEFINITION>son, daughter, child; slave</DEFINITION>
+    <PART-OF-SPEECH>noun: 3rd declension consonant stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Family and Friendship and the Home</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>136</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>οὐσία οὐσίας, ἡ</HEADWORD>
+    <DEFINITION>substance, property; essence</DEFINITION>
+    <PART-OF-SPEECH>noun: 1st declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Family and Friendship and the Home</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>224</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>οἶκος οἴκου, ὁ</HEADWORD>
+    <DEFINITION>house, home, family</DEFINITION>
+    <PART-OF-SPEECH>noun: 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Family and Friendship and the Home</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>304</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>οἰκία οἰκίας, ἡ</HEADWORD>
+    <DEFINITION>building, house, dwelling</DEFINITION>
+    <PART-OF-SPEECH>noun: 1st declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Family and Friendship and the Home</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>364</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>θυγάτηρ θυγατρός, ἡ</HEADWORD>
+    <DEFINITION>daughter</DEFINITION>
+    <PART-OF-SPEECH>noun: 3rd declension irregular</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Family and Friendship and the Home</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>363</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>μήτηρ μητρός, ἡ</HEADWORD>
+    <DEFINITION>mother</DEFINITION>
+    <PART-OF-SPEECH>noun: 3rd declension irregular</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Family and Friendship and the Home</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>292</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>οἰκεῖος οἰκεία οἰκεῖον</HEADWORD>
+    <DEFINITION>domestic, of the house; one’s own; fitting, suitable</DEFINITION>
+    <PART-OF-SPEECH>adjective: 1st and 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Family and Friendship and the Home</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>235</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>οἰκέω, οἰκήσω, ᾤκησα, ᾤκηκα, ᾠκήθην</HEADWORD>
+    <DEFINITION>inhabit, occupy</DEFINITION>
+    <PART-OF-SPEECH>verb: contracted</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Family and Friendship and the Home</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>229</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>μέλλω, μελλήσω, ἐμέλλησα</HEADWORD>
+    <DEFINITION>(+infin.) think of doing, intend to, be about to</DEFINITION>
+    <PART-OF-SPEECH>verb: -ω liquid stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>The Senses and Feelings</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>178</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ὁράω, ὄψομαι, 2 aor. εἶδον, ἑόρακα and ἑώρακα, ὤφθην, impf. ἑώρων</HEADWORD>
+    <DEFINITION>see, look (to)</DEFINITION>
+    <PART-OF-SPEECH>verb: contracted</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>The Senses and Feelings</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>66</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>πίνω, πίομαι, 2 aor. ἔπιον, πέπωκα, -πέπομαι, -επόθην</HEADWORD>
+    <DEFINITION>drink</DEFINITION>
+    <PART-OF-SPEECH>verb: -ω liquid stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>The Senses and Feelings</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>250</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>πιστεύω, πιστεύσω, ἐπίστευσα, πεπίστευκα, πεπίστευμαι, ἐπιστεύθην</HEADWORD>
+    <DEFINITION>trust, rely on, believe in (+dat.)</DEFINITION>
+    <PART-OF-SPEECH>verb: -ω vowel stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>The Senses and Feelings</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>310</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>πίστις πίστεως, ἡ</HEADWORD>
+    <DEFINITION>trust in others, faith; that which gives confidence, assurance, pledge, guarantee</DEFINITION>
+    <PART-OF-SPEECH>noun: 3rd declension ι-stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>The Senses and Feelings</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>415</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>σκοπέω, σκοπήσω, ἐσκόπησα</HEADWORD>
+    <DEFINITION>look at, watch; look into, consider, examine</DEFINITION>
+    <PART-OF-SPEECH>verb: contracted</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>The Senses and Feelings</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>448</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>τολμάω, τολμήσω, ἐτόλμησα, τετόλμηκα, τετόλμημαι, ἐτολμήθην</HEADWORD>
+    <DEFINITION>have the courage, dare; undertake, undergo</DEFINITION>
+    <PART-OF-SPEECH>verb: contracted</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>The Senses and Feelings</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>480</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>φίλος φίλη φίλον</HEADWORD>
+    <DEFINITION>beloved, dear; friendly</DEFINITION>
+    <PART-OF-SPEECH>adjective: 1st and 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Family and Friendship and the Home</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>152</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>φοβέω, φοβήσω, ἐφόβησα, πεφόβημαι, ἐφοβήθην</HEADWORD>
+    <DEFINITION>put to flight; (mid. and pass.) flee, fear</DEFINITION>
+    <PART-OF-SPEECH>verb: contracted</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>The Senses and Feelings</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>402</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἐλπίς ἐλπίδος, ἡ</HEADWORD>
+    <DEFINITION>hope; expectation</DEFINITION>
+    <PART-OF-SPEECH>noun: 3rd declension consonant stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>The Senses and Feelings</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>433</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>εἶδον, 2 aor. of ὁράω, act. infin. ἰδεῖν, mid.infin. ἰδέσθαι</HEADWORD>
+    <DEFINITION>I saw</DEFINITION>
+    <PART-OF-SPEECH>verb: irregular</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>The Senses and Feelings</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>164</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>θαυμάζω, θαυμάσομαι, ἐθαύμασα, τεθαύμακα, τεθαύμασμαι, ἐθαυμάσθην</HEADWORD>
+    <DEFINITION>to be in awe (of), be astonished (at)</DEFINITION>
+    <PART-OF-SPEECH>verb: -ω dental stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>The Senses and Feelings</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>371</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἔχω, ἕξω or σχήσω, 2 aor. ἔσχον, ἔσχηκα, impf. εἶχον</HEADWORD>
+    <DEFINITION>have, hold, keep</DEFINITION>
+    <PART-OF-SPEECH>verb: -ω palatal stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Taking and Giving</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>28</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>στρατηγός –οῦ, ὁ</HEADWORD>
+    <DEFINITION>leader of an army, commander, general</DEFINITION>
+    <PART-OF-SPEECH>noun: 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>War and Peace</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>356</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>στρατιά –ᾶς, ἡ</HEADWORD>
+    <DEFINITION>army</DEFINITION>
+    <PART-OF-SPEECH>noun: 1st declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>War and Peace</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>491</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>στρατός –οῦ, ὁ</HEADWORD>
+    <DEFINITION>army</DEFINITION>
+    <PART-OF-SPEECH>noun: 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>War and Peace</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>497</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>στρατιώτης –ου, ὁ</HEADWORD>
+    <DEFINITION>soldier</DEFINITION>
+    <PART-OF-SPEECH>noun: 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>War and Peace</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>386</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>σύμμαχος –ον</HEADWORD>
+    <DEFINITION>allied with (+dat.); οἱ σύμμαχοι allies</DEFINITION>
+    <PART-OF-SPEECH>adjective: 1st and 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>War and Peace</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>457</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>τέμνω, τεμῶ, 2 aor. ἔτεμον, -τέτμηκα, τέτμημαι, ἐτμήθην</HEADWORD>
+    <DEFINITION>cut, cut down, cut to pieces</DEFINITION>
+    <PART-OF-SPEECH>verb: -ω liquid stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>War and Peace</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>411</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>φυλάσσω, φυλάξω, ἐφύλαξα, πεφύλαχα, πεφύλαγμαι, ἐφυλάχθην</HEADWORD>
+    <DEFINITION>watch, guard, defend; (mid.) be on one’s guard against (+acc.)</DEFINITION>
+    <PART-OF-SPEECH>verb: -ω palatal stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>War and Peace</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>227</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>αἰσχρός –ά –όν</HEADWORD>
+    <DEFINITION>ugly, shameful, disgraceful</DEFINITION>
+    <PART-OF-SPEECH>adjective: 1st and 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Characteristics</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>461</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>βαρύς βαρεῖα βαρύ</HEADWORD>
+    <DEFINITION>heavy, grievous, tiresome</DEFINITION>
+    <PART-OF-SPEECH>adjective: -ύς, -εῖα, -ύ</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Characteristics</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>459</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ὅμοιος ὁμοία ὅμοιον</HEADWORD>
+    <DEFINITION>like, resembling (+dat.)</DEFINITION>
+    <PART-OF-SPEECH>adjective: 1st and 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Characteristics</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>92</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ὀξύς ὀξεῖα ὀξύ</HEADWORD>
+    <DEFINITION>sharp, keen, shrill, pungent</DEFINITION>
+    <PART-OF-SPEECH>adjective: -ύς, -εῖα, -ύ</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Characteristics</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>346</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>πόλεμος πολέμου ὁ</HEADWORD>
+    <DEFINITION>war</DEFINITION>
+    <PART-OF-SPEECH>noun: 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>War and Peace</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>184</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>παλαιός –ά –όν</HEADWORD>
+    <DEFINITION>old, ancient</DEFINITION>
+    <PART-OF-SPEECH>adjective: 1st and 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Characteristics</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>335</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>τρίτος –η –ον</HEADWORD>
+    <DEFINITION>third</DEFINITION>
+    <PART-OF-SPEECH>adjective: numeral</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Measurements and Numerals</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>208</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>τέταρτος –η –ον</HEADWORD>
+    <DEFINITION>fourth</DEFINITION>
+    <PART-OF-SPEECH>adjective: numeral</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Measurements and Numerals</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>391</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>εἴκοσι(ν)</HEADWORD>
+    <DEFINITION>twenty</DEFINITION>
+    <PART-OF-SPEECH>adjective: numeral</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Measurements and Numerals</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>484</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>δέκα</HEADWORD>
+    <DEFINITION>ten</DEFINITION>
+    <PART-OF-SPEECH>adjective: numeral</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Measurements and Numerals</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>464</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἐννέα</HEADWORD>
+    <DEFINITION>nine</DEFINITION>
+    <PART-OF-SPEECH>adjective: numeral</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Measurements and Numerals</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>512</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ὀκτώ</HEADWORD>
+    <DEFINITION>eight</DEFINITION>
+    <PART-OF-SPEECH>adjective: numeral</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Measurements and Numerals</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>509</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἑπτά</HEADWORD>
+    <DEFINITION>seven</DEFINITION>
+    <PART-OF-SPEECH>adjective: numeral</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Measurements and Numerals</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>479</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἕξ</HEADWORD>
+    <DEFINITION>six</DEFINITION>
+    <PART-OF-SPEECH>adjective: numeral</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Measurements and Numerals</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>501</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>πέντε</HEADWORD>
+    <DEFINITION>five</DEFINITION>
+    <PART-OF-SPEECH>adjective: numeral</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Measurements and Numerals</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>423</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>τέτταρες τέτταρα</HEADWORD>
+    <DEFINITION>four</DEFINITION>
+    <PART-OF-SPEECH>adjective: numeral</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Measurements and Numerals</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>302</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>δεύτερος –α –ον</HEADWORD>
+    <DEFINITION>second</DEFINITION>
+    <PART-OF-SPEECH>adjective: numeral</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Measurements and Numerals</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>183</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἑκατόν</HEADWORD>
+    <DEFINITION>hundred</DEFINITION>
+    <PART-OF-SPEECH>adjective: numeral</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Measurements and Numerals</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>494</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>τριάκοντα</HEADWORD>
+    <DEFINITION>thirty</DEFINITION>
+    <PART-OF-SPEECH>adjective: numeral</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Measurements and Numerals</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>500</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>πονηρός –ά –όν</HEADWORD>
+    <DEFINITION>worthless, bad, wicked</DEFINITION>
+    <PART-OF-SPEECH>adjective: 1st and 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Characteristics</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>404</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ῥᾴδιος ῥᾳδία ῥᾴδιον</HEADWORD>
+    <DEFINITION>easy</DEFINITION>
+    <PART-OF-SPEECH>adjective: 1st and 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Characteristics</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>306</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>χαλεπός –ή –όν</HEADWORD>
+    <DEFINITION>difficult, troublesome</DEFINITION>
+    <PART-OF-SPEECH>adjective: 1st and 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Characteristics</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>374</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ταχύς ταχεῖα ταχύ</HEADWORD>
+    <DEFINITION>quick, fast; (adv.) τάχα quickly; perhaps</DEFINITION>
+    <PART-OF-SPEECH>adjective: -ύς, -εῖα, -ύ</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Characteristics</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>222</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>χρήσιμος χρησίμη χρήσιμον</HEADWORD>
+    <DEFINITION>useful, serviceable</DEFINITION>
+    <PART-OF-SPEECH>adjective: 1st and 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Characteristics</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>412</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἀκούω, ἀκούσομαι, ἤκουσα, ἀκήκοα, plup. ἠκηκόη or ἀκηκόη, ἠκούσθην</HEADWORD>
+    <DEFINITION>listen (to), hear (of)</DEFINITION>
+    <PART-OF-SPEECH>verb: -ω vowel stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>The Senses and Feelings</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>130</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>βλέπω, βλέψομαι, ἔβλεψα</HEADWORD>
+    <DEFINITION>see, look (at)</DEFINITION>
+    <PART-OF-SPEECH>verb: -ω labial stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>The Senses and Feelings</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>438</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>βούλομαι, βουλήσομαι, βεβούλημαι, ἐβουλήθην</HEADWORD>
+    <DEFINITION>(+infin.) will, wish (to); be willing (to); ὁ βουλόμενος anyone who likes</DEFINITION>
+    <PART-OF-SPEECH>verb: deponent</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>The Senses and Feelings</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>113</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>δέδοικα, δείσομαι, ἔδεισα</HEADWORD>
+    <DEFINITION>fear</DEFINITION>
+    <PART-OF-SPEECH>verb: -ω dental stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>The Senses and Feelings</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>456</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἐθέλω, ἐθελήσω, ἠθέλησα, ἠθέληκα</HEADWORD>
+    <DEFINITION>(+infin.) wish (to); be willing (to)</DEFINITION>
+    <PART-OF-SPEECH>verb: -ω liquid stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>The Senses and Feelings</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>179</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>πεμπτός –ή –όν</HEADWORD>
+    <DEFINITION>fifth</DEFINITION>
+    <PART-OF-SPEECH>adjective: numeral</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Measurements and Numerals</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>502</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἀλήθεια ἀληθείας, ἡ</HEADWORD>
+    <DEFINITION>truth</DEFINITION>
+    <PART-OF-SPEECH>noun: 1st declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Ethics and Morals</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>329</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἄδικος ἄδικον</HEADWORD>
+    <DEFINITION>unjust</DEFINITION>
+    <PART-OF-SPEECH>adjective: 1st and 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Ethics and Morals</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>483</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἁμαρτάνω, ἁμαρτήσομαι, ἡμάρτησα, 2 aor. ἥμαρτον, ἡμάρτηκα, ἡμάρτημαι, ἡμαρτήθην</HEADWORD>
+    <DEFINITION>miss the mark (+gen.); fail, be wrong, make a mistake</DEFINITION>
+    <PART-OF-SPEECH>verb: -ω liquid stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Ethics and Morals</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>396</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἀληθής –ές</HEADWORD>
+    <DEFINITION>TRUE</DEFINITION>
+    <PART-OF-SPEECH>adjective: 3rd declension -ης, -ες</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Ethics and Morals</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>176</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἀμείνων ἄμεινον</HEADWORD>
+    <DEFINITION>better, abler, stronger, braver (comp. of ἀγαθός)</DEFINITION>
+    <PART-OF-SPEECH>adjective: 3rd declension -ων, -ον</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Ethics and Morals</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>465</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἄξιος ἀξία ἄξιον</HEADWORD>
+    <DEFINITION>worthy, deserving</DEFINITION>
+    <PART-OF-SPEECH>adjective: 1st and 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Ethics and Morals</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>239</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἀξιόω, ἀξιώσω, ἠξίωσα, ἠξίωκα, ἠξίωμαι, ἠξιώθην</HEADWORD>
+    <DEFINITION>consider worthy</DEFINITION>
+    <PART-OF-SPEECH>verb: contracted</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Ethics and Morals</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>264</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἀρετή ἀρετῆς, ἡ</HEADWORD>
+    <DEFINITION>goodness, excellence; virtue; valor, bravery</DEFINITION>
+    <PART-OF-SPEECH>noun: 1st declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Ethics and Morals</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>203</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἄριστος ἀρίστη ἄριστον</HEADWORD>
+    <DEFINITION>best, noblest (superl. of ἀγαθός)</DEFINITION>
+    <PART-OF-SPEECH>adjective: 1st and 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Ethics and Morals</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>305</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἀγαθός –ή –όν</HEADWORD>
+    <DEFINITION>good, virtuous, brave, noble</DEFINITION>
+    <PART-OF-SPEECH>adjective: 1st and 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Ethics and Morals</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>58</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>φρονέω, φρονήσω, ἐφρόνησα</HEADWORD>
+    <DEFINITION>think, intend to (+infin.); be minded towards (+adv. and dat.)</DEFINITION>
+    <PART-OF-SPEECH>verb: contracted</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>The Mind, Perceiving and Learning </SEMANTIC-GROUP>
+    <FREQUENCY-RANK>442</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἀδικέω, ἀδικήσω, ἠδίκησα, ἠδίκηκα, ἠδίκημαι, ἠδικήθην</HEADWORD>
+    <DEFINITION>do wrong; injure</DEFINITION>
+    <PART-OF-SPEECH>verb: contracted</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Ethics and Morals</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>355</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>γνώμη γνώμης, ἡ</HEADWORD>
+    <DEFINITION>thought, intelligence, opinion, purpose</DEFINITION>
+    <PART-OF-SPEECH>noun: 1st declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>The Mind, Perceiving and Learning</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>350</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>γιγνώσκω, γνώσομαι, ἔγνων, ἔγνωκα, ἔγνωσμαι, ἐγνώσθην</HEADWORD>
+    <DEFINITION>come to know, learn; judge, think, or determine that (+acc. and infin.)</DEFINITION>
+    <PART-OF-SPEECH>verb: -ω palatal stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>The Mind, Perceiving and Learning</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>142</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>χαίρω, χαιρήσω, κεχάρηκα, κεχάρημαι, ἐχάρην</HEADWORD>
+    <DEFINITION>to be happy, rejoice at (+dat.), take joy in (+ptc.); χαῖρε, (pl.) χαίρετε hello, goodbye</DEFINITION>
+    <PART-OF-SPEECH>verb: -ω liquid stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>The Senses and Feelings</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>372</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἀγγέλλω, ἀγγελῶ, ἤγγειλα, ἤγγελκα, ἤγγελμαι, ἠγγέλθην</HEADWORD>
+    <DEFINITION>report, tell</DEFINITION>
+    <PART-OF-SPEECH>verb: -ω liquid stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Writing and Talking</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>517</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>αἰτέω, αἰτήσω, ᾔτησα, ᾔτηκα, ᾔτημαι, ᾐτήθην</HEADWORD>
+    <DEFINITION>ask (for), beg</DEFINITION>
+    <PART-OF-SPEECH>verb: contracted</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Writing and Talking</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>472</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἀποκρίνω, ἀποκρινῶ, ἀπεκρινάμην, ἀπεκρίθη</HEADWORD>
+    <DEFINITION>separate, set apart; (mid.) answer, reply</DEFINITION>
+    <PART-OF-SPEECH>verb: -ω liquid stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Writing and Talking</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>422</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>γράμμα γράμματος, τό</HEADWORD>
+    <DEFINITION>letter, written character; (pl.) piece of writing, document(s)</DEFINITION>
+    <PART-OF-SPEECH>noun: 3rd declension consonant stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Writing and Talking</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>451</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>γραφή γραφῆς, ἡ</HEADWORD>
+    <DEFINITION>a drawing, painting, writing; indictment</DEFINITION>
+    <PART-OF-SPEECH>noun: 1st declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Writing and Talking</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>434</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>γράφω, γράψω, ἔγραψα, γέγραφα, γέγραμμαι, ἐγράφην</HEADWORD>
+    <DEFINITION>write</DEFINITION>
+    <PART-OF-SPEECH>verb: -ω labial stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Writing and Talking</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>115</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>εἶπον</HEADWORD>
+    <DEFINITION>I said, I spoke, 2 aor. → λέγω, φημί</DEFINITION>
+    <PART-OF-SPEECH>verb: irregular</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Writing and Talking</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>57</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἔπος ἔπους, τό</HEADWORD>
+    <DEFINITION>word, speech, tale; prophecy</DEFINITION>
+    <PART-OF-SPEECH>noun: 3rd declension σ-stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Writing and Talking</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>496</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>αἰσθάνομαι, αἰσθήσομαι, 2 aor. ᾐσθόμην, ᾔσθημαι</HEADWORD>
+    <DEFINITION>perceive, understand, hear, learn</DEFINITION>
+    <PART-OF-SPEECH>verb: deponent</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>The Mind, Perceiving and Learning</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>372</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>πυνθάνομαι, πεύσομαι, 2 aor. ἐπυθόμην, πέπυσμαι</HEADWORD>
+    <DEFINITION>learn, hear, inquire concerning (+gen.)</DEFINITION>
+    <PART-OF-SPEECH>verb: deponent</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>The Mind, Perceiving and Learning </SEMANTIC-GROUP>
+    <FREQUENCY-RANK>409</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>βραχύς βραχεῖα βραχύ</HEADWORD>
+    <DEFINITION>brief, short</DEFINITION>
+    <PART-OF-SPEECH>adjective: -ύς, -εῖα, -ύ</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Characteristics</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>327</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἡδύς ἡδεῖα ἡδύ</HEADWORD>
+    <DEFINITION>sweet, pleasant</DEFINITION>
+    <PART-OF-SPEECH>adjective: -ύς, -εῖα, -ύ</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Characteristics</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>332</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἥσσων ἧσσον</HEADWORD>
+    <DEFINITION>less, weaker (comp. of κακός or μικρός)</DEFINITION>
+    <PART-OF-SPEECH>adjective: 3rd declension -ων, -ον</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Characteristics</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>299</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἰσχυρός –ά –όν</HEADWORD>
+    <DEFINITION>strong</DEFINITION>
+    <PART-OF-SPEECH>adjective: 1st and 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Characteristics</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>328</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>κακός –ή –όν</HEADWORD>
+    <DEFINITION>bad, wicked, cowardly</DEFINITION>
+    <PART-OF-SPEECH>adjective: 1st and 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Characteristics</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>73</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>καλός –ή –όν</HEADWORD>
+    <DEFINITION>beautiful, noble, honorable</DEFINITION>
+    <PART-OF-SPEECH>adjective: 1st and 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Characteristics</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>96</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>κρείσσων κρεῖσσον</HEADWORD>
+    <DEFINITION>stronger, mightier; better, more excellent (comp. of ἀγαθός)</DEFINITION>
+    <PART-OF-SPEECH>adjective: 3rd declension -ων, -ον</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Characteristics</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>326</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>λαμπρός –ά –όν</HEADWORD>
+    <DEFINITION>bright, brilliant; well-known, illustrious</DEFINITION>
+    <PART-OF-SPEECH>adjective: 1st and 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Characteristics</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>468</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>νέος νέα νέον</HEADWORD>
+    <DEFINITION>young, new, fresh</DEFINITION>
+    <PART-OF-SPEECH>adjective: 1st and 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Characteristics</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>266</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>δυνατός –ή –όν</HEADWORD>
+    <DEFINITION>strong, powerful, able</DEFINITION>
+    <PART-OF-SPEECH>adjective: 1st and 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Characteristics</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>303</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>δεινός –ή –όν</HEADWORD>
+    <DEFINITION>awesome, terrible; clever, clever at (+infin.)</DEFINITION>
+    <PART-OF-SPEECH>adjective: 1st and 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Characteristics</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>293</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἐχθρός –ά –όν</HEADWORD>
+    <DEFINITION>hated, hateful; hostile to (+dat.)</DEFINITION>
+    <PART-OF-SPEECH>adjective: 1st and 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Characteristics</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>393</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἔοικα, ptc. εἰκώς</HEADWORD>
+    <DEFINITION>be like, look like (+dat.); seem; befit</DEFINITION>
+    <PART-OF-SPEECH>verb: irregular</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Characteristics</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>267</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>σοφός –ή –όν</HEADWORD>
+    <DEFINITION>wise, clever, skilled</DEFINITION>
+    <PART-OF-SPEECH>adjective: 1st and 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Characteristics</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>339</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>διδάσκω, διδάξω, ἐδίδαξα, δεδίδαχα, δεδίδαγμαι, ἐδιδάχθην</HEADWORD>
+    <DEFINITION>teach</DEFINITION>
+    <PART-OF-SPEECH>verb: -ω palatal stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>The Mind, Perceiving and Learning</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>311</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>δοκέω, δόξω, ἔδοξα</HEADWORD>
+    <DEFINITION>think, suppose, imagine (+acc. and infin.); seem, seem good; (impers.) δοκεῖ μοι it seems to me</DEFINITION>
+    <PART-OF-SPEECH>verb: -ω palatal stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>The Mind, Perceiving and Learning</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>71</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἐπιστήμη –ης, ἡ</HEADWORD>
+    <DEFINITION>knowledge, understanding, skill</DEFINITION>
+    <PART-OF-SPEECH>noun: 1st declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>The Mind, Perceiving and Learning</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>369</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἡγέομαι, ἡγήσομαι, ἡγησάμην, ἥγημαι</HEADWORD>
+    <DEFINITION>lead, be the leader; regard, believe, think</DEFINITION>
+    <PART-OF-SPEECH>verb: deponent</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>The Mind, Perceiving and Learning </SEMANTIC-GROUP>
+    <FREQUENCY-RANK>238</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>μανθάνω, μαθήσομαι, ἔμαθον, μεμάθηκα</HEADWORD>
+    <DEFINITION>learn, ascertain</DEFINITION>
+    <PART-OF-SPEECH>verb: -ω liquid stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>The Mind, Perceiving and Learning </SEMANTIC-GROUP>
+    <FREQUENCY-RANK>256</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>μιμνήσκω, -μνήσω, -έμνησα, pf. μέμνημαι, ἐμνήσθην</HEADWORD>
+    <DEFINITION>remind; (in pf. mid.) remember</DEFINITION>
+    <PART-OF-SPEECH>verb: -ω palatal stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>The Mind, Perceiving and Learning </SEMANTIC-GROUP>
+    <FREQUENCY-RANK>377</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>νομίζω, νομιῶ, ἐνόμισα, νενόμικα, νενόμισμαι, ἐνομίσθην</HEADWORD>
+    <DEFINITION>think, believe that (+acc. and infin.); hold as a custom, be accustomed to (+infin.)</DEFINITION>
+    <PART-OF-SPEECH>verb: -ω dental stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>The Mind, Perceiving and Learning </SEMANTIC-GROUP>
+    <FREQUENCY-RANK>197</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>νοῦς (νόος), νοῦ (νόου), ὁ</HEADWORD>
+    <DEFINITION>mind, perception, sense</DEFINITION>
+    <PART-OF-SPEECH>noun: 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>The Mind, Perceiving and Learning </SEMANTIC-GROUP>
+    <FREQUENCY-RANK>281</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>οἶδα, infin. εἰδέναι, imper. ἴσθι, plupf. used as impf. ᾔδειν</HEADWORD>
+    <DEFINITION>to know (pf. in pres. sense); to know how to (+infin.)</DEFINITION>
+    <PART-OF-SPEECH>verb: irregular</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>The Mind, Perceiving and Learning </SEMANTIC-GROUP>
+    <FREQUENCY-RANK>110</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>οἴομαι or οἶμαι, οἰήσομαι, impf. ᾤμην, aor. ᾠήθην</HEADWORD>
+    <DEFINITION>think, suppose, imagine (+acc. and infin.)</DEFINITION>
+    <PART-OF-SPEECH>verb: deponent</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>The Mind, Perceiving and Learning </SEMANTIC-GROUP>
+    <FREQUENCY-RANK>170</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>βελτίων βέλτιον</HEADWORD>
+    <DEFINITION>better (comp. of ἀγαθός)</DEFINITION>
+    <PART-OF-SPEECH>adjective: 3rd declension -ων, -ον</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Ethics and Morals</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>419</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>χρή, impf. χρῆν or ἐχρῆν, infin. χρῆναι</HEADWORD>
+    <DEFINITION>it is necessary, it is fated, one ought (+infin. or +acc. and infin.)</DEFINITION>
+    <PART-OF-SPEECH>verb: impersonal</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Ethics and Morals</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>158</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>εἷς μία ἕν</HEADWORD>
+    <DEFINITION>one</DEFINITION>
+    <PART-OF-SPEECH>adjective: numeral</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Measurements and Numerals</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>62</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>μάρτυς μάρτυρος, ὁ/ἡ</HEADWORD>
+    <DEFINITION>witness</DEFINITION>
+    <PART-OF-SPEECH>noun: 3rd declension consonant stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Law and Judgment</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>503</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>κρίνω, κρινῶ, ἔκρινα, κέκρικα, κέκριμαι, ἐκρίθην</HEADWORD>
+    <DEFINITION>judge, decide, determine</DEFINITION>
+    <PART-OF-SPEECH>verb: -ω liquid stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Law and Judgment</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>287</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>τιμάω, τιμήσω, ἐτίμησα, τετίμηκα, τετίμημαι, ἐτιμήθην</HEADWORD>
+    <DEFINITION>to honor</DEFINITION>
+    <PART-OF-SPEECH>verb: contracted</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Ethics and Morals</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>381</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>τιμή τιμῆς, ἡ</HEADWORD>
+    <DEFINITION>honor, esteem; price, value; office, magistracy</DEFINITION>
+    <PART-OF-SPEECH>noun: 1st declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Ethics and Morals</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>350</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>χάρις χάριτος, ἡ</HEADWORD>
+    <DEFINITION>splendor, honor, glory; favor, goodwill, gratitude, thanks</DEFINITION>
+    <PART-OF-SPEECH>noun: 3rd declension consonant stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Ethics and Morals</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>251</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>χείρων χεῖρον</HEADWORD>
+    <DEFINITION>worse, inferior (comp. of κακός)</DEFINITION>
+    <PART-OF-SPEECH>adjective: 3rd declension -ων, -ον</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Ethics and Morals</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>466</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>αἰτία αἰτίας, ἡ</HEADWORD>
+    <DEFINITION>cause, origin; charge, accusation</DEFINITION>
+    <PART-OF-SPEECH>noun: 1st declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Law and Judgment</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>189</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ναός (νεώς) ναοῦ (νεώ), ὁ</HEADWORD>
+    <DEFINITION>temple</DEFINITION>
+    <PART-OF-SPEECH>noun: 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Religion</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>343</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἱερός –ά –όν</HEADWORD>
+    <DEFINITION>holy, venerated, divine</DEFINITION>
+    <PART-OF-SPEECH>adjective: 1st and 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Religion</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>219</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>δόξα δόξης, ἡ</HEADWORD>
+    <DEFINITION>opinion, judgment; reputation, honor, glory</DEFINITION>
+    <PART-OF-SPEECH>noun: 1st declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Ethics and Morals</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>214</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>νόμος νόμου, ὁ</HEADWORD>
+    <DEFINITION>custom, tradition, law</DEFINITION>
+    <PART-OF-SPEECH>noun: 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Law and Judgment</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>168</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ὁμολογέω, ὁμολογήσω, ὡμολόγησα, ὡμολόγηκα, ὡμολόγημαι, ὡμολογήθην</HEADWORD>
+    <DEFINITION>agree with, say the same thing as (+dat.)</DEFINITION>
+    <PART-OF-SPEECH>verb: contracted</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Law and Judgment</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>342</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>τάξις τάξεως, ἡ</HEADWORD>
+    <DEFINITION>arrangement, order; military unit</DEFINITION>
+    <PART-OF-SPEECH>noun: 3rd declension ι-stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>War and Peace</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>400</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>δαίμων δαίμονος, ὁ/ἡ</HEADWORD>
+    <DEFINITION>spirit, god, demon</DEFINITION>
+    <PART-OF-SPEECH>noun: 3rd declension consonant stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Religion</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>476</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>θεῖος θεία θεῖον</HEADWORD>
+    <DEFINITION>divine</DEFINITION>
+    <PART-OF-SPEECH>adjective: 1st and 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Religion</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>428</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>θεός θεοῦ, ὁ/ἡ</HEADWORD>
+    <DEFINITION>god, goddess</DEFINITION>
+    <PART-OF-SPEECH>noun: 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Religion</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>49</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>θυμός θυμοῦ, ὁ</HEADWORD>
+    <DEFINITION>life, spirit; soul, heart, mind</DEFINITION>
+    <PART-OF-SPEECH>noun: 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Religion</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>437</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>θύω, θύσω, ἔθυσα, τέθυκα, τέθυμαι, ἐτύθην</HEADWORD>
+    <DEFINITION>sacrifice</DEFINITION>
+    <PART-OF-SPEECH>verb: -ω vowel stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Religion</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>454</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>αἴτιος αἰτία αἴτιον</HEADWORD>
+    <DEFINITION>responsible, guilty</DEFINITION>
+    <PART-OF-SPEECH>adjective: 1st and 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Law and Judgment</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>119</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>διαφορά –ᾶς, ἡ</HEADWORD>
+    <DEFINITION>difference, disagreement</DEFINITION>
+    <PART-OF-SPEECH>noun: 1st declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Law and Judgment</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>294</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>δίκαιος δικαία δίκαιον</HEADWORD>
+    <DEFINITION>right, just</DEFINITION>
+    <PART-OF-SPEECH>adjective: 1st and 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Law and Judgment</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>177</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>εἰκοστός –ή –όν</HEADWORD>
+    <DEFINITION>twentieth</DEFINITION>
+    <PART-OF-SPEECH>adjective: numeral</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Measurements and Numerals</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>516</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>τριακοστός –ή –όν</HEADWORD>
+    <DEFINITION>thirtieth</DEFINITION>
+    <PART-OF-SPEECH>adjective: numeral</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Measurements and Numerals</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>511</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἑκατοστός –ή –όν</HEADWORD>
+    <DEFINITION>hundredth</DEFINITION>
+    <PART-OF-SPEECH>adjective: numeral</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Measurements and Numerals</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>518</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἀμφότερος ἀμφοτέρα ἀμφότερον</HEADWORD>
+    <DEFINITION>both</DEFINITION>
+    <PART-OF-SPEECH>adjective: 1st and 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Measurements and Numerals</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>230</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἅπας ἅπασα ἅπαν</HEADWORD>
+    <DEFINITION>all together</DEFINITION>
+    <PART-OF-SPEECH>noun: 3rd declension irregular</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Measurements and Numerals</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>91</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἁπλῶς</HEADWORD>
+    <DEFINITION>simply, singly, in one way</DEFINITION>
+    <PART-OF-SPEECH>adverb</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Measurements and Numerals</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>389</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἀριθμός –οῦ, ὁ</HEADWORD>
+    <DEFINITION>number</DEFINITION>
+    <PART-OF-SPEECH>noun: 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Measurements and Numerals</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>225</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>εἶδος εἴδους, τό</HEADWORD>
+    <DEFINITION>form, shape, figure; class, kind, sort</DEFINITION>
+    <PART-OF-SPEECH>noun: 3rd declension σ-stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Measurements and Numerals</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>193</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>δέκατος –η –ον</HEADWORD>
+    <DEFINITION>tenth</DEFINITION>
+    <PART-OF-SPEECH>adjective: numeral</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Measurements and Numerals</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>487</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἔνατος –α –ον</HEADWORD>
+    <DEFINITION>ninth</DEFINITION>
+    <PART-OF-SPEECH>adjective: numeral</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Measurements and Numerals</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>515</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ὄγδοος –η –ον</HEADWORD>
+    <DEFINITION>eighth</DEFINITION>
+    <PART-OF-SPEECH>adjective: numeral</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Measurements and Numerals</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>514</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>δίκη δίκης, ἡ</HEADWORD>
+    <DEFINITION>justice, lawsuit, trial, penalty</DEFINITION>
+    <PART-OF-SPEECH>noun: 1st declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Law and Judgment</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>330</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἐάω, ἐάσω, εἴασα</HEADWORD>
+    <DEFINITION>allow, permit (+acc. and infin.); let be, let alone</DEFINITION>
+    <PART-OF-SPEECH>verb: contracted</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Law and Judgment</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>370</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>κατηγορέω, κατηγορήσω, κατηγόρησα, κατηγόρηκα, κατηγόρημαι, κατηγορήθην</HEADWORD>
+    <DEFINITION>to speak against, to accuse (+gen.)</DEFINITION>
+    <PART-OF-SPEECH>verb: contracted</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Law and Judgment</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>425</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>κελεύω, κελεύσω, ἐκέλευσα, κεκέλευκα, κεκέλευσμαι, ἐκελεύσθην</HEADWORD>
+    <DEFINITION>order, bid, command (+acc. and infin.)</DEFINITION>
+    <PART-OF-SPEECH>verb: -ω vowel stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Law and Judgment</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>236</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>δύο</HEADWORD>
+    <DEFINITION>two</DEFINITION>
+    <PART-OF-SPEECH>adjective: numeral</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Measurements and Numerals</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>105</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>τρεῖς τρία</HEADWORD>
+    <DEFINITION>three</DEFINITION>
+    <PART-OF-SPEECH>adjective: numeral</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Measurements and Numerals</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>195</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἐλάσσων ἔλασσον</HEADWORD>
+    <DEFINITION>smaller, less, fewer (comp. of μικρός)</DEFINITION>
+    <PART-OF-SPEECH>adjective: 3rd declension -ων, -ον</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Measurement and Numerals</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>217</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἕβδομος –η –ον</HEADWORD>
+    <DEFINITION>seventh</DEFINITION>
+    <PART-OF-SPEECH>adjective: numeral</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Measurements and Numerals</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>505</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἕκτος –η –ον</HEADWORD>
+    <DEFINITION>sixth</DEFINITION>
+    <PART-OF-SPEECH>adjective: numeral</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Measurements and Numerals</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>510</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἐπεί</HEADWORD>
+    <DEFINITION>after, since, when</DEFINITION>
+    <PART-OF-SPEECH>conjunction</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Time</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>75</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>τοσοῦτος –αύτη –οῦτο(ν)</HEADWORD>
+    <DEFINITION>so large, so much</DEFINITION>
+    <PART-OF-SPEECH>adjective: 1st and 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Measurement and Numerals</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>174</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>εἰκός εἰκότος, τό</HEADWORD>
+    <DEFINITION>likelihood, probability; εἰκός (ἐστι) it is likely (+infin.) →ἔοικα</DEFINITION>
+    <PART-OF-SPEECH>noun: 3rd declension consonant stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>The Mind, Perceiving and Learning</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>482</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἔτος ἔτους, τό</HEADWORD>
+    <DEFINITION>year</DEFINITION>
+    <PART-OF-SPEECH>noun: 3rd declension σ-stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Time</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>205</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἥλιος ἡλίου, ὁ</HEADWORD>
+    <DEFINITION>sun</DEFINITION>
+    <PART-OF-SPEECH>noun: 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>World Order</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>188</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἡμέρα ἡμέρας, ἡ</HEADWORD>
+    <DEFINITION>day</DEFINITION>
+    <PART-OF-SPEECH>noun: 1st declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>World Order</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>89</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>κόσμος κόσμου, ὁ</HEADWORD>
+    <DEFINITION>order; ornament, decoration, adornment; world, universe</DEFINITION>
+    <PART-OF-SPEECH>noun: 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>World Order</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>260</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>θάλασσα θαλάσσης, ἡ</HEADWORD>
+    <DEFINITION>the sea</DEFINITION>
+    <PART-OF-SPEECH>noun: 1st declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Earth</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>211</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>μόνος μόνη μόνον</HEADWORD>
+    <DEFINITION>alone, single</DEFINITION>
+    <PART-OF-SPEECH>adjective: 1st and 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Measurement and Numerals</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>67</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>μόνον</HEADWORD>
+    <DEFINITION>only</DEFINITION>
+    <PART-OF-SPEECH>adverb</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Conjunctions/Adverbs</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>109</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>μυρίος μυρία μυρίον</HEADWORD>
+    <DEFINITION>countless; μύριοι 10,000; μυριάς -άδος ἡ 10,000, a countless amount</DEFINITION>
+    <PART-OF-SPEECH>adjective: 1st and 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Measurement and Numerals</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>485</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ὀλίγος ὀλίγη ὀλίγον</HEADWORD>
+    <DEFINITION>little, small, few</DEFINITION>
+    <PART-OF-SPEECH>adjective: 1st and 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Measurement and Numerals</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>167</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ὅλος ὅλη ὅλον</HEADWORD>
+    <DEFINITION>whole, entire, complete</DEFINITION>
+    <PART-OF-SPEECH>adjective: 1st and 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Measurement and Numerals</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>100</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ὀρθός –ή –όν</HEADWORD>
+    <DEFINITION>upright, straight, true, regular</DEFINITION>
+    <PART-OF-SPEECH>adjective: 1st and 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Measurement and Numerals</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>210</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>πᾶς πᾶσα πᾶν</HEADWORD>
+    <DEFINITION>every, all; whole (with article)</DEFINITION>
+    <PART-OF-SPEECH>noun: 3rd declension irregular</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Measurement and Numerals</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>27</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>πλεῖστος πλείστη πλεῖστον</HEADWORD>
+    <DEFINITION>most, greatest, largest (superl. of πολύς)</DEFINITION>
+    <PART-OF-SPEECH>adjective: 1st and 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Measurement and Numerals</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>192</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>πλέων πλέον</HEADWORD>
+    <DEFINITION>more, larger (comp. of πολύς)</DEFINITION>
+    <PART-OF-SPEECH>adjective: 3rd declension -ων, -ον</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Measurement and Numerals</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>347</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>μικρός –ά –όν</HEADWORD>
+    <DEFINITION>small, little, short</DEFINITION>
+    <PART-OF-SPEECH>adjective: 1st and 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Measurement and Numerals</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>84</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>λίθος λίθου, ὁ</HEADWORD>
+    <DEFINITION>stone</DEFINITION>
+    <PART-OF-SPEECH>noun: 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Earth</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>334</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>νῆσος νήσου, ἡ</HEADWORD>
+    <DEFINITION>island</DEFINITION>
+    <PART-OF-SPEECH>noun: 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Earth</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>367</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ζῷον ζῴου, τό</HEADWORD>
+    <DEFINITION>living being, animal</DEFINITION>
+    <PART-OF-SPEECH>noun: 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Animals and Plants</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>160</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἵππος ἵππου, ὁ</HEADWORD>
+    <DEFINITION>horse</DEFINITION>
+    <PART-OF-SPEECH>noun: 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Animals and Plants</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>259</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>γῆ γῆς, ἡ</HEADWORD>
+    <DEFINITION>earth</DEFINITION>
+    <PART-OF-SPEECH>noun: 1st declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Earth</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>94</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>χώρα χώρας, ἡ</HEADWORD>
+    <DEFINITION>land; place</DEFINITION>
+    <PART-OF-SPEECH>noun: 1st declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Earth</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>185</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>χαλκοῦς –ῆ –οῦν</HEADWORD>
+    <DEFINITION>of copper or bronze</DEFINITION>
+    <PART-OF-SPEECH>adjective: 1st and 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Earth</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>504</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>φύσις φύσεως, ἡ</HEADWORD>
+    <DEFINITION>nature; (of the mind) one’s nature or disposition; regular order of nature</DEFINITION>
+    <PART-OF-SPEECH>noun: 3rd declension ι-stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>World Order</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>83</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>τόπος τόπου, ὁ</HEADWORD>
+    <DEFINITION>place; topic</DEFINITION>
+    <PART-OF-SPEECH>noun: 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Earth</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>132</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>πρᾶγμα πράγματος, τό</HEADWORD>
+    <DEFINITION>thing; (pl.) circumstances, affairs, business</DEFINITION>
+    <PART-OF-SPEECH>noun: 3rd declension consonant stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Work and Leisure</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>161</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ποταμός –οῦ, ὁ</HEADWORD>
+    <DEFINITION>river, stream</DEFINITION>
+    <PART-OF-SPEECH>noun: 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Earth</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>223</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>πνεῦμα πνεύματος, τό</HEADWORD>
+    <DEFINITION>wind, breath, spirit</DEFINITION>
+    <PART-OF-SPEECH>noun: 3rd declension consonant stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Earth</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>209</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ὄρος ὄρους, τό</HEADWORD>
+    <DEFINITION>mountain, hill</DEFINITION>
+    <PART-OF-SPEECH>noun: 3rd declension σ-stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Earth</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>300</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>μέσος μέση μέσον</HEADWORD>
+    <DEFINITION>middle, in the middle, moderate; τὸ μέσον midst</DEFINITION>
+    <PART-OF-SPEECH>adjective: 1st and 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Measurement and Numerals</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>149</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>εὐθύς εὐθεῖα εὐθύ</HEADWORD>
+    <DEFINITION>straight, direct; (adv.) immediately</DEFINITION>
+    <PART-OF-SPEECH>adjective: -ύς, -εῖα, -ύ</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Measurement and Numerals</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>220</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἀεί</HEADWORD>
+    <DEFINITION>always</DEFINITION>
+    <PART-OF-SPEECH>adverb</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Time</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>151</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἅμα</HEADWORD>
+    <DEFINITION>at the same time; (prep.) together with (+dat.)</DEFINITION>
+    <PART-OF-SPEECH>adverb</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Time</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>145</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἀρχή ἀρχῆς, ἡ</HEADWORD>
+    <DEFINITION>beginning, origin; rule, empire, realm; magistracy</DEFINITION>
+    <PART-OF-SPEECH>noun: 1st declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Time</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>87</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἄρχω, ἄρξω, ἦρξα, ἦργμαι, ἤρχθην</HEADWORD>
+    <DEFINITION>begin (+gen.); lead, rule, govern (+gen.)</DEFINITION>
+    <PART-OF-SPEECH>verb: -ω palatal stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Time</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>122</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>αὖ, αὖθις</HEADWORD>
+    <DEFINITION>moreover; on the other hand; back (again);</DEFINITION>
+    <PART-OF-SPEECH>adverb</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Particles</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>344</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>αὐτίκα</HEADWORD>
+    <DEFINITION>at once, immediately</DEFINITION>
+    <PART-OF-SPEECH>adverb</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Time</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>486</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>πῦρ πυρός, τό</HEADWORD>
+    <DEFINITION>fire</DEFINITION>
+    <PART-OF-SPEECH>noun: 3rd declension consonant stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>World Order</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>216</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>οὐρανός –οῦ, ὁ</HEADWORD>
+    <DEFINITION>sky, heaven</DEFINITION>
+    <PART-OF-SPEECH>noun: 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>World Order</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>297</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>νύξ νυκτός, ἡ</HEADWORD>
+    <DEFINITION>night</DEFINITION>
+    <PART-OF-SPEECH>noun: 3rd declension consonant stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>World Order</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>278</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>στάδιον σταδίου, τό (pl. στάδια and στάδιοι)</HEADWORD>
+    <DEFINITION>stadion or stade, the longest Greek unit of linear measure, about 185 meters</DEFINITION>
+    <PART-OF-SPEECH>noun: 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Measurement and Numerals</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>441</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>σχῆμα σχήματος, τό</HEADWORD>
+    <DEFINITION>form, figure, appearance, character</DEFINITION>
+    <PART-OF-SPEECH>noun: 3rd declension consonant stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Measurement and Numerals</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>254</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>φῶς φωτός, τό</HEADWORD>
+    <DEFINITION>light, daylight</DEFINITION>
+    <PART-OF-SPEECH>noun: 3rd declension consonant stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>World Order</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>508</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ὕδωρ ὕδατος, τό</HEADWORD>
+    <DEFINITION>water</DEFINITION>
+    <PART-OF-SPEECH>noun: 3rd declension consonant stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>World Order</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>139</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἴσος ἴση ἴσον</HEADWORD>
+    <DEFINITION>equal, the same as (+dat.)</DEFINITION>
+    <PART-OF-SPEECH>adjective: 1st and 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Measurement and Numerals</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>107</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἴσως</HEADWORD>
+    <DEFINITION>equally, probably, perhaps</DEFINITION>
+    <PART-OF-SPEECH>adverb</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Conjunctions/Adverbs</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>383</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>κύκλος κύκλου, ὁ</HEADWORD>
+    <DEFINITION>circle, ring, orb, disc, circular motion</DEFINITION>
+    <PART-OF-SPEECH>noun: 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Measurement and Numerals</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>199</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>λοιπός –ή –όν</HEADWORD>
+    <DEFINITION>rest, remaining, rest-of-the</DEFINITION>
+    <PART-OF-SPEECH>adjective: 1st and 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Measurement and Numerals</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>181</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>μακρός –ά –όν</HEADWORD>
+    <DEFINITION>long, tall, large, long-lasting</DEFINITION>
+    <PART-OF-SPEECH>adjective: 1st and 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Measurement and Numerals</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>289</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>μέγας μεγάλη μέγα</HEADWORD>
+    <DEFINITION>big, great, powerful</DEFINITION>
+    <PART-OF-SPEECH>adjective: 1st and 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Measurement and Numerals</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>52</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>μέγεθος μεγέθους, τό</HEADWORD>
+    <DEFINITION>greatness, size, magnitude</DEFINITION>
+    <PART-OF-SPEECH>noun: 3rd declension σ-stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Measurement and Numerals</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>246</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>μέρος μέρους, τό</HEADWORD>
+    <DEFINITION>part, share</DEFINITION>
+    <PART-OF-SPEECH>noun: 3rd declension σ-stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Measurement and Numerals</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>101</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>πλέον</HEADWORD>
+    <DEFINITION>more, rather</DEFINITION>
+    <PART-OF-SPEECH>adverb</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Measurement and Numerals</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>347</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>πολύς πολλή πολύ</HEADWORD>
+    <DEFINITION>much, many; ὡς ἐπὶ τὸ πολύ for the most part</DEFINITION>
+    <PART-OF-SPEECH>noun: 3rd declension irregular</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Measurement and Numerals</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>30</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>πρῶτος πρώτη πρῶτον</HEADWORD>
+    <DEFINITION>first, foremost, earliest; (adv.) τὸ πρῶτον in the first place</DEFINITION>
+    <PART-OF-SPEECH>adjective: 1st and 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Measurement and Numerals</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>134</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἵστημι στήσω will set, ἔστησα set, caused to stand, 2 aor. ἔστην stood, ἕστηκα stand, plup. εἱστήκη stood, ἐστάθην stood</HEADWORD>
+    <DEFINITION>make to stand, set</DEFINITION>
+    <PART-OF-SPEECH>verb: -μι</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Work and Leisure</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>144</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>καθίστημι, καταστήσω, κατέστησα, κατέστην, καθέστηκα, plupf. καθειστήκη, κατεστάθην</HEADWORD>
+    <DEFINITION>set down, establish; bring into a certain state, render</DEFINITION>
+    <PART-OF-SPEECH>verb: -μι</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Work and Leisure</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>269</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>μίγνυμι, μείξω, ἔμειξα, μέμειγμαι, ἐμείχθην</HEADWORD>
+    <DEFINITION>mix, mingle</DEFINITION>
+    <PART-OF-SPEECH>verb: -μι</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Work and Leisure</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>361</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>κεῖμαι, κείσομαι</HEADWORD>
+    <DEFINITION>to lie, be situated, be laid up in store, be set up, be established or ordained (used as pf. pass. of τίθημι)</DEFINITION>
+    <PART-OF-SPEECH>verb: deponent</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Work and Leisure</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>248</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἵημι, ἥσω, ἧκα, εἷκα, εἷμαι, εἵθην</HEADWORD>
+    <DEFINITION>put in motion, let go, shoot; (mid.) hasten, rush</DEFINITION>
+    <PART-OF-SPEECH>verb: -μι</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Work and Leisure</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>63</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἡδονή –ῆς, ἡ</HEADWORD>
+    <DEFINITION>pleasure, enjoyment</DEFINITION>
+    <PART-OF-SPEECH>noun: 1st declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Work and Leisure</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>291</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἔργον ἔργου, τό</HEADWORD>
+    <DEFINITION>work, achievement, exploit</DEFINITION>
+    <PART-OF-SPEECH>noun: 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Work and Leisure</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>154</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἐργάζομαι, ἐργάσομαι, εἰργασάμην, εἴργασμαι</HEADWORD>
+    <DEFINITION>work, labor</DEFINITION>
+    <PART-OF-SPEECH>verb: deponent</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Work and Leisure</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>318</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>δύναμαι, δυνήσομαι, ἐδυνήθην, δεδύνημαι</HEADWORD>
+    <DEFINITION>(+infin.) to be able (to), be strong enough (to)</DEFINITION>
+    <PART-OF-SPEECH>verb: impersonal</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Work and Leisure</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>85</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>δράω, δράσω, ἔδρασα, δέδρακα, δέδραμαι, ἐδράσθην</HEADWORD>
+    <DEFINITION>do, accomplish</DEFINITION>
+    <PART-OF-SPEECH>verb: contracted</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Work and Leisure</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>447</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>διαφέρω, διοίσω, 1 aor. διήνεγκα, 2 aor. διήνεγκον, διενήνοχα, διενήνεγμαι</HEADWORD>
+    <DEFINITION>carry in different ways, spread; differ; (impers.) διαφέρει it makes a difference to (+dat.)</DEFINITION>
+    <PART-OF-SPEECH>verb: -ω liquid stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Work and Leisure</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>212</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἔπειτα</HEADWORD>
+    <DEFINITION>then, next</DEFINITION>
+    <PART-OF-SPEECH>adverb</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Time</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>253</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>πρότερος προτέρα πρότερον</HEADWORD>
+    <DEFINITION>before, earlier; τὸ πρότερον previously, before</DEFINITION>
+    <PART-OF-SPEECH>adjective: 1st and 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Time</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>48</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>τότε</HEADWORD>
+    <DEFINITION>then, at that time; οἱ τότε the men of that time (opp. οἱ νῦν)</DEFINITION>
+    <PART-OF-SPEECH>adverb</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Time</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>156</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>πρίν</HEADWORD>
+    <DEFINITION>before, until</DEFINITION>
+    <PART-OF-SPEECH>conjunction</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Time</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>354</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>πρό</HEADWORD>
+    <DEFINITION>before, in front of (+gen.)</DEFINITION>
+    <PART-OF-SPEECH>preposition</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Time</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>200</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἐκ, ἐξ</HEADWORD>
+    <DEFINITION>from, out of (+gen.)</DEFINITION>
+    <PART-OF-SPEECH>preposition</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Direction</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>29</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>εἰς</HEADWORD>
+    <DEFINITION>into, to, towards (+acc.)</DEFINITION>
+    <PART-OF-SPEECH>preposition</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Direction</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>17</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἄνω</HEADWORD>
+    <DEFINITION>up, upwards</DEFINITION>
+    <PART-OF-SPEECH>adverb</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Direction</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>312</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἀπό</HEADWORD>
+    <DEFINITION>from (+gen.)</DEFINITION>
+    <PART-OF-SPEECH>preposition</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Direction</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>40</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἀντί</HEADWORD>
+    <DEFINITION>opposite (+gen.)</DEFINITION>
+    <PART-OF-SPEECH>preposition</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Direction</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>206</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἀνά</HEADWORD>
+    <DEFINITION>up, on; throughout</DEFINITION>
+    <PART-OF-SPEECH>preposition</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Direction</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>36</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἀμφί</HEADWORD>
+    <DEFINITION>about, around</DEFINITION>
+    <PART-OF-SPEECH>preposition</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Direction</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>492</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>χρόνος χρόνου, ὁ</HEADWORD>
+    <DEFINITION>time</DEFINITION>
+    <PART-OF-SPEECH>noun: 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Time</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>106</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>πότε</HEADWORD>
+    <DEFINITION>when?</DEFINITION>
+    <PART-OF-SPEECH>adverb</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Time</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>513</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>παρασκευάζω, παρασκευάσω, παρεσκεύασα</HEADWORD>
+    <DEFINITION>get ready, prepare, provide</DEFINITION>
+    <PART-OF-SPEECH>verb: -ω dental stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Work and Leisure</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>445</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἥκω, ἥξω, pf. ἧκα</HEADWORD>
+    <DEFINITION>I have come, I am present</DEFINITION>
+    <PART-OF-SPEECH>verb: -ω palatal stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Movement</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>290</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>βοῦς βοός, ὁ/ἡ</HEADWORD>
+    <DEFINITION>bull, ox, cow</DEFINITION>
+    <PART-OF-SPEECH>noun: 3rd declension irregular</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Animals and Plants</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>449</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>φεύγω, φεύξομαι, ἔφυγον, πέφευγα</HEADWORD>
+    <DEFINITION>flee, run away, avoid, shun</DEFINITION>
+    <PART-OF-SPEECH>verb: -ω palatal stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Movement</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>258</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>τρέπω, τρέψω, ἔτρεψα, τέτροφα, ἐτράπην</HEADWORD>
+    <DEFINITION>turn, direct towards a thing; put to flight, defeat; (pass.) turn one’s steps in a certain direction, go</DEFINITION>
+    <PART-OF-SPEECH>verb: -ω labial stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Movement</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>426</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>τρόπος τρόπου, ὁ</HEADWORD>
+    <DEFINITION>way, manner, fashion; way of life, habit, custom</DEFINITION>
+    <PART-OF-SPEECH>noun: 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Characteristics</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>147</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>πέμπω, πέμψω, ἔπεμψα, πέπομφα, πέπεμμαι, ἐπέμφθην</HEADWORD>
+    <DEFINITION>send</DEFINITION>
+    <PART-OF-SPEECH>verb: -ω labial stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Movement</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>273</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>παύω, παύσω, ἔπαυσα, πέπαυκα, πέπαυμαι, ἐπαύθην</HEADWORD>
+    <DEFINITION>stop, put an end to; (mid.) cease</DEFINITION>
+    <PART-OF-SPEECH>verb: -ω vowel stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Movement</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>359</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ὁρμάω, ὁρμήσω, ὥρμησα, ὥρμηκα, ὥρμημαι, ὡρμήθην</HEADWORD>
+    <DEFINITION>set in motion, urge on; (intrans.) start, hasten on</DEFINITION>
+    <PART-OF-SPEECH>verb: contracted</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Movement</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>444</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>μένω, μενῶ, ἔμεινα, μεμένηκα</HEADWORD>
+    <DEFINITION>stay, remain, endure, await</DEFINITION>
+    <PART-OF-SPEECH>verb: -ω liquid stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Movement</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>283</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>λείπω, λείψω, ἔλιπον, λέλοιπα, λέλειμμαι, ἐλείφθην</HEADWORD>
+    <DEFINITION>leave, abandon</DEFINITION>
+    <PART-OF-SPEECH>verb: -ω labial stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Movement</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>431</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>κινέω, κινήσω, ἐκίνησα, κεκίνηκα, κεκίνημαι, ἐκινήθην</HEADWORD>
+    <DEFINITION>set in motion, move, rouse</DEFINITION>
+    <PART-OF-SPEECH>verb: contracted</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Movement</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>171</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>βάλλω, βαλῶ, 2 aor. ἔβαλον, βέβληκα, βέβλημαι, ἐβλήθην</HEADWORD>
+    <DEFINITION>throw, hurl; throw at, hit (acc.) with (dat.)</DEFINITION>
+    <PART-OF-SPEECH>verb: -ω liquid stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Movement</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>403</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>πόνος πόνου, ὁ</HEADWORD>
+    <DEFINITION>work, labor; stress, trouble, pain</DEFINITION>
+    <PART-OF-SPEECH>noun: 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Work and Leisure</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>398</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>πειράω (usually mid. πειράομαι), πειράσομαι, ἐπείρασα, πεπείραμαι, ἐπειράθην</HEADWORD>
+    <DEFINITION>attempt, try, make a trial of (+gen.)</DEFINITION>
+    <PART-OF-SPEECH>verb: contracted</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Work and Leisure</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>401</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ποιέω, ποιήσω, ἐποίησα, πεποίηκα, πεποίημαι, ἐποιήθην</HEADWORD>
+    <DEFINITION>make, produce, cause, do; (mid.) consider, reckon</DEFINITION>
+    <PART-OF-SPEECH>verb: contracted</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Work and Leisure</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>43</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἁλίσκομαι, ἁλώσομαι, 2 aor. ἑάλων, ἑάλωκα</HEADWORD>
+    <DEFINITION>to be taken, conquered (act. supplied by αἱρέω)</DEFINITION>
+    <PART-OF-SPEECH>verb: deponent</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>War and Peace</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>463</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>αἱρέω, αἱρήσω, 2 aor. εἷλον, ᾕρηκα, ᾕρημαι, ᾑρέθην</HEADWORD>
+    <DEFINITION>take, grasp, take by force; (mid.) choose</DEFINITION>
+    <PART-OF-SPEECH>verb: contracted</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Taking and Giving</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>261</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>χράομαι, χρήσομαι, ἐχρησάμην, κέχρημαι, ἐχρήσθην</HEADWORD>
+    <DEFINITION>use, experience, suffer (+dat.); treat someone in a certain way (+dat. and adv.)</DEFINITION>
+    <PART-OF-SPEECH>verb: deponent</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Government and Society</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>104</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>φύω, φύσω, ἔφυσα</HEADWORD>
+    <DEFINITION>bring forth, produce, beget; 2 aor. ἔφυν grew, pf. πέφυκα be by nature</DEFINITION>
+    <PART-OF-SPEECH>verb: -ω vowel stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>World Order</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>90</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>φέρω, οἴσω, 1 aor. ἤνεγκα, 2 aor. ἤνεγκον, ἐνήνοχα, ἐνήνεγμαι, ἠνέχθην</HEADWORD>
+    <DEFINITION>carry, bring, fetch; carry off or away; φέρε come now, well</DEFINITION>
+    <PART-OF-SPEECH>verb: irregular</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Work and Leisure</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>116</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>τίθημι, θήσω, ἔθηκα, τέθηκα, τέθειμαι (but usu. κεῖμαι instead), ἐτέθην</HEADWORD>
+    <DEFINITION>to put, place; establish, ordain, institute; put in a certain state</DEFINITION>
+    <PART-OF-SPEECH>verb: -μι</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Work and Leisure</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>163</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>πράσσω, πράξω, ἔπραξα, πέπραχα, πέπραγμαι, ἐπράχθην</HEADWORD>
+    <DEFINITION>do, achieve, accomplish; do or fare in a certain way (+adv.)</DEFINITION>
+    <PART-OF-SPEECH>verb: -ω dental stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Work and Leisure</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>133</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>πρᾶξις πράξεως, ἡ</HEADWORD>
+    <DEFINITION>action, transaction, business</DEFINITION>
+    <PART-OF-SPEECH>noun: 3rd declension ι-stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Work and Leisure</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>338</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>πορεύω, πορεύσω, ἐπόρευσα, πεπόρευμαι, ἐπορεύθην</HEADWORD>
+    <DEFINITION>carry; (mid. and pass) go, walk, march</DEFINITION>
+    <PART-OF-SPEECH>verb: -ω vowel stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Work and Leisure</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>421</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ὅθεν</HEADWORD>
+    <DEFINITION>from where, whence</DEFINITION>
+    <PART-OF-SPEECH>adverb</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Direction</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>323</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>παρά</HEADWORD>
+    <DEFINITION>from (+gen.); beside (+dat.); to, to the side of, contrary to (+acc.)</DEFINITION>
+    <PART-OF-SPEECH>preposition</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Direction</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>46</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>περί</HEADWORD>
+    <DEFINITION>around, about; concerning (+gen.)</DEFINITION>
+    <PART-OF-SPEECH>preposition</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Direction</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>31</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>εἶτα</HEADWORD>
+    <DEFINITION>then, next</DEFINITION>
+    <PART-OF-SPEECH>adverb</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Conjunctions/Adverbs</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>175</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>μεταξύ</HEADWORD>
+    <DEFINITION>between</DEFINITION>
+    <PART-OF-SPEECH>adverb</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Direction</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>352</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>κατά</HEADWORD>
+    <DEFINITION>down, down (from or along), throughout, according to; κατὰ γῆν by land; κατὰ φύσιν in accordance with nature; κατ’ ἔθνη by nations; καθ᾿ἕνα one by one.</DEFINITION>
+    <PART-OF-SPEECH>preposition</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Direction</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>19</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἐπί</HEADWORD>
+    <DEFINITION>at (+gen.); on (+dat.); on to, against (+acc.)</DEFINITION>
+    <PART-OF-SPEECH>preposition</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Direction</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>18</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἔξω</HEADWORD>
+    <DEFINITION>outside; except</DEFINITION>
+    <PART-OF-SPEECH>adverb</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Direction</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>366</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἐνταῦθα</HEADWORD>
+    <DEFINITION>here, there</DEFINITION>
+    <PART-OF-SPEECH>adverb</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Direction</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>257</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἔνθα</HEADWORD>
+    <DEFINITION>there</DEFINITION>
+    <PART-OF-SPEECH>adverb</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Direction</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>399</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἐναντίος ἐναντία ἐναντίον</HEADWORD>
+    <DEFINITION>opposite, facing; opposing</DEFINITION>
+    <PART-OF-SPEECH>preposition</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Direction</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>162</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>εἰ</HEADWORD>
+    <DEFINITION>if (+indic. or opt.); εἴπερ if indeed</DEFINITION>
+    <PART-OF-SPEECH>conjunction: subordinating</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Conjunctions/Adverbs</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>38</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἐάν (εἰ-ἄν)</HEADWORD>
+    <DEFINITION>if (+subj.)</DEFINITION>
+    <PART-OF-SPEECH>conjunction: subordinating</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Conjunctions/Adverbs</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>24</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>γάρ</HEADWORD>
+    <DEFINITION>for (explanatory), indeed, in fact (confirming)</DEFINITION>
+    <PART-OF-SPEECH>conjunction: coordinating</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Conjunctions/Adverbs</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>12</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ὡς</HEADWORD>
+    <DEFINITION>as, since; (introducing purpose clause) so that (+subj./opt.); (introducing indir. statement) that</DEFINITION>
+    <PART-OF-SPEECH>conjunction: subordinating</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Conjunctions/Adverbs</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>15</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>τοιοῦτος τοιαύτη τοιοῦτο</HEADWORD>
+    <DEFINITION>such, of such a sort</DEFINITION>
+    <PART-OF-SPEECH>adjective: 1st and 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Pronouns/Interrogatives</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>55</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ὑμέτερος ὑμετέρα ὑμέτερον</HEADWORD>
+    <DEFINITION>your, yours (pl.; σός = sg.)</DEFINITION>
+    <PART-OF-SPEECH>adjective: 1st and 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Pronouns/Interrogatives</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>204</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἀλλά</HEADWORD>
+    <DEFINITION>but</DEFINITION>
+    <PART-OF-SPEECH>conjunction: coordinating</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Conjunctions/Adverbs</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>26</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>καί</HEADWORD>
+    <DEFINITION>and, also, even; καί...καί both...and</DEFINITION>
+    <PART-OF-SPEECH>conjunction: coordinating</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Conjunctions/Adverbs</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>3</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἵνα</HEADWORD>
+    <DEFINITION>in order that (conj. +subj. or opt.); where (rel. adv. +indic.)</DEFINITION>
+    <PART-OF-SPEECH>conjunction: subordinating</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Conjunctions/Adverbs</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>125</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἦ</HEADWORD>
+    <DEFINITION>truly (emphasizes what follows)</DEFINITION>
+    <PART-OF-SPEECH>adverb</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Particles</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>240</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>εὖ</HEADWORD>
+    <DEFINITION>well</DEFINITION>
+    <PART-OF-SPEECH>adverb</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Conjunctions/Adverbs</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>286</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἕνεκα</HEADWORD>
+    <DEFINITION>on account of, for the sake of (+gen.)</DEFINITION>
+    <PART-OF-SPEECH>preposition</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Prepositions without Direction</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>275</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>εἴτε…εἴτε</HEADWORD>
+    <DEFINITION>whether…or</DEFINITION>
+    <PART-OF-SPEECH>conjunction: coordinating</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Conjunctions/Adverbs</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>247</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἐλαύνω, ἐλῶ, ἤλασα, -ελήλακα, ἐλήλαμαι, ἠλάθην</HEADWORD>
+    <DEFINITION>drive, set in motion</DEFINITION>
+    <PART-OF-SPEECH>verb: -ω liquid stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Movement</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>455</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἐν</HEADWORD>
+    <DEFINITION>in, among (+dat.)</DEFINITION>
+    <PART-OF-SPEECH>preposition</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Direction</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>8</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>πρός</HEADWORD>
+    <DEFINITION>from the side of, in the presence of (+gen.); near, at, in addition to (+dat.); to, towards, in relation to (+acc.)</DEFINITION>
+    <PART-OF-SPEECH>preposition</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Direction</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>22</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἐκεῖ</HEADWORD>
+    <DEFINITION>there</DEFINITION>
+    <PART-OF-SPEECH>adverb</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Direction</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>368</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ποτε (enclitic)</HEADWORD>
+    <DEFINITION>at some time, ever, in the world</DEFINITION>
+    <PART-OF-SPEECH>particle</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Time</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>124</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>πολλάκις</HEADWORD>
+    <DEFINITION>often</DEFINITION>
+    <PART-OF-SPEECH>adverb</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Time</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>249</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>οὐκέτι</HEADWORD>
+    <DEFINITION>no longer, no more</DEFINITION>
+    <PART-OF-SPEECH>adverb</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Time</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>357</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ὅτε</HEADWORD>
+    <DEFINITION>when, whenever (+indic. or opt.)</DEFINITION>
+    <PART-OF-SPEECH>conjunction</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Time</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>180</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>νῦν, νυνί</HEADWORD>
+    <DEFINITION>now</DEFINITION>
+    <PART-OF-SPEECH>adverb</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Time</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>93</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>μέχρι (+gen.)</HEADWORD>
+    <DEFINITION>until; (prep.) as far as, up to (+gen.)</DEFINITION>
+    <PART-OF-SPEECH>conjunction</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Time</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>213</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>καιρός καιροῦ, ὁ</HEADWORD>
+    <DEFINITION>the right time</DEFINITION>
+    <PART-OF-SPEECH>noun: 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Time</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>228</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἤδη</HEADWORD>
+    <DEFINITION>already, now (of the immediate past); presently (of the immediate future)</DEFINITION>
+    <PART-OF-SPEECH>adverb</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Time</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>128</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἕως</HEADWORD>
+    <DEFINITION>until; while, so long as</DEFINITION>
+    <PART-OF-SPEECH>conjunction</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Time</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>265</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἔτι</HEADWORD>
+    <DEFINITION>still, yet</DEFINITION>
+    <PART-OF-SPEECH>adverb</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Time</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>82</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἔρχομαι, fut. εἶμι or ἐλεύσομαι, 2 aor. ἦλθον, ἐλήλυθα</HEADWORD>
+    <DEFINITION>come, go</DEFINITION>
+    <PART-OF-SPEECH>verb: deponent</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Movement</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>137</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ὕστερος ὑστέρα ὕστερον</HEADWORD>
+    <DEFINITION>coming after, following (+gen.); next, later; (adv.) ὕστερον afterwards</DEFINITION>
+    <PART-OF-SPEECH>adjective: 1st and 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Direction</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>226</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ὑπό</HEADWORD>
+    <DEFINITION>under (+gen., dat.); by (+gen. of personal agent); down under (+acc.)</DEFINITION>
+    <PART-OF-SPEECH>preposition</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Direction</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>42</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἕπομαι ἕψομαι, 2 aor. ἑσπόμην</HEADWORD>
+    <DEFINITION>follow</DEFINITION>
+    <PART-OF-SPEECH>verb: deponent</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Movement</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>298</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>εἶμι, infin. ἰέναι, ptc. ἰών, ἰοῦσα, ἰόν</HEADWORD>
+    <DEFINITION>I will go (fut. of ἔρχομαι)</DEFINITION>
+    <PART-OF-SPEECH>verb: -μι</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Movement</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>221</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>διώκω, διώξομαι, ἐδίωξα, δεδίωχα, ἐδιώχθην</HEADWORD>
+    <DEFINITION>pursue</DEFINITION>
+    <PART-OF-SPEECH>verb: -ω palatal stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Movement</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>475</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>βαίνω, βήσομαι, 2 aor. ἔβην, βέβηκα</HEADWORD>
+    <DEFINITION>walk, come, go</DEFINITION>
+    <PART-OF-SPEECH>verb: -ω liquid stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Movement</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>488</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἀφικνέομαι, ἀφίξομαι, 2 aor. ἀφικόμην, ἀφῖγμαι</HEADWORD>
+    <DEFINITION>come to, arrive at</DEFINITION>
+    <PART-OF-SPEECH>verb: deponent</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Movement</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>316</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>χωρίς</HEADWORD>
+    <DEFINITION>separately, apart; (+gen.) without, separate from</DEFINITION>
+    <PART-OF-SPEECH>adverb</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Direction</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>325</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ὧδε</HEADWORD>
+    <DEFINITION>thus, in this way; hither, here</DEFINITION>
+    <PART-OF-SPEECH>adverb</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Direction</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>460</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἄγω, ἄξω, ἤγαγον, ἦχα, ἦγμαι, ἤχθην</HEADWORD>
+    <DEFINITION>lead, carry, bring; pass (time)</DEFINITION>
+    <PART-OF-SPEECH>verb: -ω palatal stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Movement</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>146</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>αἴρω, ἀρῶ, ἦρα, ἦρκα, ἦρμαι, ἤρθην</HEADWORD>
+    <DEFINITION>take up, lift up; remove</DEFINITION>
+    <PART-OF-SPEECH>verb: -ω palatal stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Movement</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>384</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>προστίθημι, προσθήσω, προσέθηκα, προστέθηκα, προστέθειμαι (but commonly προσκεῖμαι instead), προσετέθην</HEADWORD>
+    <DEFINITION>add; (med.) join</DEFINITION>
+    <PART-OF-SPEECH>verb: -μι</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Taking and Giving</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>263</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ὅστις ἥτις ὅ τι</HEADWORD>
+    <DEFINITION>anyone who, anything which; (in indir. quest.) who, which, what</DEFINITION>
+    <PART-OF-SPEECH>pronoun</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Pronouns/Interrogatives</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>33</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ὅπως</HEADWORD>
+    <DEFINITION>how, as; so that, in order that (+subj. or opt.)</DEFINITION>
+    <PART-OF-SPEECH>conjunction: subordinating</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Conjunctions/Adverbs</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>194</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ὅπου</HEADWORD>
+    <DEFINITION>where, wherever</DEFINITION>
+    <PART-OF-SPEECH>conjunction: subordinating</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Conjunctions/Adverbs</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>407</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ὅμως</HEADWORD>
+    <DEFINITION>nevertheless, all the same, notwithstanding</DEFINITION>
+    <PART-OF-SPEECH>adverb</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Conjunctions/Adverbs</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>427</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ναί</HEADWORD>
+    <DEFINITION>indeed, yes (used in strong affirmation)</DEFINITION>
+    <PART-OF-SPEECH>adverb</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Particles</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>507</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>μήτε...μήτε</HEADWORD>
+    <DEFINITION>neither...nor</DEFINITION>
+    <PART-OF-SPEECH>conjunction: coordinating</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Conjunctions/Adverbs</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>148</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>μηδέ</HEADWORD>
+    <DEFINITION>and not</DEFINITION>
+    <PART-OF-SPEECH>conjunction: coordinating</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Conjunctions/Adverbs</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>166</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>μή</HEADWORD>
+    <DEFINITION>not (marks the negative as subjective or conditional); εἰ μή if not, except</DEFINITION>
+    <PART-OF-SPEECH>conjunction: subordinating</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Conjunctions/Adverbs</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>32</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>μέντοι</HEADWORD>
+    <DEFINITION>however; of course</DEFINITION>
+    <PART-OF-SPEECH>adverb</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Particles</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>202</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>μᾶλλον</HEADWORD>
+    <DEFINITION>more, rather; μᾶλλον...ἤ rather than</DEFINITION>
+    <PART-OF-SPEECH>adverb</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Conjunctions/Adverbs</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>98</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ὑπολαμβάνω, ὑπολήψομαι, ὑπέλαβον, ὑπείληφα, ὑπείλημμαι, ὑπελήφθην</HEADWORD>
+    <DEFINITION>take up, seize; answer, reply; assume, suppose</DEFINITION>
+    <PART-OF-SPEECH>verb: -ω liquid stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>The Mind, Perceiving and Learning</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>416</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>δείκνυμι, δείξω, ἔδειξα, δέδειχα, δέδειγμαι, ἐδείχθην</HEADWORD>
+    <DEFINITION>show, point out</DEFINITION>
+    <PART-OF-SPEECH>verb: -μι</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Showing and Finding</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>159</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἀφαιρέω, ἀφαιρήσω, ἀφεῖλον, ἀφῄρηκα, ἀφῄρημαι, ἀφῃρέθην</HEADWORD>
+    <DEFINITION>take from, take away</DEFINITION>
+    <PART-OF-SPEECH>verb: contracted</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Taking and Giving</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>307</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἀποδίδωμι, ἀποδώσω, ἀπέδωκα, ἀποδέδωκα, ἀποδέδομαι, ἀπεδόθην</HEADWORD>
+    <DEFINITION>give back; render; allow; (mid.) sell</DEFINITION>
+    <PART-OF-SPEECH>verb: -μι</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Taking and Giving</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>281</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>παρέχω, παρέξω, παρέσχον, παρέσχηκα, impf. παρεῖχον</HEADWORD>
+    <DEFINITION>provide</DEFINITION>
+    <PART-OF-SPEECH>verb: -ω palatal stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Taking and Giving</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>232</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>προσήκω προσήξω</HEADWORD>
+    <DEFINITION>belong to, have to do with; be fitting for (+dat.); arrive at; οἱ προσήκοντες relatives; τὰ προσήκoντα duties</DEFINITION>
+    <PART-OF-SPEECH>verb: -ω palatal stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Ethics and Morals</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>353</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἀπαλλάσσω, ἀπαλλάξω, ἀπήλλαξα, ἀπήλλαχα, ἀπήλλαγμαι, ἀπηλλάχθην or ἀπηλλάγην</HEADWORD>
+    <DEFINITION>set free, release, deliver</DEFINITION>
+    <PART-OF-SPEECH>verb: -ω dental stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Help and Safety</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>469</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>φαίνω, φανῶ, ἔφηνα, πέφηνα, πέφασμαι, ἐφάνην</HEADWORD>
+    <DEFINITION>bring to light, make appear, make clear; (pass.) come to light, be seen, appear, appear to be (+ptc. or infin.)</DEFINITION>
+    <PART-OF-SPEECH>verb: -ω liquid stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Showing and Finding</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>114</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>σημεῖον σημείου, τό</HEADWORD>
+    <DEFINITION>sign, signal, mark</DEFINITION>
+    <PART-OF-SPEECH>noun: 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Showing and Finding</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>231</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>σαφής σαφές</HEADWORD>
+    <DEFINITION>clear</DEFINITION>
+    <PART-OF-SPEECH>adjective: 3rd declension -ης, -ες</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Showing and Finding</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>339</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ζητέω, ζητήσω, ἐζήτησα, ἐζήτηκα</HEADWORD>
+    <DEFINITION>seek</DEFINITION>
+    <PART-OF-SPEECH>verb: contracted</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Showing and Finding</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>252</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>δηλόω, δηλώσω, ἐδήλωσα, δεδήλωκα, ἐδηλώθην</HEADWORD>
+    <DEFINITION>show, declare, explain</DEFINITION>
+    <PART-OF-SPEECH>verb: contracted</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Showing and Finding</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>234</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>δῆλος δήλη δῆλον</HEADWORD>
+    <DEFINITION>visible, clear, manifest</DEFINITION>
+    <PART-OF-SPEECH>adjective: 1st and 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Showing and Finding</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>241</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>εὑρίσκω, εὑρήσω, 2 aor. ηὗρον or εὗρον, ηὕρηκα or εὕρηκα, εὕρημαι, εὑρέθην</HEADWORD>
+    <DEFINITION>find (out), discover, devise</DEFINITION>
+    <PART-OF-SPEECH>verb: -ω palatal stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Showing and Finding</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>135</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>μάλιστα</HEADWORD>
+    <DEFINITION>most, most of all; (in replies) certainly</DEFINITION>
+    <PART-OF-SPEECH>adverb</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Conjunctions/Adverbs</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>120</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>κἄν (καὶ-ἄν)</HEADWORD>
+    <DEFINITION>even if (+subj.)</DEFINITION>
+    <PART-OF-SPEECH>conjunction: subordinating</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Conjunctions/Adverbs</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>268</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>καίτοι (καί-τοι)</HEADWORD>
+    <DEFINITION>and indeed, and yet</DEFINITION>
+    <PART-OF-SPEECH>adverb</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Particles</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>347</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>τοιόσδε τοιάδε τοιόνδε</HEADWORD>
+    <DEFINITION>such (as this), of such a sort (as this)</DEFINITION>
+    <PART-OF-SPEECH>adjective: 1st and 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Pronouns/Interrogatives</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>443</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>τίς τί</HEADWORD>
+    <DEFINITION>who? what? which? (interrog. pron./adj.)</DEFINITION>
+    <PART-OF-SPEECH>pronoun</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Pronouns/Interrogatives</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>5</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>σύ, σοῦ, (pl.) ὑμεῖς, ὑμῶν</HEADWORD>
+    <DEFINITION>you</DEFINITION>
+    <PART-OF-SPEECH>pronoun</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Pronouns/Interrogatives</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>35</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>σός σή σόν</HEADWORD>
+    <DEFINITION>your, yours (sg.; ὑμέτερος = pl.)</DEFINITION>
+    <PART-OF-SPEECH>adjective: 1st and 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Pronouns/Interrogatives</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>141</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>πού</HEADWORD>
+    <DEFINITION>where?</DEFINITION>
+    <PART-OF-SPEECH>adverb</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Pronouns/Interrogatives</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>322</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ποῖος ποία ποῖον</HEADWORD>
+    <DEFINITION>what sort of?</DEFINITION>
+    <PART-OF-SPEECH>adjective: 1st and 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Pronouns/Interrogatives</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>413</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>οὗτος αὕτη τοῦτο</HEADWORD>
+    <DEFINITION>this, these; μετὰ ταῦτα after this</DEFINITION>
+    <PART-OF-SPEECH>pronoun</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Pronouns/Interrogatives</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>7</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>οὐδείς οὐδεμία οὐδέν</HEADWORD>
+    <DEFINITION>no one, nothing</DEFINITION>
+    <PART-OF-SPEECH>pronoun</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Pronouns/Interrogatives</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>56</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>πότερος ποτέρα πότερον</HEADWORD>
+    <DEFINITION>which of the two? πότερον whether</DEFINITION>
+    <PART-OF-SPEECH>adjective: 1st and 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Pronouns/Interrogatives</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>387</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>μάλα</HEADWORD>
+    <DEFINITION>very, very much</DEFINITION>
+    <PART-OF-SPEECH>adverb</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Conjunctions/Adverbs</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>471</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>οὐ, οὐκ, οὐχ</HEADWORD>
+    <DEFINITION>not (with indicative verbs)</DEFINITION>
+    <PART-OF-SPEECH>adverb</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Conjunctions/Adverbs</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>13</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ὅτι</HEADWORD>
+    <DEFINITION>because, that; (with superl.) as...as possible</DEFINITION>
+    <PART-OF-SPEECH>conjunction: subordinating</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Conjunctions/Adverbs</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>37</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>τοίνυν (τοί-νυν)</HEADWORD>
+    <DEFINITION>therefore, accordingly (inferential); further, moreover (transitional)</DEFINITION>
+    <PART-OF-SPEECH>adverb</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Particles</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>242</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>τε</HEADWORD>
+    <DEFINITION>and; τε…τε both…and</DEFINITION>
+    <PART-OF-SPEECH>conjunction: coordinating</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Conjunctions/Adverbs</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>16</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ὅταν (ὄτε-ἄν)</HEADWORD>
+    <DEFINITION>whenever (+subj.)</DEFINITION>
+    <PART-OF-SPEECH>conjunction: subordinating</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Conjunctions/Adverbs</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>108</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>πάνυ</HEADWORD>
+    <DEFINITION>altogether, entirely</DEFINITION>
+    <PART-OF-SPEECH>adverb</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Conjunctions/Adverbs</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>285</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>πάντως</HEADWORD>
+    <DEFINITION>altogether, in all ways; at any rate</DEFINITION>
+    <PART-OF-SPEECH>adverb</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Conjunctions/Adverbs</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>420</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>οὕτως</HEADWORD>
+    <DEFINITION>in this way</DEFINITION>
+    <PART-OF-SPEECH>adverb</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Conjunctions/Adverbs</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>47</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>οὔτε...οὔτε</HEADWORD>
+    <DEFINITION>neither...nor</DEFINITION>
+    <PART-OF-SPEECH>conjunction: coordinating</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Conjunctions/Adverbs</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>68</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>οὖν</HEADWORD>
+    <DEFINITION>therefore, accordingly; at any rate</DEFINITION>
+    <PART-OF-SPEECH>adverb</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Particles</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>44</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>οὐκοῦν</HEADWORD>
+    <DEFINITION>surely then (inviting assent to an inference)</DEFINITION>
+    <PART-OF-SPEECH>adverb</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Particles</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>477</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>οὐδέ</HEADWORD>
+    <DEFINITION>and not, but not, nor; οὐδέ...οὐδέ not even...nor yet</DEFINITION>
+    <PART-OF-SPEECH>conjunction: coordinating</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Conjunctions/Adverbs</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>53</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἐγώ ἐμοῦ, (pl.) ἡμεῖς, ἡμῶν</HEADWORD>
+    <DEFINITION>I, we</DEFINITION>
+    <PART-OF-SPEECH>pronoun</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Pronouns/Interrogatives</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>20</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἕκαστος ἑκάστη ἕκαστον</HEADWORD>
+    <DEFINITION>each (of several)</DEFINITION>
+    <PART-OF-SPEECH>pronoun</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Pronouns/Interrogatives</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>88</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἆρα</HEADWORD>
+    <DEFINITION>[introduces a question]</DEFINITION>
+    <PART-OF-SPEECH>adverb</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Particles</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>474</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>γε</HEADWORD>
+    <DEFINITION>(enclitic) indeed; at least, at any rate</DEFINITION>
+    <PART-OF-SPEECH>adverb</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Particles</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>59</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἑαυτοῦ ἑαυτῆς ἑαυτοῦ</HEADWORD>
+    <DEFINITION>him- her- itself (reflexive pron.)</DEFINITION>
+    <PART-OF-SPEECH>pronoun</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Pronouns/Interrogatives</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>51</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>αὐτός αὐτή αὐτό</HEADWORD>
+    <DEFINITION>him- her- itself etc. (for emphasis); the same (with article); (pron.) him, her, it etc. (in oblique cases)</DEFINITION>
+    <PART-OF-SPEECH>adjective: 1st and 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Pronouns/Interrogatives</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>2</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>συμφέρω, συνοίσω, 1 aor. συνήνεγκα</HEADWORD>
+    <DEFINITION>benefit, be useful or profitable to (+dat.); (impers.) συμφέρει it is of use, expedient (+infin.); τὸ συμφέρον use, profit, advantage</DEFINITION>
+    <PART-OF-SPEECH>verb: irregular</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Help and Safety</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>408</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἄλλως</HEADWORD>
+    <DEFINITION>otherwise</DEFINITION>
+    <PART-OF-SPEECH>adverb</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Pronouns/Interrogatives</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>337</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἄλλος ἄλλη ἄλλο</HEADWORD>
+    <DEFINITION>other, another; (in attributive position) one another, each other</DEFINITION>
+    <PART-OF-SPEECH>adjective: 1st and 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Pronouns/Interrogatives</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>39</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἀλλήλων –οις</HEADWORD>
+    <DEFINITION>(oblique cases plural only) one another, each other</DEFINITION>
+    <PART-OF-SPEECH>pronoun</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Pronouns/Interrogatives</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>150</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>σωτηρία σωτηρίας, ἡ</HEADWORD>
+    <DEFINITION>safety, deliverance</DEFINITION>
+    <PART-OF-SPEECH>noun: 1st declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Help and Safety</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>473</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>δέ</HEADWORD>
+    <DEFINITION>and; but</DEFINITION>
+    <PART-OF-SPEECH>conjunction: coordinating</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Particles</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>4</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>δή</HEADWORD>
+    <DEFINITION>surely, really, now, in fact, indeed (gives greater exactness)</DEFINITION>
+    <PART-OF-SPEECH>adverb</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Particles</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>60</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ὦ</HEADWORD>
+    <DEFINITION>oh! (unemphatic when with the vocative)</DEFINITION>
+    <PART-OF-SPEECH>interjection</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Particles</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>112</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ὥσπερ</HEADWORD>
+    <DEFINITION>just as, as if</DEFINITION>
+    <PART-OF-SPEECH>conjunction: subordinating</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Conjunctions/Adverbs</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>80</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ὥστε</HEADWORD>
+    <DEFINITION>(introducing natural or actual result clause) so as, so that, (with the result) that</DEFINITION>
+    <PART-OF-SPEECH>conjunction: subordinating</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Conjunctions/Adverbs</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>86</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἄνευ</HEADWORD>
+    <DEFINITION>without (+gen.)</DEFINITION>
+    <PART-OF-SPEECH>preposition</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Prepositions without direction</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>387</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ὑπέρ</HEADWORD>
+    <DEFINITION>for (+gen), beyond (+acc.)</DEFINITION>
+    <PART-OF-SPEECH>preposition</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Prepositions without Direction</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>127</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>διά</HEADWORD>
+    <DEFINITION>through, during, because of (+gen., acc.)</DEFINITION>
+    <PART-OF-SPEECH>preposition</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Prepositions without Direction</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>25</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>μετά</HEADWORD>
+    <DEFINITION>with (+gen.); after (+acc.)</DEFINITION>
+    <PART-OF-SPEECH>preposition</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Prepositions without Direction</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>50</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>πλήν</HEADWORD>
+    <DEFINITION>(prep.) except (+gen.); (conj.) except that, unless, but</DEFINITION>
+    <PART-OF-SPEECH>preposition</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Prepositions without Direction</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>301</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>περ</HEADWORD>
+    <DEFINITION>[enclitic added to pronouns and other particles for emphasis]</DEFINITION>
+    <PART-OF-SPEECH>adverb</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Particles</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>489</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>μήν</HEADWORD>
+    <DEFINITION>[emphasizes preceding particle]</DEFINITION>
+    <PART-OF-SPEECH>adverb</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Particles</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>157</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>μέν...δέ</HEADWORD>
+    <DEFINITION>on the one hand...on the other hand (often untranslated); μέν (by itself) indeed</DEFINITION>
+    <PART-OF-SPEECH>conjunction: coordinating</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Particles</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>9</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ὅδε ἥδε τόδε</HEADWORD>
+    <DEFINITION>this</DEFINITION>
+    <PART-OF-SPEECH>pronoun</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Pronouns/Interrogatives</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>99</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>σῴζω, σώσω, ἔσωσα, σέσωκα, ἐσώθην</HEADWORD>
+    <DEFINITION>save</DEFINITION>
+    <PART-OF-SPEECH>verb: -ω dental stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Help and Safety</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>272</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἱκανός –ή –όν</HEADWORD>
+    <DEFINITION>sufficient, enough; competent, able to (+infin.)</DEFINITION>
+    <PART-OF-SPEECH>adjective: 1st and 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Help and Safety</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>317</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>βοηθέω, βοηθήσω, ἐβοήθησα, βεβοήθηκα</HEADWORD>
+    <DEFINITION>help, assist (+dat.)</DEFINITION>
+    <PART-OF-SPEECH>verb: contracted</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Help and Safety</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>467</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>παραδίδωμι, παραδώσω, παρέδωκα, παραδέδωκα, παραδέδομαι, παρεδόθην</HEADWORD>
+    <DEFINITION>transmit, hand over, surrender</DEFINITION>
+    <PART-OF-SPEECH>verb: -μι</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Taking and Giving</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>365</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>λαμβάνω, λήψομαι, ἔλαβον, εἴληφα, εἴλημμαι, ἐλήφθην</HEADWORD>
+    <DEFINITION>take, grasp, seize; receive, get</DEFINITION>
+    <PART-OF-SPEECH>verb: -ω liquid stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Taking and Giving</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>70</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>κτάομαι, κτήσομαι, ἐκτησάμην, κέκτημαι</HEADWORD>
+    <DEFINITION>get, gain, acquire</DEFINITION>
+    <PART-OF-SPEECH>verb: deponent</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Taking and Giving</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>430</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>κατασκευάζω, κατασκευάσω, κατεσκεύασα</HEADWORD>
+    <DEFINITION>equip, furnish, make ready</DEFINITION>
+    <PART-OF-SPEECH>verb: -ω dental stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Work and Leisure</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>392</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>καταλαμβάνω, καταλήψομαι, κατέλαβον, κατείληφα, κατείλημμαι, κατελήφθην</HEADWORD>
+    <DEFINITION>seize, catch up with, arrest, compel</DEFINITION>
+    <PART-OF-SPEECH>verb: -ω liquid stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>War and Peace</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>376</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>δίδωμι, δώσω, ἔδωκα, δέδωκα, δέδομαι, ἐδόθην</HEADWORD>
+    <DEFINITION>give, grant, offer</DEFINITION>
+    <PART-OF-SPEECH>verb: -μι</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Taking and Giving</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>81</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>δέω, δεήσω, ἐδέησα, δεδέηκα, δεδέημαι, ἐδεήθην</HEADWORD>
+    <DEFINITION>lack, miss, stand in need of (+gen.)</DEFINITION>
+    <PART-OF-SPEECH>verb: contracted</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Taking and Giving</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>64</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἀφίημι, ἀφήσω, ἀφῆκα, ἀφεῖκα, ἀφεῖμαι, ἀφείθην</HEADWORD>
+    <DEFINITION>send away, let go; let alone, neglect</DEFINITION>
+    <PART-OF-SPEECH>verb: -μι</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Taking and Giving</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>336</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>κομίζω, κομιῶ, ἐκόμισα, κεκόμικα, κεκόμισμαι, ἐκομίσθην</HEADWORD>
+    <DEFINITION>take care of, provide for</DEFINITION>
+    <PART-OF-SPEECH>verb: -ω dental stem</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Help and Safety</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>436</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἐμός ἐμή ἐμόν</HEADWORD>
+    <DEFINITION>my, mine</DEFINITION>
+    <PART-OF-SPEECH>adjective: 1st and 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Pronouns/Interrogatives</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>103</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἕτερος ἑτέρα ἕτερον</HEADWORD>
+    <DEFINITION>the other (of two); other, another</DEFINITION>
+    <PART-OF-SPEECH>adjective: 1st and 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Pronouns/Interrogatives</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>72</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἑκάτερος ἑκατέρα ἑκάτερον</HEADWORD>
+    <DEFINITION>each (of two)</DEFINITION>
+    <PART-OF-SPEECH>pronoun</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Pronouns/Interrogatives</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>233</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἐκεῖνος ἐκείνη ἐκεῖνον</HEADWORD>
+    <DEFINITION>that person or thing; ἐκεῖνος…οὗτος the former…the latter</DEFINITION>
+    <PART-OF-SPEECH>pronoun</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Pronouns/Interrogatives</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>54</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ὅσπερ ἥπερ ὅπερ</HEADWORD>
+    <DEFINITION>the very one who, the very thing which</DEFINITION>
+    <PART-OF-SPEECH>pronoun</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Pronouns/Interrogatives</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>173</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ὅσος ὅση ὅσον</HEADWORD>
+    <DEFINITION>however much; as great as; (in pl.) as many as; ὅσον (adv.) as much as</DEFINITION>
+    <PART-OF-SPEECH>adjective: 1st and 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Pronouns/Interrogatives</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>76</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ὅς ἥ ὅ</HEADWORD>
+    <DEFINITION>who, which, that</DEFINITION>
+    <PART-OF-SPEECH>pronoun</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Pronouns/Interrogatives</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>11</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>οἷος οἵα οἷον</HEADWORD>
+    <DEFINITION>such as, of what sort, like, (exclam.) what a!, how! ; οἷός τε (+infin.) fit or able to; οἷόν τε (+infin.) it is possible to</DEFINITION>
+    <PART-OF-SPEECH>adjective: 1st and 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Pronouns/Interrogatives</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>69</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ὁ ἡ τό</HEADWORD>
+    <DEFINITION>the</DEFINITION>
+    <PART-OF-SPEECH>definite article</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Pronouns/Interrogatives</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>1</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>μηδείς μηδεμία μηδέν</HEADWORD>
+    <DEFINITION>no one, nothing</DEFINITION>
+    <PART-OF-SPEECH>pronoun</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Pronouns/Interrogatives</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>118</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἴδιος ἰδία ἴδιον</HEADWORD>
+    <DEFINITION>one’s own; peculiar, separate, distinct</DEFINITION>
+    <PART-OF-SPEECH>adjective: 1st and 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Pronouns/Interrogatives</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>140</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἡμέτερος ἡμετέρα ἡμέτρον</HEADWORD>
+    <DEFINITION>our</DEFINITION>
+    <PART-OF-SPEECH>adjective: 1st and 2nd declension</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Pronouns/Interrogatives</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>450</FREQUENCY-RANK>
+  </node>
+  <node>
+    <HEADWORD>ἄν</HEADWORD>
+    <DEFINITION>[marks verbs as potential (with optative), or generalizing (with subjunctive)]</DEFINITION>
+    <PART-OF-SPEECH>adverb</PART-OF-SPEECH>
+    <SEMANTIC-GROUP>Particles</SEMANTIC-GROUP>
+    <FREQUENCY-RANK>34</FREQUENCY-RANK>
+  </node>
+</nodes>
