@@ -7,7 +7,7 @@ from django.shortcuts import render, redirect
 
 from .base import Survey, MultiPageSurvey, TwoChoiceQuiz, LikertQuiz
 
-from learning_greek.language_data.models import NounCumulativeCount, NounCaseNumberGender
+from learning_greek.language_data.models import NounCumulativeCount, NounCaseNumberGender, DickinsonCoreList
 
 
 class SuggestionBox(Survey):
@@ -232,6 +232,33 @@ class NounFamiliarity(LikertQuiz):
         while len(questions) < 10:
             value = random.randint(1, 28239)
             noun = NounCumulativeCount.get_value(value)
+            if noun not in questions:
+                questions.append(noun)
+        
+        return questions
+
+
+class DCCNounFamiliarity(LikertQuiz):
+    
+    title = "Noun Familiarity (DCC Core List)"
+    description = "do you know the meaning of the given nouns?"
+    
+    repeatable = True
+    
+    scale = [
+        "I definitely don't know it",
+        "I don't think I know it",
+        "I'm not sure if I know it or not",
+        "I think I know it",
+        "I definitely know it",
+    ]
+    
+    def construct_quiz(self):
+        
+        questions = []
+        
+        while len(questions) < 10:
+            noun = DickinsonCoreList.objects.filter(pos="noun").order_by("?")[0].lemma
             if noun not in questions:
                 questions.append(noun)
         

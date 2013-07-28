@@ -202,4 +202,5 @@ ACTIVITIES = {
     "suggestion-box": SuggestionBox,
     "letter-familiarity": LetterFamiliarity,
     "noun-inflection": NounInflectionQuiz,
+    "dcc-noun-familiar": DCCNounFamiliarity,
 }
