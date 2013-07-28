@@ -1222,7 +1222,7 @@
     <HEADWORD>φρονέω, φρονήσω, ἐφρόνησα</HEADWORD>
     <DEFINITION>think, intend to (+infin.); be minded towards (+adv. and dat.)</DEFINITION>
     <PART-OF-SPEECH>verb: contracted</PART-OF-SPEECH>
-    <SEMANTIC-GROUP>The Mind, Perceiving and Learning </SEMANTIC-GROUP>
+    <SEMANTIC-GROUP>The Mind, Perceiving and Learning</SEMANTIC-GROUP>
     <FREQUENCY-RANK>442</FREQUENCY-RANK>
   </node>
   <node>
@@ -1320,7 +1320,7 @@
     <HEADWORD>πυνθάνομαι, πεύσομαι, 2 aor. ἐπυθόμην, πέπυσμαι</HEADWORD>
     <DEFINITION>learn, hear, inquire concerning (+gen.)</DEFINITION>
     <PART-OF-SPEECH>verb: deponent</PART-OF-SPEECH>
-    <SEMANTIC-GROUP>The Mind, Perceiving and Learning </SEMANTIC-GROUP>
+    <SEMANTIC-GROUP>The Mind, Perceiving and Learning</SEMANTIC-GROUP>
     <FREQUENCY-RANK>409</FREQUENCY-RANK>
   </node>
   <node>
@@ -1446,49 +1446,49 @@
     <HEADWORD>ἡγέομαι, ἡγήσομαι, ἡγησάμην, ἥγημαι</HEADWORD>
     <DEFINITION>lead, be the leader; regard, believe, think</DEFINITION>
     <PART-OF-SPEECH>verb: deponent</PART-OF-SPEECH>
-    <SEMANTIC-GROUP>The Mind, Perceiving and Learning </SEMANTIC-GROUP>
+    <SEMANTIC-GROUP>The Mind, Perceiving and Learning</SEMANTIC-GROUP>
     <FREQUENCY-RANK>238</FREQUENCY-RANK>
   </node>
   <node>
     <HEADWORD>μανθάνω, μαθήσομαι, ἔμαθον, μεμάθηκα</HEADWORD>
     <DEFINITION>learn, ascertain</DEFINITION>
     <PART-OF-SPEECH>verb: -ω liquid stem</PART-OF-SPEECH>
-    <SEMANTIC-GROUP>The Mind, Perceiving and Learning </SEMANTIC-GROUP>
+    <SEMANTIC-GROUP>The Mind, Perceiving and Learning</SEMANTIC-GROUP>
     <FREQUENCY-RANK>256</FREQUENCY-RANK>
   </node>
   <node>
     <HEADWORD>μιμνήσκω, -μνήσω, -έμνησα, pf. μέμνημαι, ἐμνήσθην</HEADWORD>
     <DEFINITION>remind; (in pf. mid.) remember</DEFINITION>
     <PART-OF-SPEECH>verb: -ω palatal stem</PART-OF-SPEECH>
-    <SEMANTIC-GROUP>The Mind, Perceiving and Learning </SEMANTIC-GROUP>
+    <SEMANTIC-GROUP>The Mind, Perceiving and Learning</SEMANTIC-GROUP>
     <FREQUENCY-RANK>377</FREQUENCY-RANK>
   </node>
   <node>
     <HEADWORD>νομίζω, νομιῶ, ἐνόμισα, νενόμικα, νενόμισμαι, ἐνομίσθην</HEADWORD>
     <DEFINITION>think, believe that (+acc. and infin.); hold as a custom, be accustomed to (+infin.)</DEFINITION>
     <PART-OF-SPEECH>verb: -ω dental stem</PART-OF-SPEECH>
-    <SEMANTIC-GROUP>The Mind, Perceiving and Learning </SEMANTIC-GROUP>
+    <SEMANTIC-GROUP>The Mind, Perceiving and Learning</SEMANTIC-GROUP>
     <FREQUENCY-RANK>197</FREQUENCY-RANK>
   </node>
   <node>
     <HEADWORD>νοῦς (νόος), νοῦ (νόου), ὁ</HEADWORD>
     <DEFINITION>mind, perception, sense</DEFINITION>
     <PART-OF-SPEECH>noun: 2nd declension</PART-OF-SPEECH>
-    <SEMANTIC-GROUP>The Mind, Perceiving and Learning </SEMANTIC-GROUP>
+    <SEMANTIC-GROUP>The Mind, Perceiving and Learning</SEMANTIC-GROUP>
     <FREQUENCY-RANK>281</FREQUENCY-RANK>
   </node>
   <node>
     <HEADWORD>οἶδα, infin. εἰδέναι, imper. ἴσθι, plupf. used as impf. ᾔδειν</HEADWORD>
     <DEFINITION>to know (pf. in pres. sense); to know how to (+infin.)</DEFINITION>
     <PART-OF-SPEECH>verb: irregular</PART-OF-SPEECH>
-    <SEMANTIC-GROUP>The Mind, Perceiving and Learning </SEMANTIC-GROUP>
+    <SEMANTIC-GROUP>The Mind, Perceiving and Learning</SEMANTIC-GROUP>
     <FREQUENCY-RANK>110</FREQUENCY-RANK>
   </node>
   <node>
     <HEADWORD>οἴομαι or οἶμαι, οἰήσομαι, impf. ᾤμην, aor. ᾠήθην</HEADWORD>
     <DEFINITION>think, suppose, imagine (+acc. and infin.)</DEFINITION>
     <PART-OF-SPEECH>verb: deponent</PART-OF-SPEECH>
-    <SEMANTIC-GROUP>The Mind, Perceiving and Learning </SEMANTIC-GROUP>
+    <SEMANTIC-GROUP>The Mind, Perceiving and Learning</SEMANTIC-GROUP>
     <FREQUENCY-RANK>170</FREQUENCY-RANK>
   </node>
   <node>
@@ -1782,7 +1782,7 @@
     <HEADWORD>ἐλάσσων ἔλασσον</HEADWORD>
     <DEFINITION>smaller, less, fewer (comp. of μικρός)</DEFINITION>
     <PART-OF-SPEECH>adjective: 3rd declension -ων, -ον</PART-OF-SPEECH>
-    <SEMANTIC-GROUP>Measurement and Numerals</SEMANTIC-GROUP>
+    <SEMANTIC-GROUP>Measurements and Numerals</SEMANTIC-GROUP>
     <FREQUENCY-RANK>217</FREQUENCY-RANK>
   </node>
   <node>
@@ -1810,7 +1810,7 @@
     <HEADWORD>τοσοῦτος –αύτη –οῦτο(ν)</HEADWORD>
     <DEFINITION>so large, so much</DEFINITION>
     <PART-OF-SPEECH>adjective: 1st and 2nd declension</PART-OF-SPEECH>
-    <SEMANTIC-GROUP>Measurement and Numerals</SEMANTIC-GROUP>
+    <SEMANTIC-GROUP>Measurements and Numerals</SEMANTIC-GROUP>
     <FREQUENCY-RANK>174</FREQUENCY-RANK>
   </node>
   <node>
@@ -1859,7 +1859,7 @@
     <HEADWORD>μόνος μόνη μόνον</HEADWORD>
     <DEFINITION>alone, single</DEFINITION>
     <PART-OF-SPEECH>adjective: 1st and 2nd declension</PART-OF-SPEECH>
-    <SEMANTIC-GROUP>Measurement and Numerals</SEMANTIC-GROUP>
+    <SEMANTIC-GROUP>Measurements and Numerals</SEMANTIC-GROUP>
     <FREQUENCY-RANK>67</FREQUENCY-RANK>
   </node>
   <node>
@@ -1873,56 +1873,56 @@
     <HEADWORD>μυρίος μυρία μυρίον</HEADWORD>
     <DEFINITION>countless; μύριοι 10,000; μυριάς -άδος ἡ 10,000, a countless amount</DEFINITION>
     <PART-OF-SPEECH>adjective: 1st and 2nd declension</PART-OF-SPEECH>
-    <SEMANTIC-GROUP>Measurement and Numerals</SEMANTIC-GROUP>
+    <SEMANTIC-GROUP>Measurements and Numerals</SEMANTIC-GROUP>
     <FREQUENCY-RANK>485</FREQUENCY-RANK>
   </node>
   <node>
     <HEADWORD>ὀλίγος ὀλίγη ὀλίγον</HEADWORD>
     <DEFINITION>little, small, few</DEFINITION>
     <PART-OF-SPEECH>adjective: 1st and 2nd declension</PART-OF-SPEECH>
-    <SEMANTIC-GROUP>Measurement and Numerals</SEMANTIC-GROUP>
+    <SEMANTIC-GROUP>Measurements and Numerals</SEMANTIC-GROUP>
     <FREQUENCY-RANK>167</FREQUENCY-RANK>
   </node>
   <node>
     <HEADWORD>ὅλος ὅλη ὅλον</HEADWORD>
     <DEFINITION>whole, entire, complete</DEFINITION>
     <PART-OF-SPEECH>adjective: 1st and 2nd declension</PART-OF-SPEECH>
-    <SEMANTIC-GROUP>Measurement and Numerals</SEMANTIC-GROUP>
+    <SEMANTIC-GROUP>Measurements and Numerals</SEMANTIC-GROUP>
     <FREQUENCY-RANK>100</FREQUENCY-RANK>
   </node>
   <node>
     <HEADWORD>ὀρθός –ή –όν</HEADWORD>
     <DEFINITION>upright, straight, true, regular</DEFINITION>
     <PART-OF-SPEECH>adjective: 1st and 2nd declension</PART-OF-SPEECH>
-    <SEMANTIC-GROUP>Measurement and Numerals</SEMANTIC-GROUP>
+    <SEMANTIC-GROUP>Measurements and Numerals</SEMANTIC-GROUP>
     <FREQUENCY-RANK>210</FREQUENCY-RANK>
   </node>
   <node>
     <HEADWORD>πᾶς πᾶσα πᾶν</HEADWORD>
     <DEFINITION>every, all; whole (with article)</DEFINITION>
     <PART-OF-SPEECH>noun: 3rd declension irregular</PART-OF-SPEECH>
-    <SEMANTIC-GROUP>Measurement and Numerals</SEMANTIC-GROUP>
+    <SEMANTIC-GROUP>Measurements and Numerals</SEMANTIC-GROUP>
     <FREQUENCY-RANK>27</FREQUENCY-RANK>
   </node>
   <node>
     <HEADWORD>πλεῖστος πλείστη πλεῖστον</HEADWORD>
     <DEFINITION>most, greatest, largest (superl. of πολύς)</DEFINITION>
     <PART-OF-SPEECH>adjective: 1st and 2nd declension</PART-OF-SPEECH>
-    <SEMANTIC-GROUP>Measurement and Numerals</SEMANTIC-GROUP>
+    <SEMANTIC-GROUP>Measurements and Numerals</SEMANTIC-GROUP>
     <FREQUENCY-RANK>192</FREQUENCY-RANK>
   </node>
   <node>
     <HEADWORD>πλέων πλέον</HEADWORD>
     <DEFINITION>more, larger (comp. of πολύς)</DEFINITION>
     <PART-OF-SPEECH>adjective: 3rd declension -ων, -ον</PART-OF-SPEECH>
-    <SEMANTIC-GROUP>Measurement and Numerals</SEMANTIC-GROUP>
+    <SEMANTIC-GROUP>Measurements and Numerals</SEMANTIC-GROUP>
     <FREQUENCY-RANK>347</FREQUENCY-RANK>
   </node>
   <node>
     <HEADWORD>μικρός –ά –όν</HEADWORD>
     <DEFINITION>small, little, short</DEFINITION>
     <PART-OF-SPEECH>adjective: 1st and 2nd declension</PART-OF-SPEECH>
-    <SEMANTIC-GROUP>Measurement and Numerals</SEMANTIC-GROUP>
+    <SEMANTIC-GROUP>Measurements and Numerals</SEMANTIC-GROUP>
     <FREQUENCY-RANK>84</FREQUENCY-RANK>
   </node>
   <node>
@@ -2020,14 +2020,14 @@
     <HEADWORD>μέσος μέση μέσον</HEADWORD>
     <DEFINITION>middle, in the middle, moderate; τὸ μέσον midst</DEFINITION>
     <PART-OF-SPEECH>adjective: 1st and 2nd declension</PART-OF-SPEECH>
-    <SEMANTIC-GROUP>Measurement and Numerals</SEMANTIC-GROUP>
+    <SEMANTIC-GROUP>Measurements and Numerals</SEMANTIC-GROUP>
     <FREQUENCY-RANK>149</FREQUENCY-RANK>
   </node>
   <node>
     <HEADWORD>εὐθύς εὐθεῖα εὐθύ</HEADWORD>
     <DEFINITION>straight, direct; (adv.) immediately</DEFINITION>
     <PART-OF-SPEECH>adjective: -ύς, -εῖα, -ύ</PART-OF-SPEECH>
-    <SEMANTIC-GROUP>Measurement and Numerals</SEMANTIC-GROUP>
+    <SEMANTIC-GROUP>Measurements and Numerals</SEMANTIC-GROUP>
     <FREQUENCY-RANK>220</FREQUENCY-RANK>
   </node>
   <node>
@@ -2097,14 +2097,14 @@
     <HEADWORD>στάδιον σταδίου, τό (pl. στάδια and στάδιοι)</HEADWORD>
     <DEFINITION>stadion or stade, the longest Greek unit of linear measure, about 185 meters</DEFINITION>
     <PART-OF-SPEECH>noun: 2nd declension</PART-OF-SPEECH>
-    <SEMANTIC-GROUP>Measurement and Numerals</SEMANTIC-GROUP>
+    <SEMANTIC-GROUP>Measurements and Numerals</SEMANTIC-GROUP>
     <FREQUENCY-RANK>441</FREQUENCY-RANK>
   </node>
   <node>
     <HEADWORD>σχῆμα σχήματος, τό</HEADWORD>
     <DEFINITION>form, figure, appearance, character</DEFINITION>
     <PART-OF-SPEECH>noun: 3rd declension consonant stem</PART-OF-SPEECH>
-    <SEMANTIC-GROUP>Measurement and Numerals</SEMANTIC-GROUP>
+    <SEMANTIC-GROUP>Measurements and Numerals</SEMANTIC-GROUP>
     <FREQUENCY-RANK>254</FREQUENCY-RANK>
   </node>
   <node>
@@ -2125,7 +2125,7 @@
     <HEADWORD>ἴσος ἴση ἴσον</HEADWORD>
     <DEFINITION>equal, the same as (+dat.)</DEFINITION>
     <PART-OF-SPEECH>adjective: 1st and 2nd declension</PART-OF-SPEECH>
-    <SEMANTIC-GROUP>Measurement and Numerals</SEMANTIC-GROUP>
+    <SEMANTIC-GROUP>Measurements and Numerals</SEMANTIC-GROUP>
     <FREQUENCY-RANK>107</FREQUENCY-RANK>
   </node>
   <node>
@@ -2139,63 +2139,63 @@
     <HEADWORD>κύκλος κύκλου, ὁ</HEADWORD>
     <DEFINITION>circle, ring, orb, disc, circular motion</DEFINITION>
     <PART-OF-SPEECH>noun: 2nd declension</PART-OF-SPEECH>
-    <SEMANTIC-GROUP>Measurement and Numerals</SEMANTIC-GROUP>
+    <SEMANTIC-GROUP>Measurements and Numerals</SEMANTIC-GROUP>
     <FREQUENCY-RANK>199</FREQUENCY-RANK>
   </node>
   <node>
     <HEADWORD>λοιπός –ή –όν</HEADWORD>
     <DEFINITION>rest, remaining, rest-of-the</DEFINITION>
     <PART-OF-SPEECH>adjective: 1st and 2nd declension</PART-OF-SPEECH>
-    <SEMANTIC-GROUP>Measurement and Numerals</SEMANTIC-GROUP>
+    <SEMANTIC-GROUP>Measurements and Numerals</SEMANTIC-GROUP>
     <FREQUENCY-RANK>181</FREQUENCY-RANK>
   </node>
   <node>
     <HEADWORD>μακρός –ά –όν</HEADWORD>
     <DEFINITION>long, tall, large, long-lasting</DEFINITION>
     <PART-OF-SPEECH>adjective: 1st and 2nd declension</PART-OF-SPEECH>
-    <SEMANTIC-GROUP>Measurement and Numerals</SEMANTIC-GROUP>
+    <SEMANTIC-GROUP>Measurements and Numerals</SEMANTIC-GROUP>
     <FREQUENCY-RANK>289</FREQUENCY-RANK>
   </node>
   <node>
     <HEADWORD>μέγας μεγάλη μέγα</HEADWORD>
     <DEFINITION>big, great, powerful</DEFINITION>
     <PART-OF-SPEECH>adjective: 1st and 2nd declension</PART-OF-SPEECH>
-    <SEMANTIC-GROUP>Measurement and Numerals</SEMANTIC-GROUP>
+    <SEMANTIC-GROUP>Measurements and Numerals</SEMANTIC-GROUP>
     <FREQUENCY-RANK>52</FREQUENCY-RANK>
   </node>
   <node>
     <HEADWORD>μέγεθος μεγέθους, τό</HEADWORD>
     <DEFINITION>greatness, size, magnitude</DEFINITION>
     <PART-OF-SPEECH>noun: 3rd declension σ-stem</PART-OF-SPEECH>
-    <SEMANTIC-GROUP>Measurement and Numerals</SEMANTIC-GROUP>
+    <SEMANTIC-GROUP>Measurements and Numerals</SEMANTIC-GROUP>
     <FREQUENCY-RANK>246</FREQUENCY-RANK>
   </node>
   <node>
     <HEADWORD>μέρος μέρους, τό</HEADWORD>
     <DEFINITION>part, share</DEFINITION>
     <PART-OF-SPEECH>noun: 3rd declension σ-stem</PART-OF-SPEECH>
-    <SEMANTIC-GROUP>Measurement and Numerals</SEMANTIC-GROUP>
+    <SEMANTIC-GROUP>Measurements and Numerals</SEMANTIC-GROUP>
     <FREQUENCY-RANK>101</FREQUENCY-RANK>
   </node>
   <node>
     <HEADWORD>πλέον</HEADWORD>
     <DEFINITION>more, rather</DEFINITION>
     <PART-OF-SPEECH>adverb</PART-OF-SPEECH>
-    <SEMANTIC-GROUP>Measurement and Numerals</SEMANTIC-GROUP>
+    <SEMANTIC-GROUP>Measurements and Numerals</SEMANTIC-GROUP>
     <FREQUENCY-RANK>347</FREQUENCY-RANK>
   </node>
   <node>
     <HEADWORD>πολύς πολλή πολύ</HEADWORD>
     <DEFINITION>much, many; ὡς ἐπὶ τὸ πολύ for the most part</DEFINITION>
     <PART-OF-SPEECH>noun: 3rd declension irregular</PART-OF-SPEECH>
-    <SEMANTIC-GROUP>Measurement and Numerals</SEMANTIC-GROUP>
+    <SEMANTIC-GROUP>Measurements and Numerals</SEMANTIC-GROUP>
     <FREQUENCY-RANK>30</FREQUENCY-RANK>
   </node>
   <node>
     <HEADWORD>πρῶτος πρώτη πρῶτον</HEADWORD>
     <DEFINITION>first, foremost, earliest; (adv.) τὸ πρῶτον in the first place</DEFINITION>
     <PART-OF-SPEECH>adjective: 1st and 2nd declension</PART-OF-SPEECH>
-    <SEMANTIC-GROUP>Measurement and Numerals</SEMANTIC-GROUP>
+    <SEMANTIC-GROUP>Measurements and Numerals</SEMANTIC-GROUP>
     <FREQUENCY-RANK>134</FREQUENCY-RANK>
   </node>
   <node>
@@ -3364,7 +3364,7 @@
     <HEADWORD>ἄνευ</HEADWORD>
     <DEFINITION>without (+gen.)</DEFINITION>
     <PART-OF-SPEECH>preposition</PART-OF-SPEECH>
-    <SEMANTIC-GROUP>Prepositions without direction</SEMANTIC-GROUP>
+    <SEMANTIC-GROUP>Prepositions without Direction</SEMANTIC-GROUP>
     <FREQUENCY-RANK>387</FREQUENCY-RANK>
   </node>
   <node>
