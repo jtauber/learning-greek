@@ -50,3 +50,23 @@ def import_nouncng(filename):
             lemma, cng = line.strip().split()
             case, number, gender = cng
             NounCaseNumberGender(lemma=lemma, case=case, number=number, gender=gender).save()
+
+
+class DickinsonCoreList(models.Model):
+    
+    lemma = models.CharField(max_length=50)
+    headword = models.TextField()
+    definition = models.TextField()
+    pos = models.CharField(max_length=20)
+    pos_detail = models.CharField(max_length=50)
+    semantic_group = models.CharField(max_length=50)
+
+
+def import_dcc_core_list(filename):
+    count = 0
+    with open(filename) as f:
+        for line in f:
+            lemma, headword, definition, pos, pos_detail, semantic_group = line.strip().split("|")
+            DickinsonCoreList(lemma=lemma, headword=headword, definition=definition, pos=pos, pos_detail=pos_detail, semantic_group=semantic_group).save()
+            count += 1
+    print count
