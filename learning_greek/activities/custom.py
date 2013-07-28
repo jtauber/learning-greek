@@ -5,7 +5,7 @@ import random
 from django import forms
 from django.shortcuts import render, redirect
 
-from .base import Survey, MultiPageSurvey, TwoChoiceQuiz, LikertQuiz
+from .base import Survey, TwoChoiceQuiz, LikertQuiz
 
 from learning_greek.language_data.models import NounCumulativeCount, NounCaseNumberGender, DickinsonCoreList
 
