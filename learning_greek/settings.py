@@ -204,4 +204,5 @@ ACTIVITIES = {
     "letter-familiarity": "learning_greek.activities.custom.LetterFamiliarity",
     "noun-inflection": "learning_greek.activities.custom.NounInflectionQuiz",
     "dcc-noun-familiar": "learning_greek.activities.custom.DCCNounFamiliarity",
+    "lowercase-alphabet-order": "learning_greek.activities.custom.LowerCaseAlphabetOrderQuiz",
 }

@@ -402,3 +402,78 @@ class NounInflectionQuiz(object):
             "num_questions": len(data["questions"]),
             "question": question,
         })
+
+
+class LowerCaseAlphabetOrderQuiz(object):
+    
+    title = "Lower Case Alphabet Order Quiz"
+    description = "what letter goes between the given two in the Greek alphabet?"
+    
+    repeatable = True
+
+    def __init__(self, activity_state):
+        
+        self.activity_state = activity_state
+        
+        if not self.activity_state.data:
+            self.activity_state.data = {"questions": self.construct_quiz()}
+            self.activity_state.save()
+        elif not self.activity_state.data.get("questions"):
+            self.activity_state.data["questions"] = self.construct_quiz()
+            self.activity_state.save()
+    
+    def construct_quiz(self):
+        questions = []
+        letters = ["(start)"] + list(u"αβγδεζηθικλμνξοπρστυφχψω") + ["(end)"]
+        
+        while len(questions) < 10:
+            
+            n = random.randint(1, 24)
+            before, answer, after = letters[n - 1: n + 2]
+            other_choice = random.choice(list(set(u"αβγδεζηθικλμνξοπρστυφχψω") - set([before, answer, after])))
+            left, right = random.sample([answer, other_choice], 2)
+            
+            if before not in [question["before"] for question in questions]:
+                questions.append(dict(before=before, left=left, right=right, after=after))
+        
+        return questions
+    
+    def handle_request(self, request):
+        
+        data = self.activity_state.data
+        
+        if not data:
+            data = {"question_number": 0}
+        elif not data.get("question_number"):
+            data["question_number"] = 0
+        elif data["question_number"] == len(data["questions"]):
+            # done
+            return redirect("dashboard")  # @@@
+        
+        question = data["questions"][data["question_number"]]
+        
+        if request.method == "POST":
+            if request.POST.get("question_number") == str(data["question_number"] + 1):
+                answer = request.POST.get("answer")
+                
+                if answer in ["left", "right"]:
+                    self.activity_state.data.update({"answer_%d" % data["question_number"]: answer})
+                    self.activity_state.data.update({"question_number": data["question_number"] + 1})
+                    
+                    if data["question_number"] == len(data["questions"]):
+                        self.activity_state.mark_completed()
+                        
+                        return redirect("dashboard")
+                    else:
+                        self.activity_state.save()
+                        
+                        return redirect("activity_play", self.activity_state.activity_slug)
+        
+        return render(request, "activities/order_quiz.html", {
+            "title": self.title,
+            "description": self.description,
+            "help_text": getattr(self, "help_text", None),
+            "question_number": data["question_number"] + 1,
+            "num_questions": len(data["questions"]),
+            "question": question,
+        })
