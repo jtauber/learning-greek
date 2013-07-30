@@ -77,7 +77,9 @@ class MultiPageSurvey(Survey):
         })
 
 
-class TwoChoiceQuiz(object):
+class Quiz(object):
+    
+    extra_context = {}
     
     def __init__(self, activity_state):
         
@@ -108,7 +110,7 @@ class TwoChoiceQuiz(object):
             if request.POST.get("question_number") == str(data["question_number"] + 1):
                 answer = request.POST.get("answer")
                 
-                if answer in ["left", "right"]:
+                if answer in self.valid_answer:
                     self.activity_state.data.update({"answer_%d" % data["question_number"]: answer})
                     self.activity_state.data.update({"question_number": data["question_number"] + 1})
                     
@@ -121,66 +123,30 @@ class TwoChoiceQuiz(object):
                         
                         return redirect("activity_play", self.activity_state.activity_slug)
         
-        return render(request, "activities/two_choice_quiz.html", {
+        ctx = {
             "title": self.title,
             "description": self.description,
             "help_text": getattr(self, "help_text", None),
             "question_number": data["question_number"] + 1,
             "num_questions": len(data["questions"]),
             "question": question,
-        })
+        }
+        ctx.update(self.extra_context)
+        
+        return render(request, self.template_name, ctx)
 
 
-class LikertQuiz(object):
+class TwoChoiceQuiz(Quiz):
     
-    def __init__(self, activity_state):
-        
-        self.activity_state = activity_state
-        
-        if not self.activity_state.data:
-            self.activity_state.data = {"questions": self.construct_quiz()}
-            self.activity_state.save()
-        elif not self.activity_state.data.get("questions"):
-            self.activity_state.data["questions"] = self.construct_quiz()
-            self.activity_state.save()
+    template_name = "activities/two_choice_quiz.html"
+    valid_answer = ["left", "right"]
+
+
+class LikertQuiz(Quiz):
     
-    def handle_request(self, request):
-        
-        data = self.activity_state.data
-        
-        if not data:
-            data = {"question_number": 0}
-        elif not data.get("question_number"):
-            data["question_number"] = 0
-        elif data["question_number"] == len(data["questions"]):
-            # done
-            return redirect("dashboard")  # @@@
-        
-        question = data["questions"][data["question_number"]]
-        
-        if request.method == "POST":
-            if request.POST.get("question_number") == str(data["question_number"] + 1):
-                answer = request.POST.get("answer")
-                
-                if answer in ["1", "2", "3", "4", "5"]:
-                    self.activity_state.data.update({"answer_%d" % data["question_number"]: answer})
-                    self.activity_state.data.update({"question_number": data["question_number"] + 1})
-                    
-                    if data["question_number"] == len(data["questions"]):
-                        self.activity_state.mark_completed()
-                        
-                        return redirect("dashboard")
-                    else:
-                        self.activity_state.save()
-                        
-                        return redirect("activity_play", self.activity_state.activity_slug)
-        
-        return render(request, "activities/likert_quiz.html", {
-            "title": self.title,
-            "description": self.description,
-            "scale": self.scale,
-            "help_text": getattr(self, "help_text", None),
-            "question_number": data["question_number"] + 1,
-            "num_questions": len(data["questions"]),
-            "question": question,
-        })
+    template_name = "activities/likert_quiz.html"
+    valid_answer = ["1", "2", "3", "4", "5"]
+    
+    @property
+    def extra_context(self):
+        return {"scale": self.scale}
