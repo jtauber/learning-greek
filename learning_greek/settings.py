@@ -1,5 +1,6 @@
 import os
 
+import dj_database_url
 
 PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), os.pardir))
 PACKAGE_ROOT = os.path.abspath(os.path.dirname(__file__))
@@ -14,11 +15,7 @@ ADMINS = [
 MANAGERS = ADMINS
 
 DATABASES = {
-    "default": {
-        "ENGINE": "django.db.backends.postgresql_psycopg2",
-        "NAME": "learning_greek",
-        "HOST": "localhost",
-    }
+    "default": dj_database_url.config(env="GONDOR_DATABASE_URL", default="postgres://localhost/learning_greek"),
 }
 
 # Local time zone for this installation. Choices can be found here:

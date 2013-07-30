@@ -8,3 +8,7 @@ django-jsonfield==0.9.4
 
 psycopg2==2.5.1
 nashvegas==0.8b1
+
+dj-database-url==0.2.2
+gondor==1.2.4
+gunicorn==17.5
