@@ -7,7 +7,7 @@ from django.views.decorators.http import require_POST
 
 from eventlog.models import log
 
-from .models import ActivityState, get_activity_state, availability
+from .models import ActivityState, get_activity_state, availability, load_path_attr
 from .signals import activity_start as activity_start_signal, activity_play as activity_play_signal
 
 
@@ -15,10 +15,12 @@ from .signals import activity_start as activity_start_signal, activity_play as a
 @login_required
 def activity_start(request, slug):
     
-    Activity = settings.ACTIVITIES.get(slug)
+    activity_class_path = settings.ACTIVITIES.get(slug)
     
-    if Activity is None:
+    if activity_class_path is None:
         raise Http404
+    
+    Activity = load_path_attr(activity_class_path)
     
     available, num_completions = availability(request.user, slug)
     if not available:
@@ -54,10 +56,12 @@ def activity_start(request, slug):
 @login_required
 def activity_play(request, slug):
     
-    Activity = settings.ACTIVITIES.get(slug)
+    activity_class_path = settings.ACTIVITIES.get(slug)
     
-    if Activity is None:
+    if activity_class_path is None:
         raise Http404
+    
+    Activity = load_path_attr(activity_class_path)
     
     activity_state = get_activity_state(request.user, slug)
     

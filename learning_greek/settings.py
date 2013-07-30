@@ -190,18 +190,16 @@ AUTHENTICATION_BACKENDS = [
 
 NASHVEGAS_MIGRATIONS_DIRECTORY = os.path.join(PROJECT_ROOT, "migrations")
 
-from learning_greek.activities.custom import *
-
 ACTIVITIES = {
-    "demographic": DemographicSurvey,
-    "uppercase": UpperCaseQuiz,
-    "lowercase": LowerCaseQuiz,
-    "spoken-languages": SpokenLanguagesSurvey,
-    "goals": GoalsSurvey,
-    "noun-familiarity": NounFamiliarity,
-    "previous-greek-knowledge": PreviousGreekKnowledge,
-    "suggestion-box": SuggestionBox,
-    "letter-familiarity": LetterFamiliarity,
-    "noun-inflection": NounInflectionQuiz,
-    "dcc-noun-familiar": DCCNounFamiliarity,
+    "demographic": "learning_greek.activities.custom.DemographicSurvey",
+    "uppercase": "learning_greek.activities.custom.UpperCaseQuiz",
+    "lowercase": "learning_greek.activities.custom.LowerCaseQuiz",
+    "spoken-languages": "learning_greek.activities.custom.SpokenLanguagesSurvey",
+    "goals": "learning_greek.activities.custom.GoalsSurvey",
+    "noun-familiarity": "learning_greek.activities.custom.NounFamiliarity",
+    "previous-greek-knowledge": "learning_greek.activities.custom.PreviousGreekKnowledge",
+    "suggestion-box": "learning_greek.activities.custom.SuggestionBox",
+    "letter-familiarity": "learning_greek.activities.custom.LetterFamiliarity",
+    "noun-inflection": "learning_greek.activities.custom.NounInflectionQuiz",
+    "dcc-noun-familiar": "learning_greek.activities.custom.DCCNounFamiliarity",
 }

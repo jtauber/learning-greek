@@ -1,6 +1,7 @@
 from django.conf import settings
+from django.core.exceptions import ImproperlyConfigured
 from django.db import models
-from django.utils import timezone
+from django.utils import importlib, timezone
 
 from django.contrib.auth.models import User
 
@@ -134,6 +135,20 @@ def availability(user, activity_slug):
     return available, num_completions
 
 
+def load_path_attr(path):
+    i = path.rfind(".")
+    module, attr = path[:i], path[i+1:]
+    try:
+        mod = importlib.import_module(module)
+    except ImportError, e:
+        raise ImproperlyConfigured("Error importing %s: '%s'" % (module, e))
+    try:
+        attr = getattr(mod, attr)
+    except AttributeError:
+        raise ImproperlyConfigured("Module '%s' does not define a '%s'" % (module, attr))
+    return attr
+
+
 def get_activities(user):
     
     activities = {
@@ -144,7 +159,8 @@ def get_activities(user):
         "unavailable": [],
     }
     
-    for slug, activity in settings.ACTIVITIES.items():
+    for slug, activity_class_path in settings.ACTIVITIES.items():
+        activity = load_path_attr(activity_class_path)
         state = get_activity_state(user, slug)
         activity_entry = {
             "slug": slug,
