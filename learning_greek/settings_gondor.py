@@ -10,6 +10,10 @@ SITE_ID = 2
 MEDIA_ROOT = os.path.join(os.environ["GONDOR_DATA_DIR"], "site_media", "media")
 STATIC_ROOT = os.path.join(os.environ["GONDOR_DATA_DIR"], "site_media", "static")
 
+ALLOWED_HOSTS = [
+    "cb443.gondor.co",
+]
+
 LOGGING = {
     "version": 1,
     "disable_existing_loggers": False,
