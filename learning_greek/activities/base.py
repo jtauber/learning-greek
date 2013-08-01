@@ -150,3 +150,68 @@ class LikertQuiz(Quiz):
     @property
     def extra_context(self):
         return {"scale": self.scale}
+
+
+class QuizWithAnswers(Quiz):
+    
+    def handle_request(self, request):
+        
+        data = self.activity_state.data
+        
+        if not data:
+            data = {"question_number": 0}
+        elif not data.get("question_number"):
+            data["question_number"] = 0
+        elif data["question_number"] == len(data["questions"]):
+            # done
+            return redirect("dashboard")  # @@@
+        
+        question = data["questions"][data["question_number"]]
+        
+        if data["question_number"] > 0:
+            previous_question = data["questions"][data["question_number"] - 1]
+            previous_answer = data["answer_%d" % (data["question_number"] - 1)]
+            if previous_answer == "left":
+                previous_answer = previous_question[1][0]
+            elif previous_answer == "right":
+                previous_answer = previous_question[1][1]
+        else:
+            previous_question = None
+            previous_answer = None
+        
+        if request.method == "POST":
+            if request.POST.get("question_number") == str(data["question_number"] + 1):
+                answer = request.POST.get("answer")
+                
+                if answer in self.valid_answer:
+                    self.activity_state.data.update({"answer_%d" % data["question_number"]: answer})
+                    self.activity_state.data.update({"question_number": data["question_number"] + 1})
+                    
+                    if data["question_number"] == len(data["questions"]):
+                        self.activity_state.mark_completed()
+                        
+                        return redirect("dashboard")
+                    else:
+                        self.activity_state.save()
+                        
+                        return redirect("activity_play", self.activity_state.activity_slug)
+        
+        ctx = {
+            "title": self.title,
+            "description": self.description,
+            "help_text": getattr(self, "help_text", None),
+            "question_number": data["question_number"] + 1,
+            "num_questions": len(data["questions"]),
+            "question": question,
+            "previous_question": previous_question,
+            "previous_answer": previous_answer,
+        }
+        ctx.update(self.extra_context)
+        
+        return render(request, self.template_name, ctx)
+
+
+class TwoChoiceWithAnswersQuiz(QuizWithAnswers):
+    
+    template_name = "activities/two_choice_with_answers_quiz.html"
+    valid_answer = ["left", "right"]

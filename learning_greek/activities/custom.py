@@ -4,7 +4,7 @@ import random
 
 from django import forms
 
-from .base import Survey, Quiz, TwoChoiceQuiz, LikertQuiz
+from .base import Survey, Quiz, TwoChoiceQuiz, TwoChoiceWithAnswersQuiz, LikertQuiz
 
 from learning_greek.language_data.models import NounCumulativeCount, NounCaseNumberGender, DickinsonCoreList
 
@@ -186,6 +186,27 @@ class UpperCaseQuiz(TwoChoiceQuiz):
             question = random.choice(choices)
             if question not in [item[0] for item in questions]:
                 questions.append((question, [choice.upper() for choice in choices]))
+        
+        return questions
+
+
+class UpperCaseWithAnswersQuiz(TwoChoiceWithAnswersQuiz):
+    
+    title = "Upper Case (with answers)"
+    description = "given a lower-case letter, what's the upper-case equivalent"
+    
+    repeatable = True
+    
+    def construct_quiz(self):
+        
+        questions = []
+        letters = u"αβγδεζηθικλμνξοπρστυφχψω"
+        
+        while len(questions) < 10:
+            choices = random.sample(letters, 2)
+            question = random.choice(choices)
+            if question not in [item[0] for item in questions]:
+                questions.append((question, [choice.upper() for choice in choices], question.upper()))
         
         return questions
 
