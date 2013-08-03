@@ -67,6 +67,18 @@ class ActivityState(models.Model):
         return occurrence
     
     @property
+    def last_completed(self):
+        completed = ActivityOccurrenceState.objects.filter(
+            user=self.user,
+            activity_slug=self.activity_slug,
+            completed__isnull=False
+        ).order_by("-started")
+        if completed:
+            return completed[0]
+        else:
+            return None
+    
+    @property
     def all_occurrences(self):
         return ActivityOccurrenceState.objects.filter(
             user=self.user,

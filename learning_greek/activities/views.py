@@ -8,7 +8,7 @@ from django.views.decorators.http import require_POST
 from eventlog.models import log
 
 from .models import ActivityState, get_activity_state, availability, load_path_attr
-from .signals import activity_start as activity_start_signal, activity_play as activity_play_signal
+from .signals import activity_start as activity_start_signal, activity_play as activity_play_signal, activity_completed as activity_completed_signal
 
 
 @require_POST
@@ -81,3 +81,47 @@ def activity_play(request, slug):
     
     activity_play_signal.send(sender=request.user, slug=slug, activity_occurrence_state=activity_state.latest, request=request)
     return activity.handle_request(request)
+
+
+@login_required
+def activity_completed(request, slug):
+
+    activity_class_path = settings.ACTIVITIES.get(slug)
+    
+    if activity_class_path is None:
+        raise Http404
+    
+    Activity = load_path_attr(activity_class_path)
+    
+    activity_state = get_activity_state(request.user, slug)
+    
+    if activity_state is None:
+        log(
+            user=request.user,
+            action="ACTIVITY_ERROR",
+            extra={
+                "error": "not started",
+                "slug": slug,
+            }
+        )
+        # @@@ user message
+        return redirect("dashboard")
+    
+    last_completed = activity_state.last_completed
+    
+    if last_completed is None:
+        log(
+            user=request.user,
+            action="ACTIVITY_ERROR",
+            extra={
+                "error": "not completed",
+                "slug": slug,
+            }
+        )
+        # @@@ user message
+        return redirect("dashboard")
+    
+    activity = Activity(last_completed)
+    
+    activity_completed_signal.send(sender=request.user, slug=slug, activity_occurrence_state=last_completed, request=request)
+    return activity.completed(request)
