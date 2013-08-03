@@ -1,0 +1,36 @@
+{% extends "site_base.html" %}
+
+{% load bootstrap_tags %}
+
+{% block head_title %}{{ title }}{% endblock %}
+
+{% block body_class %}two-choice-quiz{% endblock %}
+
+{% block body %}
+    <div class="row">
+        <div class="span8 offset2">
+            <header>
+                <h1>{{ title }} <span class="question-number">COMPLETED</span></h1>
+                <div class="description">{{ description }}</div>
+            </header>
+            
+            <table class="results-table">
+                {% for question,answer in results %}
+                    <tr>
+                        <td class="question">{{ question.0 }}</td>
+                        <td class="answer">{{ question.2 }}</td>
+                        <td>
+                            {% if answer == question.2 %}
+                                <span class="correct">Correct!</span>
+                            {% else %}
+                                <span class="incorrect">You said {{ answer }}</span>
+                            {% endif %}
+                        </td>
+                    </tr>
+                {% endfor %}
+            </table>
+            
+            <div class="activity-return"><a href="{% url 'dashboard' %}" class="btn">Return to Activity List</a></div>
+        </div>
+    </div>
+{% endblock %}

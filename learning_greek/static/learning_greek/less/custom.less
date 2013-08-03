@@ -94,6 +94,32 @@ body.two-choice-quiz, body.two-choice-quiz-variant, body.likert-quiz {
             font-weight: 300;
         }
     }
+    .results-table {
+        .table;
+        .span(8);
+        .offset(2);
+        .question, .answer {
+            font-size: @fontSizeLarge;
+        }
+        .correct {
+            color: @green;
+        }
+        .incorrect {
+            color: @red;
+        }
+    }
+    .result {
+        .correct {
+            color: @green;
+        }
+        .incorrect {
+            color: @red;
+        }
+    }
+    .activity-return {
+        text-align: center;
+        margin-top: 100px;
+    }
 }
 
 body.two-choice-quiz, body.likert-quiz {
