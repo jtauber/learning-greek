@@ -16,6 +16,7 @@ urlpatterns = patterns("",
     url(r"^account/", include("account.urls")),
     
     url(r"^activity/", include("learning_greek.activities.urls")),
+    url(r"^staff/", include("learning_greek.staff.urls")),
     
     url(r"^dashboard/", "learning_greek.views.dashboard", name="dashboard"),
 )

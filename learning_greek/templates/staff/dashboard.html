@@ -1,0 +1,28 @@
+{% extends "site_base.html" %}
+
+{% block head_title %}researching how to improve the way people learn Koine Greek{% endblock %}
+
+{% block body_class %}dashboard{% endblock %}
+
+{% block body %}
+    
+    <div class="row counts-row">
+        <div class="count span4">Users<br><span class="number">{{ users.count }}</span></div>
+        <div class="count span4">Activity States<br><span class="number">{{ activity_states.count }}</span></div>
+        <div class="count span4">Activity Occurrences States<br><span class="number">{{ activity_occurrence_states.count }}</span></div>
+    </div>
+    
+    <h2>Activities</h2>
+    
+    <table class="table table-striped table-condensed">
+        {% for activity in activities %}
+            <tr>
+                <td>{{ activity.slug }}</td>
+                <td>{{ activity.activity }}</td>
+                <td>{{ activity.activity_states.count }}</td>
+                <td>{{ activity.activity_occurrence_states.count }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+
+{% endblock %}
