@@ -8,6 +8,7 @@
             <li><a href="{% url "account_settings" %}"><i class="icon-user"></i> {% trans "Settings" %}</a></li>
             {% if request.user.is_staff %}
                 <li><a href="{% url THEME_ADMIN_URL|default:"admin:index" %}"><i class="icon-cog"></i> {% trans "Admin" %}</a></li>
+                <li><a href="{% url 'staff_dashboard' %}"><i class="icon-cog"></i> Staff Dashboard</a></li>
             {% endif %}
             <li>
                 <a id="account_logout" href="{% url "account_logout" %}"><i class="icon-off"></i> {% trans "Log out" %}</a>
