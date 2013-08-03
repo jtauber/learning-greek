@@ -174,11 +174,17 @@ def get_activities(user):
     for slug, activity_class_path in settings.ACTIVITIES.items():
         activity = load_path_attr(activity_class_path)
         state = get_activity_state(user, slug)
+        user_num_completions = ActivityOccurrenceState.objects.filter(
+            user=user,
+            activity_slug=slug,
+            completed__isnull=False
+        ).count()
         activity_entry = {
             "slug": slug,
             "title": activity.title,
             "description": activity.description,
             "state": state,
+            "user_num_completions": user_num_completions,
             "repeatable": activity.repeatable,
         }
         if state:

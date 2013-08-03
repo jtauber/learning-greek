@@ -1,5 +1,5 @@
 <div class="dashboard-activity{% if activity.unavailable %} muted{% endif %}">
-    <div class="pull-right clearfix">
+    <div class="pull-right clearfix" style="text-align: right;">
         {% if activity.state %}
             {% if activity.state.in_progress %}
                 <a class="btn btn-mini" href="{% url 'activity_play' activity.slug %}">continue</a>
@@ -8,6 +8,7 @@
                     {% csrf_token %}
                     <button class="btn btn-mini">repeat</button>
                 </form>
+                <div class="repetitions">done {{ activity.user_num_completions }} time{{ activity.user_num_completions|pluralize }} before</div>
             {% else %}
                 COMPLETED
             {% endif %}
