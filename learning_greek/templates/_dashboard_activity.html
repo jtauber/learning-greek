@@ -24,7 +24,7 @@
     </div>
     <h3>{{ activity.title }}</h3>
     <div class="description">{{ activity.description }}</div>
-    {% if debug_mode %}
+    {% if debug_mode and user.is_staff %}
         {% if activity.state %}
             <pre>{{ activity.state.data }}</pre>
             {% for occurrence in activity.state.all_occurrences %}

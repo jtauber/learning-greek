@@ -54,7 +54,7 @@ def dashboard(request):
         else:
             return render(request, "intro_dashboard_blurb.html")
     
-    debug_mode = request.GET.get("debug") is not None
+    debug_mode = (request.GET.get("debug") is not None) and request.user.is_staff
     activities = get_activities(request.user)
     
     return render(request, "dashboard.html", {
