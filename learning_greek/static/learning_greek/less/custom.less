@@ -193,9 +193,11 @@ body.dashboard {
     }
     .dashboard-activity {
         margin: 0 0 10px 0px;
-        border: 1px solid #CCC;
+        // border: 1px solid #CCC;
         border-radius: 4px;
-        padding: 5px 6px;
+        padding: 6px 8px;
+        background-color: lighten(@red, 20%);
+        color: #FFF;
         h3 {
             font-size: 26px;
             line-height: 24px;
@@ -203,7 +205,7 @@ body.dashboard {
             margin: 0;
         }
         .description {
-            .muted;
+            color: #FFF;
             font-weight: 300;
         }
         pre {
@@ -216,9 +218,13 @@ body.dashboard {
             margin: 0;
         }
         .repetitions {
-            .muted;
+            color: #FFF;
             font-size: 12px;
         }
+    }
+    .dashboard-activity:hover {
+        background-color: lighten(@red, 10%);
+        cursor: pointer;
     }
 }
 

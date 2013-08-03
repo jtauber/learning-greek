@@ -4,21 +4,12 @@
             {% if activity.state.in_progress %}
                 <a class="btn btn-mini" href="{% url 'activity_play' activity.slug %}">continue</a>
             {% elif activity.repeatable %}
-                <form action="{% url 'activity_start' activity.slug %}" method="post">
-                    {% csrf_token %}
-                    <button class="btn btn-mini">repeat</button>
-                </form>
                 <div class="repetitions">done {{ activity.user_num_completions }} time{{ activity.user_num_completions|pluralize }} before</div>
             {% else %}
                 COMPLETED
             {% endif %}
         {% elif activity.unavailable %}
             {{ activity.num_completions }} completion{{ activity.num_completions|pluralize }}
-        {% else %}
-            <form action="{% url 'activity_start' activity.slug %}" method="post">
-                {% csrf_token %}
-                <button class="btn btn-mini">start</button>
-            </form>
         {% endif %}
     </div>
     <h3>{{ activity.title }}</h3>
