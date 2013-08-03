@@ -19,7 +19,7 @@ def staff_dashboard(request):
         activity_occurrence_states = ActivityOccurrenceState.objects.filter(activity_slug=slug)
         activities.append({
             "slug": slug,
-            "activity": activity,
+            "title": activity.title,
             "activity_states": activity_states,
             "activity_occurrence_states": activity_occurrence_states,
         })
