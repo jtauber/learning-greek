@@ -11,7 +11,7 @@ MEDIA_ROOT = os.path.join(os.environ["GONDOR_DATA_DIR"], "site_media", "media")
 STATIC_ROOT = os.path.join(os.environ["GONDOR_DATA_DIR"], "site_media", "static")
 
 ALLOWED_HOSTS = [
-    "cb443.gondor.co",
+    "cb443.gondor.co", "oxlos.com",
 ]
 
 LOGGING = {
