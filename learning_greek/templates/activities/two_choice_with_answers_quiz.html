@@ -14,17 +14,19 @@
                 <div class="description">{{ description }}</div>
             </header>
             
-            {% if previous_answer == previous_question.2 %}
-                Correct!
-                {{ previous_question.0 }}
-                is
-                {{ previous_question.2 }}
-            {% else %}
-                Sorry, 
-                {{ previous_question.0 }}
-                is
-                {{ previous_question.2 }}
-                (you said {{ previous_answer }})
+            {% if previous_question %}
+                {% if previous_answer == previous_question.2 %}
+                    Correct!
+                    {{ previous_question.0 }}
+                    is
+                    {{ previous_question.2 }}
+                {% else %}
+                    Sorry, 
+                    {{ previous_question.0 }}
+                    is
+                    {{ previous_question.2 }}
+                    (you said {{ previous_answer }})
+                {% endif %}
             {% endif %}
             
             <form method="post" action=".">
