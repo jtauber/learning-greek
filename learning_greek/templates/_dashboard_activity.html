@@ -1,18 +1,16 @@
 <div class="dashboard-activity{% if activity.unavailable %} muted{% endif %}">
     <div class="pull-right clearfix">
         {% if activity.state %}
-            <p>
-                {% if activity.state.in_progress %}
-                    <a class="btn btn-mini" href="{% url 'activity_play' activity.slug %}">continue</a>
-                {% elif activity.repeatable %}
-                    <form action="{% url 'activity_start' activity.slug %}" method="post">
-                        {% csrf_token %}
-                        <button class="btn btn-mini">repeat</button>
-                    </form>
-                {% else %}
-                    COMPLETED
-                {% endif %}
-            </p>
+            {% if activity.state.in_progress %}
+                <a class="btn btn-mini" href="{% url 'activity_play' activity.slug %}">continue</a>
+            {% elif activity.repeatable %}
+                <form action="{% url 'activity_start' activity.slug %}" method="post">
+                    {% csrf_token %}
+                    <button class="btn btn-mini">repeat</button>
+                </form>
+            {% else %}
+                COMPLETED
+            {% endif %}
         {% elif activity.unavailable %}
             {{ activity.num_completions }} completion{{ activity.num_completions|pluralize }}
         {% else %}
