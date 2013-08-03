@@ -3,7 +3,7 @@
 from django.shortcuts import redirect, render
 
 
-from learning_greek.activities.forms import SurveyForm
+from .forms import SurveyForm
 
 
 class Survey(object):

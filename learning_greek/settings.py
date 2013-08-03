@@ -135,8 +135,10 @@ INSTALLED_APPS = [
     "nashvegas",
     
     # project
+    "oxlos.activities",
+    "oxlos.staff",
+    
     "learning_greek",
-    "learning_greek.activities",
     "learning_greek.language_data",
 ]
 
@@ -193,17 +195,17 @@ AUTHENTICATION_BACKENDS = [
 NASHVEGAS_MIGRATIONS_DIRECTORY = os.path.join(PROJECT_ROOT, "migrations")
 
 ACTIVITIES = {
-    "demographic": "learning_greek.activities.custom.DemographicSurvey",
-    "uppercase": "learning_greek.activities.custom.UpperCaseQuiz",
-    "lowercase": "learning_greek.activities.custom.LowerCaseQuiz",
-    "spoken-languages": "learning_greek.activities.custom.SpokenLanguagesSurvey",
-    "goals": "learning_greek.activities.custom.GoalsSurvey",
-    "noun-familiarity": "learning_greek.activities.custom.NounFamiliarity",
-    "previous-greek-knowledge": "learning_greek.activities.custom.PreviousGreekKnowledge",
-    "suggestion-box": "learning_greek.activities.custom.SuggestionBox",
-    "letter-familiarity": "learning_greek.activities.custom.LetterFamiliarity",
-    "noun-inflection": "learning_greek.activities.custom.NounInflectionQuiz",
-    "dcc-noun-familiar": "learning_greek.activities.custom.DCCNounFamiliarity",
-    "lowercase-alphabet-order": "learning_greek.activities.custom.LowerCaseAlphabetOrderQuiz",
-    "uppercase-with-answers": "learning_greek.activities.custom.UpperCaseWithAnswersQuiz",
+    "demographic": "learning_greek.activities.DemographicSurvey",
+    "uppercase": "learning_greek.activities.UpperCaseQuiz",
+    "lowercase": "learning_greek.activities.LowerCaseQuiz",
+    "spoken-languages": "learning_greek.activities.SpokenLanguagesSurvey",
+    "goals": "learning_greek.activities.GoalsSurvey",
+    "noun-familiarity": "learning_greek.activities.NounFamiliarity",
+    "previous-greek-knowledge": "learning_greek.activities.PreviousGreekKnowledge",
+    "suggestion-box": "learning_greek.activities.SuggestionBox",
+    "letter-familiarity": "learning_greek.activities.LetterFamiliarity",
+    "noun-inflection": "learning_greek.activities.NounInflectionQuiz",
+    "dcc-noun-familiar": "learning_greek.activities.DCCNounFamiliarity",
+    "lowercase-alphabet-order": "learning_greek.activities.LowerCaseAlphabetOrderQuiz",
+    "uppercase-with-answers": "learning_greek.activities.UpperCaseWithAnswersQuiz",
 }

@@ -4,9 +4,9 @@ import random
 
 from django import forms
 
-from .base import Survey, Quiz, TwoChoiceQuiz, TwoChoiceWithAnswersQuiz, LikertQuiz
+from oxlos.activities.base import Survey, Quiz, TwoChoiceQuiz, TwoChoiceWithAnswersQuiz, LikertQuiz
 
-from learning_greek.language_data.models import NounCumulativeCount, NounCaseNumberGender, DickinsonCoreList
+from .language_data.models import NounCumulativeCount, NounCaseNumberGender, DickinsonCoreList
 
 
 class SuggestionBox(Survey):

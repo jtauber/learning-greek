@@ -5,7 +5,7 @@ from django.contrib.auth.models import User
 
 from account.decorators import login_required
 
-from learning_greek.activities.models import load_path_attr, ActivityOccurrenceState, ActivityState
+from oxlos.activities.models import load_path_attr, ActivityOccurrenceState, ActivityState
 
 
 @login_required

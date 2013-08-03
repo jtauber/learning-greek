@@ -15,8 +15,8 @@ urlpatterns = patterns("",
     url(r"^account/settings/$", SettingsView.as_view(), name="account_settings"),
     url(r"^account/", include("account.urls")),
     
-    url(r"^activity/", include("learning_greek.activities.urls")),
-    url(r"^staff/", include("learning_greek.staff.urls")),
+    url(r"^activity/", include("oxlos.activities.urls")),
+    url(r"^staff/", include("oxlos.staff.urls")),
     
     url(r"^dashboard/", "learning_greek.views.dashboard", name="dashboard"),
 )
