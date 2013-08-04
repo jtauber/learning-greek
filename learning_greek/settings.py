@@ -135,6 +135,7 @@ INSTALLED_APPS = [
     "nashvegas",
     
     # project
+    "oxlos",
     "oxlos.activities",
     "oxlos.staff",
     
