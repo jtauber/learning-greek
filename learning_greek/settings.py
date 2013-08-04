@@ -124,9 +124,6 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     
-    # theme
-    "pinax_theme_bootstrap",
-    "django_forms_bootstrap",
     
     # external
     "account",
@@ -141,6 +138,10 @@ INSTALLED_APPS = [
     
     "learning_greek",
     "learning_greek.language_data",
+
+    # theme
+    "pinax_theme_bootstrap",
+    "django_forms_bootstrap",
 ]
 
 # A sample logging configuration. The only tangible logging
