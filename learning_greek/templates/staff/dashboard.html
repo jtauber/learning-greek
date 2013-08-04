@@ -1,5 +1,7 @@
 {% extends "site_base.html" %}
 
+{% load activity_tags %}
+
 {% block head_title %}researching how to improve the way people learn Koine Greek{% endblock %}
 
 {% block body_class %}dashboard{% endblock %}
@@ -44,11 +46,15 @@
             <th>occurrences</th>
         </tr>
         {% for user in users %}
+            {% get_user_stats_for user as user_stats %}
             <tr>
-                <td>{{ user.username }}</td>
-                <td>{{ user.log_set.count }}</td>
-                <td>{{ user.activitystate_set.count }}</td>
-                <td>{{ user.activityoccurrencestate_set.count }}</td>
+                <td>{{ user_stats.username }}</td>
+                <td>{{ user_stats.events }}</td>
+                <td>{{ user_stats.activities }}</td>
+                <td>
+                    {{ user_stats.completed_occurrences }} /
+                    {{ user_stats.occurrences }}
+                </td>
             </tr>
         {% endfor %}
     </table>
