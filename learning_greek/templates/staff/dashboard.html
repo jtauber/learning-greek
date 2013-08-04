@@ -41,6 +41,7 @@
     <table class="table table-striped table-condensed">
         <tr>
             <th>username</th>
+            <th>last event</th>
             <th>events</th>
             <th>adoption level</th>
             <th>activities</th>
@@ -50,6 +51,7 @@
             {% get_user_stats_for user as user_stats %}
             <tr>
                 <td>{{ user_stats.username }}</td>
+                <td>{{ user_stats.last_event }}</td>
                 <td>{{ user_stats.events }}</td>
                 <td>{{ user_stats.adoption_level }}</td>
                 <td>{{ user_stats.activities }}</td>

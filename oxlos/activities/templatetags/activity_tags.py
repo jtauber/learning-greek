@@ -8,6 +8,7 @@ def get_user_stats_for(user):
     return {
         "username": user.username,
         "events": user.log_set.count(),
+        "last_event": user.log_set.order_by("-timestamp")[0].timestamp,
         "adoption_level": user.preference.adoption_level,
         "activities": user.activitystate_set.count(),
         "occurrences": user.activityoccurrencestate_set.count(),
