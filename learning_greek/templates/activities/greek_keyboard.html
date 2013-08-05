@@ -20,12 +20,14 @@
                 </div>
             {% endif %}
             
+            {% if first_time %}
             <div id="instructions">
                 <p class="lead">
                     You will be shown a Greek letter. Hit the appropriate key for that letter, as quickly as you can. If you get it wrong, keep trying. Once you hit the correct key, you'll move on to another letter. When you've had enough, click the <b>Finished</b> button.
                 </p>
                 <p style="text-align: center"><button class="btn btn-primary" id="start">Start</button></p>
             </div>
+            {% endif %}
             
             <div class="keyboard-qa">
                 <div id="question"></div>
