@@ -3,6 +3,8 @@
 import random
 
 from django import forms
+from django.shortcuts import redirect, render
+from django.utils import simplejson
 
 from oxlos.activities.base import Survey, Quiz, TwoChoiceQuiz, TwoChoiceWithAnswersQuiz, LikertQuiz
 
@@ -401,3 +403,62 @@ class LowerCaseAlphabetOrderQuiz(Quiz):
                 questions.append(dict(before=before, left=left, right=right, after=after))
         
         return questions
+
+
+class GreekKeyboard(object):
+    
+    title = "Greek Keyboard"
+    description = "learn and practice the Greek keyboard layout"
+    
+    repeatable = True
+    
+    def __init__(self, occurrence_state, activity_state):
+        
+        self.occurrence_state = occurrence_state
+        self.activity_state = activity_state
+    
+    def handle_request(self, request):
+        
+        if not self.occurrence_state.data:
+            first_time = True
+        else:
+            first_time = False
+        
+        if request.method == "POST":
+            if request.is_ajax():
+                l = simplejson.loads(request.POST.get("log"))
+                question = l[0]
+                answers = l[1:]
+                self.occurrence_state.data.setdefault("answers", []).append((question, answers))
+                if len(answers) == 1:
+                    question_letter = question[0]
+                    time_taken = (answers[-1][1] - question[1]) / 1000.
+                    if time_taken <= self.occurrence_state.data.setdefault("best_times", {}).get(question_letter, time_taken):
+                        self.occurrence_state.data["best_times"][question_letter] = time_taken
+                    if time_taken <= self.activity_state.data.setdefault("best_times", {}).get(question_letter, time_taken):
+                        self.activity_state.data["best_times"][question_letter] = time_taken
+                        self.activity_state.save()
+                self.occurrence_state.save()
+            else:
+                self.occurrence_state.mark_completed()
+                
+                return redirect("activity_completed", self.occurrence_state.activity_slug)
+        
+        return render(request, "activities/greek_keyboard.html", {
+            "title": self.title,
+            "description": self.description,
+            "first_time": first_time,
+        })
+    
+    def completed(self, request):
+        
+        results = [
+            (letter, occurrence_best, self.activity_state.data.get("best_times", {}).get(letter))
+            for (letter, occurrence_best) in sorted(self.occurrence_state.data.get("best_times", {}).items())
+        ]
+        
+        return render(request, "activities/greek_keyboard_completed.html", {
+            "title": self.title,
+            "description": self.description,
+            "results": results,
+        })

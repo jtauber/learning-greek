@@ -210,4 +210,5 @@ ACTIVITIES = {
     "dcc-noun-familiar": "learning_greek.activities.DCCNounFamiliarity",
     "lowercase-alphabet-order": "learning_greek.activities.LowerCaseAlphabetOrderQuiz",
     "uppercase-with-answers": "learning_greek.activities.UpperCaseWithAnswersQuiz",
+    "greek-keyboard": "learning_greek.activities.GreekKeyboard",
 }
