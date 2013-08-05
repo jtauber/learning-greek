@@ -8,9 +8,10 @@ from .forms import SurveyForm
 
 class Survey(object):
     
-    def __init__(self, activity_state):
+    def __init__(self, occurrence_state, activity_state):
         
         self.activity_state = activity_state
+        self.occurrence_state = occurrence_state
     
     def handle_request(self, request):
         
@@ -18,8 +19,8 @@ class Survey(object):
             form = SurveyForm(request.POST, questions=self.questions)
             
             if form.is_valid():
-                self.activity_state.data.update({"answers": form.cleaned_data})
-                self.activity_state.mark_completed()
+                self.occurrence_state.data.update({"answers": form.cleaned_data})
+                self.occurrence_state.mark_completed()
                 
                 return redirect("dashboard")  # @@@
         else:
@@ -37,7 +38,7 @@ class MultiPageSurvey(Survey):
     
     def handle_request(self, request):
         
-        data = self.activity_state.data
+        data = self.occurrence_state.data
         
         if not data:
             data = {"page": 0}
@@ -53,17 +54,17 @@ class MultiPageSurvey(Survey):
             form = SurveyForm(request.POST, questions=questions)
             
             if form.is_valid():
-                self.activity_state.data.update({"answers_%d" % data["page"]: form.cleaned_data})
-                self.activity_state.data.update({"page": data["page"] + 1})
+                self.occurrence_state.data.update({"answers_%d" % data["page"]: form.cleaned_data})
+                self.occurrence_state.data.update({"page": data["page"] + 1})
                 
                 if data["page"] == len(self.pages):
-                    self.activity_state.mark_completed()
+                    self.occurrence_state.mark_completed()
                     
                     return redirect("dashboard")
                 else:
-                    self.activity_state.save()
+                    self.occurrence_state.save()
                     
-                    return redirect("activity_play", self.activity_state.activity_slug)
+                    return redirect("activity_play", self.occurrence_state.activity_slug)
         else:
             form = SurveyForm(questions=questions)
         
@@ -81,20 +82,21 @@ class Quiz(object):
     
     extra_context = {}
     
-    def __init__(self, activity_state):
+    def __init__(self, occurrence_state, activity_state):
         
         self.activity_state = activity_state
+        self.occurrence_state = occurrence_state
         
-        if not self.activity_state.data:
-            self.activity_state.data = {"questions": self.construct_quiz()}
-            self.activity_state.save()
-        elif not self.activity_state.data.get("questions"):
-            self.activity_state.data["questions"] = self.construct_quiz()
-            self.activity_state.save()
+        if not self.occurrence_state.data:
+            self.occurrence_state.data = {"questions": self.construct_quiz()}
+            self.occurrence_state.save()
+        elif not self.occurrence_state.data.get("questions"):
+            self.occurrence_state.data["questions"] = self.construct_quiz()
+            self.occurrence_state.save()
     
     def handle_request(self, request):
         
-        data = self.activity_state.data
+        data = self.occurrence_state.data
         
         if not data:
             data = {"question_number": 0}
@@ -111,17 +113,17 @@ class Quiz(object):
                 answer = request.POST.get("answer")
                 
                 if answer in self.valid_answer:
-                    self.activity_state.data.update({"answer_%d" % data["question_number"]: answer})
-                    self.activity_state.data.update({"question_number": data["question_number"] + 1})
+                    self.occurrence_state.data.update({"answer_%d" % data["question_number"]: answer})
+                    self.occurrence_state.data.update({"question_number": data["question_number"] + 1})
                     
                     if data["question_number"] == len(data["questions"]):
-                        self.activity_state.mark_completed()
+                        self.occurrence_state.mark_completed()
                         
                         return redirect("dashboard")
                     else:
-                        self.activity_state.save()
+                        self.occurrence_state.save()
                         
-                        return redirect("activity_play", self.activity_state.activity_slug)
+                        return redirect("activity_play", self.occurrence_state.activity_slug)
         
         ctx = {
             "title": self.title,
@@ -156,7 +158,7 @@ class QuizWithAnswers(Quiz):
     
     def handle_request(self, request):
         
-        data = self.activity_state.data
+        data = self.occurrence_state.data
         
         if not data:
             data = {"question_number": 0}
@@ -184,17 +186,17 @@ class QuizWithAnswers(Quiz):
                 answer = request.POST.get("answer")
                 
                 if answer in self.valid_answer:
-                    self.activity_state.data.update({"answer_%d" % data["question_number"]: answer})
-                    self.activity_state.data.update({"question_number": data["question_number"] + 1})
+                    self.occurrence_state.data.update({"answer_%d" % data["question_number"]: answer})
+                    self.occurrence_state.data.update({"question_number": data["question_number"] + 1})
                     
                     if data["question_number"] == len(data["questions"]):
-                        self.activity_state.mark_completed()
+                        self.occurrence_state.mark_completed()
                         
-                        return redirect("activity_completed", self.activity_state.activity_slug)
+                        return redirect("activity_completed", self.occurrence_state.activity_slug)
                     else:
-                        self.activity_state.save()
+                        self.occurrence_state.save()
                         
-                        return redirect("activity_play", self.activity_state.activity_slug)
+                        return redirect("activity_play", self.occurrence_state.activity_slug)
         
         ctx = {
             "title": self.title,
@@ -212,7 +214,7 @@ class QuizWithAnswers(Quiz):
     
     def completed(self, request):
         
-        data = self.activity_state.data
+        data = self.occurrence_state.data
         
         results = []
         
