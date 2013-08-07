@@ -1,0 +1,65 @@
+{% extends "site_base.html" %}
+
+{% load bootstrap_tags %}
+
+{% block head_title %}{{ title }}{% endblock %}
+
+{% block body_class %}two-choice-quiz{% endblock %}
+
+{% block body %}
+    <div class="row">
+        <div class="span8 offset2">
+            <header>
+                <h1>{{ title }}{% if question_number %}<span class="question-number">question {{ question_number }}/{{ num_questions }}</span>{% endif %}</h1>
+                <div class="description">{{ description }}</div>
+            </header>
+            
+            <div class="row">
+                <div class="span2">
+                    {% if previous_question %}
+                        <div class="result">
+                            {% if previous_answer == previous_question.2 %}
+                                <span class="correct">Correct!</span>
+                                <br>
+                                {{ previous_question.0 }}
+                                is
+                                {{ previous_question.2 }}
+                            {% else %}
+                                <span class="incorrect">Incorrect</span>
+                                <br>
+                                {{ previous_question.0 }}
+                                is
+                                {{ previous_question.2 }}
+                                <br>
+                                <span class="incorrect">(you said {{ previous_answer }})</span>
+                            {% endif %}
+                        </div>
+                    {% endif %}
+                </div>
+                
+                <form method="post" action=".">
+                    <div class="span6">
+                    
+                        {% csrf_token %}
+                        <input type="hidden" name="question_number" value="{{ question_number }}">
+                        <div class="question">{{ question.0 }}</div>
+                        <table class="answers">
+                            <tr class="choices">
+                                <td colspan="2">{{ question.1.0 }}</td>
+                                <td>&nbsp;</td>
+                                <td colspan="2">{{ question.1.1 }}</td>
+                            </tr>
+                            <tr>
+                                <td width="20%"><button class="btn" name="answer" value="L2"></button><br>definitely</td>
+                                <td width="20%"><button class="btn" name="answer" value="L1"></button><br>possibly</td>
+                                <td width="20%"><button class="btn" name="answer" value="0"></button><br>don't know</td>
+                                <td width="20%"><button class="btn" name="answer" value="R1"></button><br>possibly</td>
+                                <td width="20%"><button class="btn" name="answer" value="R2"></button><br>definitely</td>
+                            </tr>
+                        </table>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+{% endblock %}

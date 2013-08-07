@@ -22,6 +22,8 @@
                         <td>
                             {% if answer == question.2 %}
                                 <span class="correct">Correct!</span>
+                            {% elif answer == None %}
+                                <span class="incorrect">Didn't know</span>
                             {% else %}
                                 <span class="incorrect">You said {{ answer }}</span>
                             {% endif %}

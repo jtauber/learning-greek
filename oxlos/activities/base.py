@@ -173,10 +173,12 @@ class QuizWithAnswers(Quiz):
         if data["question_number"] > 0:
             previous_question = data["questions"][data["question_number"] - 1]
             previous_answer = data["answer_%d" % (data["question_number"] - 1)]
-            if previous_answer == "left":
+            if previous_answer in ["left", "L2", "L1"]:
                 previous_answer = previous_question[1][0]
-            elif previous_answer == "right":
+            elif previous_answer in ["right", "R2", "R1"]:
                 previous_answer = previous_question[1][1]
+            elif previous_answer == "0":
+                previous_answer = "you didn't know"
         else:
             previous_question = None
             previous_answer = None
@@ -220,10 +222,12 @@ class QuizWithAnswers(Quiz):
         
         for i, question in enumerate(data["questions"]):
             answer = data["answer_%d" % i]
-            if answer == "left":
+            if answer in ["left", "L2", "L1"]:
                 answer = question[1][0]
-            elif answer == "right":
+            elif answer in ["right", "R2", "R1"]:
                 answer = question[1][1]
+            elif answer == "0":
+                answer = None
             results.append((question, answer))
         
         ctx = {
@@ -242,3 +246,10 @@ class TwoChoiceWithAnswersQuiz(QuizWithAnswers):
     template_name = "activities/two_choice_with_answers_quiz.html"
     completed_template_name = "activities/two_choice_with_answers_quiz_completed.html"
     valid_answer = ["left", "right"]
+
+
+class TwoChoiceLikertWithAnswersQuiz(QuizWithAnswers):
+    
+    template_name = "activities/two_choice_likert_with_answers_quiz.html"
+    completed_template_name = "activities/two_choice_with_answers_quiz_completed.html"
+    valid_answer = ["L2", "L1", "0", "R1", "R2"]
