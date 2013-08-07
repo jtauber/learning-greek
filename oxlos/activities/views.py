@@ -124,4 +124,5 @@ def activity_completed(request, slug):
     activity = Activity(last_completed, activity_state)
     
     activity_completed_signal.send(sender=request.user, slug=slug, activity_occurrence_state=last_completed, request=request)
+    
     return activity.completed(request)

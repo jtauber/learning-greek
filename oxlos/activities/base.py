@@ -235,6 +235,7 @@ class QuizWithAnswers(Quiz):
             "description": self.description,
             "help_text": getattr(self, "help_text", None),
             "results": results,
+            "slug": self.activity_state.activity_slug,
         }
         ctx.update(self.extra_context)
         
