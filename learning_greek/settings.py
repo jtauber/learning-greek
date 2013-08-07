@@ -197,18 +197,20 @@ AUTHENTICATION_BACKENDS = [
 NASHVEGAS_MIGRATIONS_DIRECTORY = os.path.join(PROJECT_ROOT, "migrations")
 
 ACTIVITIES = {
-    "demographic": "learning_greek.activities.DemographicSurvey",
-    "uppercase": "learning_greek.activities.UpperCaseQuiz",
-    "lowercase": "learning_greek.activities.LowerCaseQuiz",
-    "spoken-languages": "learning_greek.activities.SpokenLanguagesSurvey",
-    "goals": "learning_greek.activities.GoalsSurvey",
-    "noun-familiarity": "learning_greek.activities.NounFamiliarity",
-    "previous-greek-knowledge": "learning_greek.activities.PreviousGreekKnowledge",
-    "suggestion-box": "learning_greek.activities.SuggestionBox",
-    "letter-familiarity": "learning_greek.activities.LetterFamiliarity",
-    "noun-inflection": "learning_greek.activities.NounInflectionQuiz",
-    "dcc-noun-familiar": "learning_greek.activities.DCCNounFamiliarity",
-    "lowercase-alphabet-order": "learning_greek.activities.LowerCaseAlphabetOrderQuiz",
-    "uppercase-with-answers": "learning_greek.activities.UpperCaseWithAnswersQuiz",
-    "greek-keyboard": "learning_greek.activities.GreekKeyboard",
+    "demographic": "learning_greek.activities.surveys.DemographicSurvey",
+    "spoken-languages": "learning_greek.activities.surveys.SpokenLanguagesSurvey",
+    "goals": "learning_greek.activities.surveys.GoalsSurvey",
+    "previous-greek-knowledge": "learning_greek.activities.surveys.PreviousGreekKnowledge",
+    "suggestion-box": "learning_greek.activities.surveys.SuggestionBox",
+    
+    "uppercase": "learning_greek.activities.alphabet.UpperCaseQuiz",
+    "lowercase": "learning_greek.activities.alphabet.LowerCaseQuiz",
+    "letter-familiarity": "learning_greek.activities.alphabet.LetterFamiliarity",
+    "lowercase-alphabet-order": "learning_greek.activities.alphabet.LowerCaseAlphabetOrderQuiz",
+    "uppercase-with-answers": "learning_greek.activities.alphabet.UpperCaseWithAnswersQuiz",
+    "greek-keyboard": "learning_greek.activities.alphabet.GreekKeyboard",
+    
+    "noun-familiarity": "learning_greek.activities.nouns.NounFamiliarity",
+    "noun-inflection": "learning_greek.activities.nouns.NounInflectionQuiz",
+    "dcc-noun-familiar": "learning_greek.activities.nouns.DCCNounFamiliarity",
 }
