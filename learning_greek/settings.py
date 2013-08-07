@@ -213,4 +213,5 @@ ACTIVITIES = {
     "noun-familiarity": "learning_greek.activities.nouns.NounFamiliarity",
     "noun-inflection": "learning_greek.activities.nouns.NounInflectionQuiz",
     "dcc-noun-familiar": "learning_greek.activities.nouns.DCCNounFamiliarity",
+    "dcc-noun-gloss-to-greek": "learning_greek.activities.nouns.DCCNounGlossToGreek",
 }

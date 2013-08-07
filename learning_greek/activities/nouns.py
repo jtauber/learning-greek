@@ -2,7 +2,7 @@
 
 import random
 
-from oxlos.activities.base import Quiz, LikertQuiz
+from oxlos.activities.base import Quiz, LikertQuiz, TwoChoiceLikertWithAnswersQuiz
 
 from learning_greek.language_data.models import NounCumulativeCount, NounCaseNumberGender, DickinsonCoreList
 
@@ -96,5 +96,29 @@ class NounInflectionQuiz(Quiz):
             if (lemma, question_type) not in [(item[0], item[1]) for item in questions]:
                 question = (lemma, question_type, random.sample([answer, alternative], 2))
                 questions.append(question)
+        
+        return questions
+
+
+class DCCNounGlossToGreek(TwoChoiceLikertWithAnswersQuiz):
+    
+    title = "Noun Gloss to Greek (DCC Core List)"
+    description = "given a gloss, which is the correct Greek Noun?"
+    
+    repeatable = True
+    
+    def construct_quiz(self):
+        
+        questions = []
+        
+        while len(questions) < 10:
+            noun1 = DickinsonCoreList.objects.filter(pos="noun").order_by("?")[0]
+            noun2 = DickinsonCoreList.objects.filter(pos="noun").exclude(pk=noun1.pk).order_by("?")[0]
+            if noun1.lemma in [question[2] for question in questions]:
+                continue
+            
+            choices = random.sample([noun1, noun2], 2)
+            question = random.choice(choices)
+            questions.append((question.definition, [choice.lemma for choice in choices], question.lemma))
         
         return questions
