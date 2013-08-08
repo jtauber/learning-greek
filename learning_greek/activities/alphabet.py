@@ -230,7 +230,7 @@ class KoinePronunciation(TwoChoiceLikertWithAnswersQuiz):
             (u"Αυ", "av, af"),
             (u"Ευ", u"ĕv, ĕf"),
             (u"Ηυ", "ev, ef"),
-            (u"ΓΓ", "ng"),
+            (u"ΓΓ", "ngg"),
             (u"ΓΚ", "ngk"),
             (u"ΓΧ", "ngch"),
             (u"α", "ah"),
