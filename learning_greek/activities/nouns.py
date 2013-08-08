@@ -107,6 +107,9 @@ class DCCNounGlossToGreek(TwoChoiceLikertWithAnswersQuiz):
     
     repeatable = True
     
+    question_template = "activities/_gloss.html"
+    answer_template = "activities/_answer.html"
+    
     def construct_quiz(self):
         
         questions = []

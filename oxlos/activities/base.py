@@ -209,6 +209,8 @@ class QuizWithAnswers(Quiz):
             "question": question,
             "previous_question": previous_question,
             "previous_answer": previous_answer,
+            "question_template": self.question_template,
+            "answer_template": self.answer_template,
         }
         ctx.update(self.extra_context)
         
@@ -236,6 +238,7 @@ class QuizWithAnswers(Quiz):
             "help_text": getattr(self, "help_text", None),
             "results": results,
             "slug": self.activity_state.activity_slug,
+            "answer_template": self.answer_template,
         }
         ctx.update(self.extra_context)
         
@@ -246,6 +249,8 @@ class TwoChoiceWithAnswersQuiz(QuizWithAnswers):
     
     template_name = "activities/two_choice_with_answers_quiz.html"
     completed_template_name = "activities/two_choice_with_answers_quiz_completed.html"
+    question_template = "activities/_question.html"
+    answer_template = "activities/_answer.html"
     valid_answer = ["left", "right"]
 
 
@@ -253,4 +258,5 @@ class TwoChoiceLikertWithAnswersQuiz(QuizWithAnswers):
     
     template_name = "activities/two_choice_likert_with_answers_quiz.html"
     completed_template_name = "activities/two_choice_with_answers_quiz_completed.html"
+    question_template = "activities/_question.html"
     valid_answer = ["L2", "L1", "0", "R1", "R2"]

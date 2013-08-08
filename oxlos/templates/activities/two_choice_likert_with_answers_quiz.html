@@ -21,13 +21,13 @@
                             {% if previous_answer == previous_question.2 %}
                                 <span class="correct">Correct!</span>
                                 <br>
-                                {{ previous_question.0 }}
+                                {% include answer_template with question=previous_question.0 %}
                                 is
                                 {{ previous_question.2 }}
                             {% else %}
                                 <span class="incorrect">Incorrect</span>
                                 <br>
-                                {{ previous_question.0 }}
+                                {% include answer_template with question=previous_question.0 %}
                                 is
                                 {{ previous_question.2 }}
                                 <br>
@@ -42,7 +42,7 @@
                     
                         {% csrf_token %}
                         <input type="hidden" name="question_number" value="{{ question_number }}">
-                        <div class="question">{{ question.0 }}</div>
+                        <div class="question">{% include question_template with question=question.0 %}</div>
                         <table class="answers">
                             <tr class="choices">
                                 <td colspan="2">{{ question.1.0 }}</td>

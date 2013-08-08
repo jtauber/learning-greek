@@ -17,7 +17,7 @@
             <table class="results-table">
                 {% for question,answer in results %}
                     <tr>
-                        <td class="question">{{ question.0 }}</td>
+                        <td class="question">{% include answer_template with question=question.0 %}</td>
                         <td class="answer">{{ question.2 }}</td>
                         <td>
                             {% if answer == question.2 %}
