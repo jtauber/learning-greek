@@ -277,11 +277,13 @@ class KoinePronunciation(TwoChoiceLikertWithAnswersQuiz):
             letter2 = random.choice(pronunciation)
             if letter1[1] == letter2[1]:
                 continue
-            if letter1[1] in [question[2] for question in questions]:
-                continue
             
             choices = random.sample([letter1, letter2], 2)
             question = random.choice(choices)
+            
+            if question[1] in [q[2] for q in questions]:
+                continue
+            
             questions.append((question[0], [choice[1] for choice in choices], question[1]))
         
         return questions
