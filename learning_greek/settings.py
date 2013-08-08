@@ -209,6 +209,7 @@ ACTIVITIES = {
     "lowercase-alphabet-order": "learning_greek.activities.alphabet.LowerCaseAlphabetOrderQuiz",
     "uppercase-with-answers": "learning_greek.activities.alphabet.UpperCaseWithAnswersQuiz",
     "greek-keyboard": "learning_greek.activities.alphabet.GreekKeyboard",
+    "koine-pronunciation": "learning_greek.activities.alphabet.KoinePronunciation",
     
     "noun-familiarity": "learning_greek.activities.nouns.NounFamiliarity",
     "noun-inflection": "learning_greek.activities.nouns.NounInflectionQuiz",

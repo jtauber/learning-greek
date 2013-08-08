@@ -5,7 +5,7 @@ import random
 from django.shortcuts import redirect, render
 from django.utils import simplejson
 
-from oxlos.activities.base import Quiz, TwoChoiceQuiz, TwoChoiceWithAnswersQuiz, LikertQuiz
+from oxlos.activities.base import Quiz, TwoChoiceQuiz, TwoChoiceWithAnswersQuiz, LikertQuiz, TwoChoiceLikertWithAnswersQuiz
 
 
 class UpperCaseQuiz(TwoChoiceQuiz):
@@ -177,3 +177,111 @@ class GreekKeyboard(object):
             "description": self.description,
             "results": results,
         })
+
+
+class KoinePronunciation(TwoChoiceLikertWithAnswersQuiz):
+    
+    title = "Koine Pronunciation of Letters"
+    description = "how were these letters pronounced the Koine period? "
+    
+    repeatable = True
+    
+    question_template = "activities/_question.html"
+    answer_template = "activities/_answer.html"
+    
+    def construct_quiz(self):
+        
+        pronunciation = [
+            (u"Α", "ah"),
+            (u"Β", "v"),
+            (u"Γ", "gh, y, ng"),
+            (u"Δ", "dh"),
+            (u"Ε", u"ĕ"),
+            (u"Ζ", "z"),
+            (u"Η", u"ē"),
+            (u"Θ", "th"),
+            (u"Ι", "i, y"),
+            (u"Κ", "k"),
+            (u"Λ", "l"),
+            (u"Μ", "m"),
+            (u"Ν", "n"),
+            (u"Ξ", "ks"),
+            (u"Ο", "o"),
+            (u"Π", "p"),
+            (u"Ρ", "r"),
+            (u"Σ", "s"),
+            (u"Τ", "t"),
+            (u"Υ", u"ü, v"),
+            (u"Φ", "f"),
+            (u"Χ", "x, ch"),
+            (u"Ψ", "ps"),
+            (u"Ω", "o"),
+            (u"ΑΙ", u"ĕ"),
+            (u"ΕΙ", "i"),
+            (u"OI", u"ü"),
+            (u"ΟΥ", "u"),
+            (u"ΑΥ", "av, af"),
+            (u"ΕΥ", u"ĕv, ĕf"),
+            (u"ΗΥ", "ev, ef"),
+            (u"Αι", u"ĕ"),
+            (u"Ει", "i"),
+            (u"Oι", u"ü"),
+            (u"Ου", "u"),
+            (u"Αυ", "av, af"),
+            (u"Ευ", u"ĕv, ĕf"),
+            (u"Ηυ", "ev, ef"),
+            (u"ΓΓ", "ng"),
+            (u"ΓΚ", "ngk"),
+            (u"ΓΧ", "ngch"),
+            (u"α", "ah"),
+            (u"β", "v"),
+            (u"γ", "gh, y, ng"),
+            (u"δ", "dh"),
+            (u"ε", u"ĕ"),
+            (u"ζ", "z"),
+            (u"η", u"ē"),
+            (u"θ", "th"),
+            (u"ι", "i, y"),
+            (u"κ", "k"),
+            (u"λ", "l"),
+            (u"μ", "m"),
+            (u"ν", "n"),
+            (u"ξ", "ks"),
+            (u"ο", "o"),
+            (u"π", "p"),
+            (u"ρ", "r"),
+            (u"σ", "s"),
+            (u"ς", "s"),
+            (u"τ", "t"),
+            (u"υ", u"ü, v"),
+            (u"φ", "f"),
+            (u"χ", "x, ch"),
+            (u"ψ", "ps"),
+            (u"ω", "o"),
+            (u"αι", u"ĕ"),
+            (u"ει", "i"),
+            (u"οι", u"ü"),
+            (u"ου", "u"),
+            (u"αυ", "av, af"),
+            (u"ευ", u"ĕv, ĕf"),
+            (u"ηυ", "ev, ef"),
+            (u"γγ", "ng"),
+            (u"γκ", "ngk"),
+            (u"γχ", "ngch"),
+        ]
+        
+        questions = []
+        
+        while len(questions) < 10:
+            letter1 = random.choice(pronunciation)
+            letter2 = random.choice(pronunciation)
+            if letter1[1] == letter2[1]:
+                continue
+            if letter1[1] in [question[2] for question in questions]:
+                continue
+            
+            choices = random.sample([letter1, letter2], 2)
+            question = random.choice(choices)
+            questions.append((question[0], [choice[1] for choice in choices], question[1]))
+        
+        return questions
