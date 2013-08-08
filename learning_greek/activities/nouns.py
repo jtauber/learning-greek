@@ -100,6 +100,44 @@ class NounInflectionQuiz(Quiz):
         return questions
 
 
+class NounInflectionWithAnswersQuiz(TwoChoiceLikertWithAnswersQuiz):
+    
+    title = "Noun Inflection (with answers) Quiz"
+    description = "what is the case, number of gender of these nouns?"
+    
+    repeatable = True
+    
+    question_template = "activities/_noun_inflection_question.html"
+    answer_template = "activities/_noun_inflection_result_question.html"
+    
+    def construct_quiz(self):
+        questions = []
+        
+        while len(questions) < 10:
+            noun = NounCaseNumberGender.objects.order_by("?")[0]
+            lemma = noun.lemma
+            question_type = random.choice(["case", "number", "gender"])
+            
+            if question_type == "case":
+                alternatives = ["nominative", "accusative", "nominative or accusative", "genitive", "dative"]
+                answer = noun.get_case_display()
+            elif question_type == "number":
+                alternatives = ["singular", "plural"]
+                answer = noun.get_number_display()
+            elif question_type == "gender":
+                alternatives = ["masculine", "feminine", "neuter"]
+                answer = noun.get_gender_display()
+            
+            alternatives.remove(answer)
+            alternative = random.choice(alternatives)
+            
+            if (lemma, question_type) not in [(item[0], item[1]) for item in questions]:
+                question = ((lemma, question_type), random.sample([answer, alternative], 2), answer)
+                questions.append(question)
+        
+        return questions
+
+
 class DCCNounGlossToGreek(TwoChoiceLikertWithAnswersQuiz):
     
     title = "Noun Gloss to Greek (DCC Core List)"
