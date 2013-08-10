@@ -6,12 +6,20 @@ from django.shortcuts import redirect, render
 from .forms import SurveyForm
 
 
-class Survey(object):
+class Activity(object):
     
     def __init__(self, occurrence_state, activity_state):
-        
+    
         self.activity_state = activity_state
         self.occurrence_state = occurrence_state
+        
+        self.setup()
+    
+    def setup(self):
+        pass
+
+
+class Survey(Activity):
     
     def handle_request(self, request):
         
@@ -78,15 +86,11 @@ class MultiPageSurvey(Survey):
         })
 
 
-class Quiz(object):
+class Quiz(Activity):
     
     extra_context = {}
     
-    def __init__(self, occurrence_state, activity_state):
-        
-        self.activity_state = activity_state
-        self.occurrence_state = occurrence_state
-        
+    def setup(self):
         if not self.occurrence_state.data:
             self.occurrence_state.data = {"questions": self.construct_quiz()}
             self.occurrence_state.save()
