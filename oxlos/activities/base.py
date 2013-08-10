@@ -2,6 +2,7 @@
 
 from django.shortcuts import redirect, render
 
+from django.contrib import messages
 
 from .forms import SurveyForm
 
@@ -29,8 +30,12 @@ class Survey(Activity):
             if form.is_valid():
                 self.occurrence_state.data.update({"answers": form.cleaned_data})
                 self.occurrence_state.mark_completed()
-                
-                return redirect("dashboard")  # @@@
+                if self.repeatable:
+                    messages.success(request, "{} activity completed. You may repeat it again at any time.".format(self.title))
+                else:
+                    messages.success(request, "{} activity completed.".format(self.title))
+
+                return redirect("dashboard")
         else:
             form = SurveyForm(questions=self.questions)
         
@@ -53,8 +58,8 @@ class MultiPageSurvey(Survey):
         elif not data.get("page"):
             data["page"] = 0
         elif data["page"] == len(self.pages):
-            # done
-            return redirect("dashboard")  # @@@
+            messages.info(request, "{} activity already completed.".format(self.title))
+            return redirect("dashboard")
         
         questions = self.pages[data["page"]]
         
@@ -67,7 +72,11 @@ class MultiPageSurvey(Survey):
                 
                 if data["page"] == len(self.pages):
                     self.occurrence_state.mark_completed()
-                    
+                    if self.repeatable:
+                        messages.success(request, "{} activity completed. You may repeat it again at any time.".format(self.title))
+                    else:
+                        messages.success(request, "{} activity completed.".format(self.title))
+
                     return redirect("dashboard")
                 else:
                     self.occurrence_state.save()
@@ -107,8 +116,8 @@ class Quiz(Activity):
         elif not data.get("question_number"):
             data["question_number"] = 0
         elif data["question_number"] == len(data["questions"]):
-            # done
-            return redirect("dashboard")  # @@@
+            messages.info(request, "{} activity already completed.".format(self.title))
+            return redirect("dashboard")
         
         question = data["questions"][data["question_number"]]
         
@@ -122,6 +131,10 @@ class Quiz(Activity):
                     
                     if data["question_number"] == len(data["questions"]):
                         self.occurrence_state.mark_completed()
+                        if self.repeatable:
+                            messages.success(request, "{} activity completed. You may repeat it again at any time.".format(self.title))
+                        else:
+                            messages.success(request, "{} activity completed.".format(self.title))
                         
                         return redirect("dashboard")
                     else:
@@ -169,8 +182,8 @@ class QuizWithAnswers(Quiz):
         elif not data.get("question_number"):
             data["question_number"] = 0
         elif data["question_number"] == len(data["questions"]):
-            # done
-            return redirect("dashboard")  # @@@
+            messages.info(request, "{} activity already completed.".format(self.title))
+            return redirect("dashboard")
         
         question = data["questions"][data["question_number"]]
         
