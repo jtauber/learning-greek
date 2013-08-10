@@ -176,6 +176,7 @@ class GreekKeyboard(object):
             "title": self.title,
             "description": self.description,
             "results": results,
+            "slug": self.activity_state.activity_slug,
         })
 
 

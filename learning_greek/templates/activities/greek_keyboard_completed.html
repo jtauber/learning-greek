@@ -29,7 +29,13 @@
                     </tr>
                 {% endfor %}
             </table>
-            <div class="activity-return"><a href="{% url 'dashboard' %}" class="btn">Return to Activity List</a></div>
+            <form action="{% url 'activity_start' slug %}" method="post">
+                {% csrf_token %}
+                <div class="activity-return">
+                    <button class="btn btn-primary">Repeat Activity</button>
+                    <a href="{% url 'dashboard' %}" class="btn">Return to Activity List</a>
+                </div>
+            </form>
         </div>
     </div>
 {% endblock %}
