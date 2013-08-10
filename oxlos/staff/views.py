@@ -16,6 +16,7 @@ def staff_dashboard(request):
     for slug, activity_class_path in settings.ACTIVITIES.items():
         activity = load_path_attr(activity_class_path)
         activity_states = ActivityState.objects.filter(activity_slug=slug)
+        completed_activity_states = activity_states.exclude(completed_count=0)
         activity_occurrence_states = ActivityOccurrenceState.objects.filter(activity_slug=slug)
         completed_activity_occurrence_states = activity_occurrence_states.filter(completed__isnull=False)
         
@@ -23,6 +24,7 @@ def staff_dashboard(request):
             "slug": slug,
             "title": activity.title,
             "activity_states": activity_states,
+            "completed_activity_states": completed_activity_states,
             "activity_occurrence_states": activity_occurrence_states,
             "completed_activity_occurrence_states": completed_activity_occurrence_states,
         })

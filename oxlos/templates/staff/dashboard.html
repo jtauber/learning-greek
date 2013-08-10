@@ -27,7 +27,10 @@
             <tr>
                 <td>{{ activity.slug }}</td>
                 <td>{{ activity.title }}</td>
-                <td>{{ activity.activity_states.count }}</td>
+                <td>
+                    {{ activity.completed_activity_states.count }} /
+                    {{ activity.activity_states.count }}
+                </td>
                 <td>
                     {{ activity.completed_activity_occurrence_states.count }} /
                     {{ activity.activity_occurrence_states.count }}
