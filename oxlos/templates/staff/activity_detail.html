@@ -1,0 +1,34 @@
+{% extends "site_base.html" %}
+
+{% load activity_tags %}
+
+{% block head_title %}Staff Dashboard{% endblock %}
+
+{% block body_class %}dashboard{% endblock %}
+
+{% block body %}
+    
+    <div class="row counts-row">
+        <div class="count span4">Activity States<br><span class="number">{{ activity_states.count }}</span></div>
+        <div class="count span4">Activity Occurrences States<br><span class="number">{{ activity_occurrence_states.count }}</span></div>
+    </div>
+    
+    <h2>Activities</h2>
+    
+    {% for state in activity_states %}
+        <div>
+            {{ state.user }}
+            {{ state.data }}
+        </div>
+    {% endfor %}
+
+    <h2>Users</h2>
+    
+    {% for state in activity_occurrence_states %}
+        <div>
+            {{ state.user }}
+            {{ state.data }}
+        </div>
+    {% endfor %}
+
+{% endblock %}

@@ -38,3 +38,18 @@ def staff_dashboard(request):
         "activity_occurrence_states": ActivityOccurrenceState.objects.all(),
         "activities": activities,
     })
+
+
+@login_required
+def staff_activity_detail(request, slug):
+    
+    if not request.user.is_staff:
+        raise Http404
+    
+    activity_states = ActivityState.objects.filter(activity_slug=slug)
+    activity_occurrence_states = ActivityOccurrenceState.objects.filter(activity_slug=slug)
+    
+    return render(request, "staff/activity_detail.html", {
+        "activity_states": activity_states,
+        "activity_occurrence_states": activity_occurrence_states,
+    })

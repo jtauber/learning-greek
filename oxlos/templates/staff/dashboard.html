@@ -25,7 +25,7 @@
         </tr>
         {% for activity in activities %}
             <tr>
-                <td>{{ activity.slug }}</td>
+                <td><a href="{% url 'staff_activity_detail' activity.slug %}">{{ activity.slug }}</a></td>
                 <td>{{ activity.title }}</td>
                 <td>
                     {{ activity.completed_activity_states.count }} /
