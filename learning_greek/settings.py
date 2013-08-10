@@ -217,4 +217,5 @@ ACTIVITIES = {
     "noun-inflection-with-answers": "learning_greek.activities.nouns.NounInflectionWithAnswersQuiz",
     "dcc-noun-familiar": "learning_greek.activities.nouns.DCCNounFamiliarity",
     "dcc-noun-gloss-to-greek": "learning_greek.activities.nouns.DCCNounGlossToGreek",
+    "dcc-noun-greek-to-gloss": "learning_greek.activities.nouns.DCCNounGreekToGloss",
 }

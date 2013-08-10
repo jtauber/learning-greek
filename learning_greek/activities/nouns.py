@@ -141,7 +141,7 @@ class NounInflectionWithAnswersQuiz(TwoChoiceLikertWithAnswersQuiz):
 class DCCNounGlossToGreek(TwoChoiceLikertWithAnswersQuiz):
     
     title = "Noun Gloss to Greek (DCC Core List)"
-    description = "given a gloss, which is the correct Greek Noun?"
+    description = "given a gloss, which is the correct Greek noun?"
     
     repeatable = True
     
@@ -161,5 +161,32 @@ class DCCNounGlossToGreek(TwoChoiceLikertWithAnswersQuiz):
             choices = random.sample([noun1, noun2], 2)
             question = random.choice(choices)
             questions.append((question.definition, [choice.lemma for choice in choices], question.lemma))
+        
+        return questions
+
+
+class DCCNounGreekToGloss(TwoChoiceLikertWithAnswersQuiz):
+    
+    title = "Noun Greek to Gloss (DCC Core List)"
+    description = "given a Greek noun, which is the better gloss?"
+    
+    repeatable = True
+    
+    question_template = "activities/_gloss.html"
+    answer_template = "activities/_answer.html"
+    
+    def construct_quiz(self):
+        
+        questions = []
+        
+        while len(questions) < 10:
+            noun1 = DickinsonCoreList.objects.filter(pos="noun").order_by("?")[0]
+            noun2 = DickinsonCoreList.objects.filter(pos="noun").exclude(pk=noun1.pk).order_by("?")[0]
+            if noun1.lemma in [question[2] for question in questions]:
+                continue
+            
+            choices = random.sample([noun1, noun2], 2)
+            question = random.choice(choices)
+            questions.append((question.lemma, [choice.definition for choice in choices], question.definition))
         
         return questions
