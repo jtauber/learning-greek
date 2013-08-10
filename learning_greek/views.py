@@ -6,7 +6,7 @@ from account.views import SettingsView as AccountSettingsView
 from learning_greek.forms import SettingsForm
 from learning_greek.signals import adoption_level_change, blurb_read
 
-from learning_greek.activities.models import get_activities, UserState
+from oxlos.activities.models import get_activities, UserState
 
 
 class SettingsView(AccountSettingsView):

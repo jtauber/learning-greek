@@ -1,0 +1,150 @@
+{% extends "site_base.html" %}
+
+{% load bootstrap_tags %}
+
+{% block head_title %}{{ title }}{% endblock %}
+
+{% block body_class %}greek-keyboard{% endblock %}
+
+{% block body %}
+    <div class="row">
+        <div class="span8 offset2">
+            <header>
+                <h1>{{ title }}{% if page_number %}<span class="page-number">page {{ page_number }}/{{ num_pages }}</span>{% endif %}</h1>
+                <div class="description">{{ description }}</div>
+            </header>
+            
+            {% if help_text %}
+                <div class="help_text">
+                    {{ help_text|safe }}
+                </div>
+            {% endif %}
+            
+            {% if first_time %}
+            <div id="instructions">
+                <p class="lead">
+                    You will be shown a Greek letter. Hit the appropriate key for that letter, as quickly as you can. If you get it wrong, keep trying. Once you hit the correct key, you'll move on to another letter. When you've had enough, click the <b>Finished</b> button.
+                </p>
+                <p style="text-align: center"><button class="btn btn-primary" id="start">Start</button></p>
+            </div>
+            {% endif %}
+            
+            <div class="keyboard-qa">
+                <div id="question"></div>
+                <div id="answer">&nbsp;</div>
+                <form method="post" action=".">
+                    {% csrf_token %}
+                    <button class="btn btn-mini">Finished</button>
+                </form>
+            </div>
+            
+        </div>
+    </div>
+{% endblock %}
+
+{% block extra_script %}
+    <script>
+        var question;
+        var letters = [];
+        letters[65]  = "Α"; // A
+        letters[66]  = "Β"; // B
+        letters[67]  = "Ψ"; // C
+        letters[68]  = "Δ"; // D
+        letters[69]  = "Ε"; // E
+        letters[70]  = "Φ"; // F
+        letters[71]  = "Γ"; // G
+        letters[72]  = "Η"; // H
+        letters[73]  = "Ι"; // I
+        letters[74]  = "Ξ"; // J
+        letters[75]  = "Κ"; // K
+        letters[76]  = "Λ"; // L
+        letters[77]  = "Μ"; // M
+        letters[78]  = "Ν"; // N
+        letters[79]  = "Ο"; // O
+        letters[80]  = "Π"; // P
+        letters[82]  = "Ρ"; // R
+        letters[83]  = "Σ"; // S
+        letters[84]  = "Τ"; // T
+        letters[85]  = "Θ"; // U
+        letters[86]  = "Ω"; // V
+        letters[88]  = "Χ"; // X
+        letters[89]  = "Υ"; // Y
+        letters[90]  = "Ζ"; // Z
+
+        letters[97]  = "α"; // a
+        letters[98]  = "β"; // b
+        letters[99]  = "ψ"; // c
+        letters[100] = "δ"; // d
+        letters[101] = "ε"; // e
+        letters[102] = "φ"; // f
+        letters[103] = "γ"; // g
+        letters[104] = "η"; // h
+        letters[105] = "ι"; // i
+        letters[106] = "ξ"; // j
+        letters[107] = "κ"; // k
+        letters[108] = "λ"; // l
+        letters[109] = "μ"; // m
+        letters[110] = "ν"; // n
+        letters[111] = "ο"; // o
+        letters[112] = "π"; // p
+        letters[114] = "ρ"; // r
+        letters[115] = "σ"; // s
+        letters[116] = "τ"; // t
+        letters[117] = "θ"; // u
+        letters[118] = "ω"; // v
+        letters[119] = "ς"; // w
+        letters[120] = "χ"; // x
+        letters[121] = "υ"; // y
+        letters[122] = "ζ"; // z
+        
+        var answerLog;
+        
+        function handleKeypress(e) {
+            var answer = letters[e.which] || "";
+            answerLog.push([answer, new Date().getTime()]);
+            if (question == answer) {
+                $("#answer").html("<span class='correct'>correct</span>");
+                $(window).off("keypress", handleKeypress);
+                $.post(".", {log: JSON.stringify(answerLog)});
+                newQuestion();
+            } else {
+                $("#answer").html("<span class='incorrect'>" + answer + "</span>");
+            }
+        }
+        
+        function newQuestion() {
+            answerLog = [];
+            $("#question").html("...");
+            setTimeout(function() {
+                $("#question").html("..");
+                setTimeout(function() {
+                    $("#question").html(".");
+                    setTimeout(function() {
+                        var num;
+                        do {
+                            num = Math.floor(Math.random() * 122);
+                        } while (!(letters[num] && letters[num] != question));
+                        question = letters[num];
+                        answerLog.push([question, new Date().getTime()]);
+                        $("#question").html(question);
+                        $("#answer").html("&nbsp;");
+                        $(window).on("keypress", handleKeypress);
+                    }, 500);
+                }, 500);
+            }, 500);
+        }
+        
+        function start() {
+            $("#instructions").html("");
+            newQuestion();
+        }
+        
+        $(function() {
+            {% if first_time %}
+                $("#start").on("click", start);
+            {% else %}
+            newQuestion();
+            {% endif %}
+        });
+    </script>
+{% endblock %}

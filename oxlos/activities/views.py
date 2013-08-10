@@ -77,7 +77,7 @@ def activity_play(request, slug):
         # @@@ user message
         return redirect("dashboard")
     
-    activity = Activity(activity_state.latest)
+    activity = Activity(activity_state.latest, activity_state)
     
     activity_play_signal.send(sender=request.user, slug=slug, activity_occurrence_state=activity_state.latest, request=request)
     return activity.handle_request(request)
@@ -121,7 +121,8 @@ def activity_completed(request, slug):
         # @@@ user message
         return redirect("dashboard")
     
-    activity = Activity(last_completed)
+    activity = Activity(last_completed, activity_state)
     
     activity_completed_signal.send(sender=request.user, slug=slug, activity_occurrence_state=last_completed, request=request)
+    
     return activity.completed(request)

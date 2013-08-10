@@ -7,7 +7,7 @@ from account.signals import user_login_attempt, user_logged_in
 from eventlog.models import log
 
 from learning_greek.signals import adoption_level_change, blurb_read
-from learning_greek.activities.signals import activity_start, activity_play
+from oxlos.activities.signals import activity_start, activity_play
 
 
 @receiver(user_logged_in)

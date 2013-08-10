@@ -3,6 +3,8 @@
 {% load metron_tags %}
 {% load staticfiles %}
 
+{% block head_title %}researching how to improve the way people learn Koine Greek{% endblock %}
+
 {% block style_base %}
 <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,300,400,700&subset=latin,greek-ext,greek' rel='stylesheet' type='text/css'>
     <link href="{% static "learning_greek/css/site.css" %}" rel="stylesheet">
@@ -10,6 +12,15 @@
 {% endblock %}
 
 {% block site_brand %}<a class="brand" href="{% url 'home' %}"><span style="font-weight: 300; color: #333;">Learning</span><span style="font-weight:700; color: #333;">GREEK</span></a>{% endblock %}
+
+{% block nav %}
+    <ul class="nav">
+        {% if user.is_authenticated %}
+            <li><a href="{% url 'dashboard' %}">Activities</a></li>
+        {% endif %}
+        <li><a href="{% url 'blog' %}">Blog</a></li>
+    </ul>
+{% endblock %}
 
 {% block footer %}
     {% include "_footer.html" %}

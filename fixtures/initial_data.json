@@ -11,7 +11,7 @@
         "pk": 2, 
         "model": "sites.site", 
         "fields": {
-            "domain": "cb443.gondor.co", 
+            "domain": "oxlos.com", 
             "name": "learning-greek"
         }
     }

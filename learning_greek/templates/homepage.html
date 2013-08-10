@@ -1,7 +1,5 @@
 {% extends "site_base.html" %}
 
-{% block head_title %}researching how to improve the way people learn Koine Greek{% endblock %}
-
 {% block body_class %}home{% endblock %}
 
 {% block body %}
@@ -30,10 +28,15 @@
             <p>
                 All the code will be <em>open source</em> and hopefully most of the content will be open as well. Data about individuals will not be public but data in the aggregate will be shared as potentially will de-personalized data.
             </p>
-
-            <p>
-                <em>Stay tuned.</em>
-            </p>
+            
+            <div class="call">
+                <p>
+                    Whether you're a student, a scholar or just an interested developer&hellip;
+                </p>
+                <p>
+                    <a class="btn btn-large btn-success" href="{% url 'account_signup' %}">Sign Up Now</a>
+                </p>
+            </div>
         </div>
     </div>
 {% endblock %}

@@ -124,20 +124,24 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     
-    # theme
-    "pinax_theme_bootstrap",
-    "django_forms_bootstrap",
-    
     # external
     "account",
     "metron",
     "eventlog",
+    "biblion",
     "nashvegas",
     
     # project
+    "oxlos",
+    "oxlos.activities",
+    "oxlos.staff",
+    
     "learning_greek",
-    "learning_greek.activities",
     "learning_greek.language_data",
+
+    # theme
+    "pinax_theme_bootstrap",
+    "django_forms_bootstrap",
 ]
 
 # A sample logging configuration. The only tangible logging
@@ -185,6 +189,7 @@ ACCOUNT_EMAIL_AUTHENTICATION = False
 ACCOUNT_LOGIN_REDIRECT_URL = "home"
 ACCOUNT_LOGOUT_REDIRECT_URL = "home"
 ACCOUNT_EMAIL_CONFIRMATION_EXPIRE_DAYS = 2
+ACCOUNT_SETTINGS_REDIRECT_URL = "dashboard"
 
 AUTHENTICATION_BACKENDS = [
     "account.auth_backends.UsernameAuthenticationBackend",
@@ -193,17 +198,23 @@ AUTHENTICATION_BACKENDS = [
 NASHVEGAS_MIGRATIONS_DIRECTORY = os.path.join(PROJECT_ROOT, "migrations")
 
 ACTIVITIES = {
-    "demographic": "learning_greek.activities.custom.DemographicSurvey",
-    "uppercase": "learning_greek.activities.custom.UpperCaseQuiz",
-    "lowercase": "learning_greek.activities.custom.LowerCaseQuiz",
-    "spoken-languages": "learning_greek.activities.custom.SpokenLanguagesSurvey",
-    "goals": "learning_greek.activities.custom.GoalsSurvey",
-    "noun-familiarity": "learning_greek.activities.custom.NounFamiliarity",
-    "previous-greek-knowledge": "learning_greek.activities.custom.PreviousGreekKnowledge",
-    "suggestion-box": "learning_greek.activities.custom.SuggestionBox",
-    "letter-familiarity": "learning_greek.activities.custom.LetterFamiliarity",
-    "noun-inflection": "learning_greek.activities.custom.NounInflectionQuiz",
-    "dcc-noun-familiar": "learning_greek.activities.custom.DCCNounFamiliarity",
-    "lowercase-alphabet-order": "learning_greek.activities.custom.LowerCaseAlphabetOrderQuiz",
-    "uppercase-with-answers": "learning_greek.activities.custom.UpperCaseWithAnswersQuiz",
+    "demographic": "learning_greek.activities.surveys.DemographicSurvey",
+    "spoken-languages": "learning_greek.activities.surveys.SpokenLanguagesSurvey",
+    "goals": "learning_greek.activities.surveys.GoalsSurvey",
+    "previous-greek-knowledge": "learning_greek.activities.surveys.PreviousGreekKnowledge",
+    "suggestion-box": "learning_greek.activities.surveys.SuggestionBox",
+    
+    "uppercase": "learning_greek.activities.alphabet.UpperCaseQuiz",
+    "lowercase": "learning_greek.activities.alphabet.LowerCaseQuiz",
+    "letter-familiarity": "learning_greek.activities.alphabet.LetterFamiliarity",
+    "lowercase-alphabet-order": "learning_greek.activities.alphabet.LowerCaseAlphabetOrderQuiz",
+    "uppercase-with-answers": "learning_greek.activities.alphabet.UpperCaseWithAnswersQuiz",
+    "greek-keyboard": "learning_greek.activities.alphabet.GreekKeyboard",
+    "koine-pronunciation": "learning_greek.activities.alphabet.KoinePronunciation",
+    
+    "noun-familiarity": "learning_greek.activities.nouns.NounFamiliarity",
+    "noun-inflection": "learning_greek.activities.nouns.NounInflectionQuiz",
+    "noun-inflection-with-answers": "learning_greek.activities.nouns.NounInflectionWithAnswersQuiz",
+    "dcc-noun-familiar": "learning_greek.activities.nouns.DCCNounFamiliarity",
+    "dcc-noun-gloss-to-greek": "learning_greek.activities.nouns.DCCNounGlossToGreek",
 }
