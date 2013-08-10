@@ -1,4 +1,5 @@
 from django.conf import settings
+from django.http import Http404
 from django.shortcuts import render
 
 from django.contrib.auth.models import User
@@ -10,6 +11,9 @@ from oxlos.activities.models import load_path_attr, ActivityOccurrenceState, Act
 
 @login_required
 def staff_dashboard(request):
+    
+    if not request.user.is_staff:
+        raise Http404
     
     activities = []
     
