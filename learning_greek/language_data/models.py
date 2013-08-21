@@ -70,3 +70,30 @@ def import_dcc_core_list(filename):
             DickinsonCoreList(lemma=lemma, headword=headword, definition=definition, pos=pos, pos_detail=pos_detail, semantic_group=semantic_group).save()
             count += 1
     print count
+
+
+class AbsSyntax(models.Model):
+    
+    node_id = models.CharField(max_length=15)
+    parent_node = models.CharField(max_length=15, null=True)
+    category = models.CharField(max_length=10)
+    rule = models.CharField(max_length=50, null=True)
+    words = models.TextField()
+
+
+def import_abs_syntax(filename):
+    
+    with open(filename) as f:
+        for line in f:
+            node_id, parent_node, category_rule, parse, words = line.strip().split(" ", 4)
+            if "{" in category_rule:
+                category, rule = category_rule.split("{")
+                rule = rule[:-1]
+            else:
+                category = "T"
+                rule = None
+            
+            if parent_node == "None":
+                parent_node = None
+            
+            AbsSyntax(node_id=node_id, parent_node=parent_node, category=category, rule=rule, words=words).save()

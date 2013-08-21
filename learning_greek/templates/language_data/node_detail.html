@@ -1,0 +1,58 @@
+{% extends "site_base.html" %}
+
+{% block head_title %}Node{% endblock %}
+
+{% block extra_style %}
+    <style>
+        p.words {
+            font-size: 24pt;
+            line-height: 32pt;
+        }
+        a.child {
+            text-decoration: none;
+            color: #000;
+        }
+        a.child.h { color: #096; }
+        .terminal { color: #069; }
+    </style>
+{% endblock %}
+
+{% block body %}
+    <h2>{{ bcv.0 }} {{ bcv.1 }}.{{ bcv.2 }}</h2>
+    {% if parent_node %}
+        <p><a href="{% url 'node_detail' parent_node.node_id %}">up to containing {{ parent_node.category }}</a></p>
+    {% endif %}
+    <h1>{{ category }}{% if rule %}
+        <small>{{ rule }}</small>
+    {% endif %}</h1>
+    
+    <p class="words">
+    {% for word in words %}
+        {% if word.child_node %}
+            <a href="{% url 'node_detail' word.node_id %}" class="child" data-child="{{ word.node_id }}" data-child-category="{{ word.child_node.category }}">{{ word.text }}</a>
+        {% else %}
+            <span class="terminal">{{ word.text }}</span>
+        {% endif %}
+    {% endfor %}
+    </p>
+    <div id="child-category">&nbsp;</div>
+
+{% endblock %}
+
+{% block extra_body %}
+    <script>
+        $(function() {
+            $(".child").hover(
+                function() {
+                    var child_id = $(this).data("child");
+                    $("a[data-child=" + child_id + "]").addClass("h");
+                    $("#child-category").html($(this).data("child-category"));
+                }, 
+                function() {
+                    $(".child").removeClass("h");
+                    $("#child-category").html("&nbsp;");
+                }
+            )
+        });
+    </script>
+{% endblock %}
