@@ -22,6 +22,8 @@ urlpatterns = patterns("",
     url(r"^staff/", include("oxlos.staff.urls")),
     
     url(r"^dashboard/", "learning_greek.views.dashboard", name="dashboard"),
+    
+    url(r"^language_data/", include("learning_greek.language_data.urls")),
 )
 
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
