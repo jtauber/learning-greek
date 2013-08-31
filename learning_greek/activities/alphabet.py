@@ -5,7 +5,7 @@ import random
 from django.shortcuts import redirect, render
 from django.utils import simplejson
 
-from oxlos.activities.base import Quiz, TwoChoiceQuiz, TwoChoiceWithAnswersQuiz, LikertQuiz, TwoChoiceLikertWithAnswersQuiz
+from oxlos.activities.base import Activity, Quiz, TwoChoiceQuiz, TwoChoiceWithAnswersQuiz, LikertQuiz, TwoChoiceLikertWithAnswersQuiz
 
 
 class UpperCaseQuiz(TwoChoiceQuiz):
@@ -120,17 +120,12 @@ class LowerCaseAlphabetOrderQuiz(Quiz):
         return questions
 
 
-class GreekKeyboard(object):
+class GreekKeyboard(Activity):
     
     title = "Greek Keyboard"
     description = "learn and practice the Greek keyboard layout"
     
     repeatable = True
-    
-    def __init__(self, occurrence_state, activity_state):
-        
-        self.occurrence_state = occurrence_state
-        self.activity_state = activity_state
     
     def handle_request(self, request):
         
