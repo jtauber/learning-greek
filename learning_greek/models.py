@@ -12,4 +12,4 @@ ADOPTION_LEVEL_CHOICES = [
 
 class Preference(models.Model):
     user = models.OneToOneField(User)
-    adoption_level = models.CharField(max_length=20, default="early-adopter", choices=ADOPTION_LEVEL_CHOICES)  # noqa
+    adoption_level = models.CharField(max_length=20, default="early-adopter", choices=ADOPTION_LEVEL_CHOICES)
