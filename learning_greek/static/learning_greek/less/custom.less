@@ -85,3 +85,226 @@ body.blog {
     float: right;
     margin-top: 20px;
 }
+
+/* */
+
+label {
+    font-weight: 300;
+}
+
+.help-block {
+    font-weight: 300;
+    color: #555;
+    small {
+        display: block;
+        .text-muted;
+        line-height: 16px;
+    }
+}
+
+body.survey {
+    header {
+        margin-bottom: 50px;
+        h1 {
+            font-size: 32px;
+            line-height: 32px;
+            font-weight: normal;
+            margin: 0;
+            .page-number {
+                font-size: 20px;
+                .text-muted;
+                font-weight: 300;
+                .pull-right;
+            }
+        }
+        .description {
+            .text-muted;
+            font-weight: 300;
+        }
+    }
+    .help_text {
+        margin-bottom: 50px;
+        th {
+            font-size: 14px;
+        }
+        td {
+            font-size: 12px;
+            line-height: 16px;
+        }
+    }
+    input {
+        margin-bottom: 0;
+    }
+    .help-block {
+        font-size: 14px;
+        .text-muted;
+        font-weight: 300;
+    }
+}
+
+body.two-choice-quiz, body.two-choice-quiz-variant, body.likert-quiz {
+    header {
+        margin-bottom: 50px;
+        h1 {
+            font-size: 32px;
+            line-height: 32px;
+            font-weight: normal;
+            margin: 0;
+            .question-number {
+                font-size: 20px;
+                .text-muted;
+                font-weight: 300;
+                .pull-right;
+            }
+        }
+        .description {
+            .text-muted;
+            font-weight: 300;
+        }
+    }
+    .results-table {
+        .table;
+        .make-md-column(8);
+        .make-md-column-offset(2);
+        .question, .answer {
+            font-size: @font-size-large;
+        }
+        .correct {
+            color: @brand-success;
+        }
+        .incorrect {
+            color: @brand-danger;
+        }
+    }
+    .result {
+        text-align: center;
+        .correct {
+            color: @brand-success;
+        }
+        .incorrect {
+            color: @brand-danger;
+        }
+    }
+    .activity-return {
+        text-align: center;
+        margin: 60px 0 40px;
+    }
+}
+
+body.two-choice-quiz, body.likert-quiz {
+    form {
+        text-align: center;
+        .question {
+            font-size: 48px;
+            line-height: 52px;
+            margin-bottom: 50px;
+        }
+    }
+}
+
+body.two-choice-quiz-variant {
+    form {
+        text-align: center;
+        .question {
+            font-size: 36px;
+            line-height: 40px;
+            margin-bottom: 50px;
+            font-weight: 300;
+            span {
+                font-weight: 400;
+            }
+        }
+    }
+}
+
+body.two-choice-quiz {
+    form {
+        .answers button {
+            margin: 20px;
+            padding: 10px 30px;
+            font-size: 32px;
+            line-height: 40px;
+        }
+        .choices {
+            font-size: 28px;
+            line-height: 30px;
+        }
+        table.answers {
+            width: 100%;
+        }
+    }
+}
+
+body.likert-quiz {
+    .answers {
+        button {
+            padding: 10px 20px;
+            margin: 5px;
+        }
+        td {
+            vertical-align: top;
+            font-size: 14px;
+            line-height: 18px;
+        }
+    }
+}
+
+body.dashboard {
+    h1 {
+        font-weight: 400;
+    }
+    h2 {
+        font-size: 20px;
+        font-weight: 300;
+        margin: 20px 0 10px;
+        line-height: 24px;
+        text-transform: uppercase;
+        .subhead {
+            text-transform: none;
+            font-size: 16px;
+            line-height: 16px;
+            .text-muted;
+        }
+    }
+    .dashboard-activity {
+        margin: 0 0 10px 0px;
+        border: 1px solid #CCC;
+        border-radius: 4px;
+        padding: 5px 6px;
+        h3 {
+            font-size: 26px;
+            line-height: 24px;
+            font-weight: 400;
+            margin: 0;
+        }
+        .description {
+            .text-muted;
+            font-weight: 300;
+        }
+        pre {
+            margin: 5px 0 1px;
+            padding: 5px 5px;
+            font-size: 12px;
+            line-height: 16px;
+        }
+        form {
+            margin: 0;
+        }
+        .repetitions {
+            .text-muted;
+            font-size: 12px;
+        }
+    }
+}
+
+.counts-row {
+    .count {
+        text-align: center;
+        .number {
+            line-height: 32px;
+            font-size: 32px;
+            font-weight: 100;
+        }
+    }
+    margin-bottom: 50px;
+}
