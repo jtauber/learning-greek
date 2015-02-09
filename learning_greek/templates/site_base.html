@@ -17,7 +17,7 @@
 {% block nav %}
     <ul class="nav navbar-nav">
         {% if user.is_authenticated %}
-            <li><a href="{# url 'dashboard' #}">Activities</a></li>
+            <li><a href="{% url 'dashboard' %}">Activities</a></li>
         {% endif %}
         <li><a href="{% url 'blog' %}">Blog</a></li>
     </ul>
