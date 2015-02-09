@@ -190,4 +190,10 @@ AUTHENTICATION_BACKENDS = [
 
 ACTIVITIES = {
     "uppercase": "learning_greek.activities.alphabet.UpperCaseQuiz",
+    "lowercase": "learning_greek.activities.alphabet.LowerCaseQuiz",
+    "letter-familiarity": "learning_greek.activities.alphabet.LetterFamiliarity",
+    "lowercase-alphabet-order": "learning_greek.activities.alphabet.LowerCaseAlphabetOrderQuiz",
+    "uppercase-with-answers": "learning_greek.activities.alphabet.UpperCaseWithAnswersQuiz",
+    "greek-keyboard": "learning_greek.activities.alphabet.GreekKeyboard",
+    "koine-pronunciation": "learning_greek.activities.alphabet.KoinePronunciation",
 }
