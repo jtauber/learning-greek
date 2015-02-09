@@ -12,10 +12,10 @@
     {% block extra_style %}{% endblock %}
 {% endblock %}
 
-{% block site_brand %}<a class="brand" href="{% url 'home' %}"><span style="font-weight: 300; color: #333;">Learning</span><span style="font-weight:700; color: #333;">GREEK</span></a>{% endblock %}
+{% block site_brand %}<a class="navbar-brand" href="{% url 'home' %}"><span style="font-weight: 300; color: #333;">Learning</span><span style="font-weight:700; color: #333;">GREEK</span></a>{% endblock %}
 
 {% block nav %}
-    <ul class="nav">
+    <ul class="nav navbar-nav">
         {% if user.is_authenticated %}
             <li><a href="{# url 'dashboard' #}">Activities</a></li>
         {% endif %}
