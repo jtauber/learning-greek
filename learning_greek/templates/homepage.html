@@ -1,77 +1,42 @@
 {% extends "site_base.html" %}
 
-{% load i18n %}
-
-{% block head_title %}pinax-project-account{% endblock %}
-
 {% block body_class %}home{% endblock %}
 
-{% block body_base %}
-    <section class="jumbotron">
-        <div class="container">
-            {% include "_messages.html" %}
-            <h1>{% blocktrans %}Welcome to<br>pinax-project-account{% endblocktrans %}</h1>
-            <p>
-                {% blocktrans %}
-                In addition to what is provided by the "zero" project, this project
-                provides thorough integration with django-user-accounts, adding
-                comprehensive account management functionality. It is a foundation
-                suitable for most sites that have user accounts.
-                {% endblocktrans %}
-            </p>
-            {% if not user.is_authenticated %}
-            {% url "account_login" as login_url %}
-            {% url "account_signup" as signup_url %}
-            <p>{% blocktrans %}You can <a href="{{ login_url }}" class="btn btn-default">Log In</a> or <a href="{{ signup_url }}" class="btn btn-primary">Sign Up</a> to try out the site.{% endblocktrans %}</p>
-            {% endif %}
-        </div>
-    </section>
-    <section>
-        <div class="container">
-            <h2 class="text-center">{% blocktrans %}What is Pinax?{% endblocktrans %}</h2>
+{% block body %}
+
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+
+            <h1><span style="font-weight: 300; color: #333;">Learning</span><span style="font-weight:700; color: #333;">GREEK</span></h1>
+
             <p class="lead">
-                {% blocktrans %}
-                <b>Pinax</b> is an open-source platform based on Django and
-                intended to provide a starting point for websites. It takes
-                care of the things that many sites have in common, so you can
-                focus on what makes your site different.
-                {% endblocktrans %}
+                I&rsquo;m building this site partly to <em>help people learn Koine Greek</em> and partly to <em>research how to improve the way people learn Koine Greek</em>.
             </p>
-            <div class="feature-columns">
-                <div>
-                    <i class="fa fa-cubes fa-3x"></i><br>
-                    {% blocktrans %}
-                    <b>Starter projects</b> provide project layout,
-                    scaffolding, already integrated components and
-                    ready-to-go code.
-                    {% endblocktrans %}
-                </div>
-                <div>
-                    <i class="fa fa-puzzle-piece fa-3x"></i><br>
-                    {% blocktrans %}
-                    <b>Reusable apps</b> provide common
-                    infrastructure, back-end functionality,
-                    and user-facing components.
-                    {% endblocktrans %}
-                </div>
-                <div>
-                    <i class="fa fa-tint fa-3x"></i><br>
-                    {% blocktrans %}
-                    <b>Themes</b> provide default templates and
-                    stylesheets for quick prototyping and easy customization.
-                    {% endblocktrans %}
-                </div>
+
+            <p>
+                I&rsquo;m bringing together lessons learnt from fields such as <em>linguistics</em>, <em>learning sciences</em>, <em>psychometrics</em> and <em>machine learning</em>, and such projects as <em>MorphGNT</em>, <em>graded-reader</em>, <em>Quisition</em> and <em>Typewar</em>. This project will combine many of my interests and endeavours from the last twenty years.
+            </p>
+
+            <p>
+                It will kick off with <em>short surveys and games</em> and will be built up incrementally with a strong focus on <em>gathering data</em> and performing <em>learning experiments</em>.
+            </p>
+
+            <p>
+                I&rsquo;m <em>starting small</em> but have <em>ambitious goals</em>. I&rsquo;m eventually going to need a lot of people to use the site to get the data I need. But I also want to teach a lot of people Koine Greek.
+            </p>
+
+            <p>
+                All the code will be <em>open source</em> and hopefully most of the content will be open as well. Data about individuals will not be public but data in the aggregate will be shared as potentially will de-personalized data.
+            </p>
+
+            <div class="call">
+                <p>
+                    Whether you're a student, a scholar or just an interested developer&hellip;
+                </p>
+                <p>
+                    <a class="btn btn-lg btn-success" href="{% url 'account_signup' %}">Sign Up Now</a>
+                </p>
             </div>
         </div>
-    </section>
-    <section>
-        <div class="container">
-            <p class="lead text-center">
-                {% blocktrans %}
-                See <a href="http://pinaxproject.com/">pinaxproject.com</a>
-                for more information.
-                {% endblocktrans %}
-            </p>
-        </div>
-    </section>
+    </div>
 {% endblock %}
