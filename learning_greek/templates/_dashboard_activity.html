@@ -1,0 +1,34 @@
+<div class="dashboard-activity{% if activity.unavailable %} muted{% endif %}">
+    <div class="pull-right clearfix" style="text-align: right;">
+        {% if activity.state %}
+            {% if activity.state.in_progress %}
+                <a class="btn btn-mini" href="{% url 'activity_play' activity.slug %}">continue</a>
+            {% elif activity.repeatable %}
+                <form action="{% url 'activity_start' activity.slug %}" method="post">
+                    {% csrf_token %}
+                    <button class="btn btn-mini">repeat</button>
+                </form>
+                <div class="repetitions">done {{ activity.user_num_completions }} time{{ activity.user_num_completions|pluralize }} before</div>
+            {% else %}
+                COMPLETED
+            {% endif %}
+        {% elif activity.unavailable %}
+            {{ activity.num_completions }} completion{{ activity.num_completions|pluralize }}
+        {% else %}
+            <form action="{% url 'activity_start' activity.slug %}" method="post">
+                {% csrf_token %}
+                <button class="btn btn-mini">start</button>
+            </form>
+        {% endif %}
+    </div>
+    <h3>{{ activity.title }}</h3>
+    <div class="description">{{ activity.description }}</div>
+    {% if debug_mode and user.is_staff %}
+        {% if activity.state %}
+            <pre>{{ activity.state.data }}</pre>
+            {% for occurrence in activity.state.all_occurrences %}
+                <pre>{{ occurrence.data }}</pre>
+            {% endfor %}
+        {% endif %}
+    {% endif %}
+</div>

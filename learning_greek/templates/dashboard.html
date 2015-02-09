@@ -1,0 +1,56 @@
+{% extends "site_base.html" %}
+
+{% block body_class %}dashboard{% endblock %}
+
+{% block body %}
+
+    <div class="row">
+        <div class="span8">
+
+            <h1>Activities</h1>
+
+            {% if activities.inprogress %}
+                <h2>In Progress</h2>
+                {% for activity in activities.inprogress %}
+                    {% include "_dashboard_activity.html" %}
+                {% endfor %}
+            {% endif %}
+
+            {% if activities.available %}
+                <h2>Available</h2>
+                {% for activity in activities.available %}
+                    {% include "_dashboard_activity.html" %}
+                {% endfor %}
+            {% endif %}
+
+            {% if activities.repeatable %}
+                <h2>Repeatable</h2>
+                {% for activity in activities.repeatable %}
+                    {% include "_dashboard_activity.html" %}
+                {% endfor %}
+            {% endif %}
+
+            {% if activities.completed %}
+                <h2>Completed</h2>
+                {% for activity in activities.completed %}
+                    {% include "_dashboard_activity.html" %}
+                {% endfor %}
+            {% endif %}
+
+            {% if activities.unavailable %}
+                <h2>
+                    Unavailable
+                    <div class="subhead">not enough people have completed the activity given your adoption level setting</div>
+                </h2>
+                {% for activity in activities.unavailable %}
+                    {% include "_dashboard_activity.html" %}
+                {% endfor %}
+            {% endif %}
+
+        </div>
+        <div class="span4">
+            {% include "_dashboard_adoption_level.html" %}
+        </div>
+
+</div>
+{% endblock %}
