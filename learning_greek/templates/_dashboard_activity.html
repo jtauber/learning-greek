@@ -2,11 +2,11 @@
     <div class="pull-right clearfix" style="text-align: right;">
         {% if activity.state %}
             {% if activity.state.in_progress %}
-                <a class="btn btn-mini" href="{% url 'activity_play' activity.slug %}">continue</a>
+                <a class="btn btn-default btn-sm" href="{% url 'activity_play' activity.slug %}">continue</a>
             {% elif activity.repeatable %}
                 <form action="{% url 'activity_start' activity.slug %}" method="post">
                     {% csrf_token %}
-                    <button class="btn btn-mini">repeat</button>
+                    <button class="btn btn-default btn-sm">repeat</button>
                 </form>
                 <div class="repetitions">done {{ activity.user_num_completions }} time{{ activity.user_num_completions|pluralize }} before</div>
             {% else %}
@@ -17,7 +17,7 @@
         {% else %}
             <form action="{% url 'activity_start' activity.slug %}" method="post">
                 {% csrf_token %}
-                <button class="btn btn-mini">start</button>
+                <button class="btn btn-default btn-sm">start</button>
             </form>
         {% endif %}
     </div>
