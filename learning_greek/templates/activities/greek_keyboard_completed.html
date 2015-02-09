@@ -1,0 +1,39 @@
+{% extends "site_base.html" %}
+
+{% block head_title %}{{ title }}{% endblock %}
+
+{% block body_class %}greek-keyboard{% endblock %}
+
+{% block body %}
+    <div class="row">
+        <div class="span8 offset2">
+            <header>
+                <h1>{{ title }}{% if page_number %}<span class="page-number">page {{ page_number }}/{{ num_pages }}</span>{% endif %}</h1>
+                <div class="description">{{ description }}</div>
+            </header>
+
+            <p>Times are only counted if you didn't make a mistake.</p>
+            <table class="results-table">
+                <tr>
+                    <th>Letter</th>
+                    <th>Best Time (this run)</th>
+                    <th>Best Time (ever)</th>
+                </tr>
+                {% for result in results %}
+                    <tr>
+                        <td>{{ result.0 }}</td>
+                        <td{% if result.1 == result.2 %} class="new-best"{% endif %}>{{ result.1 }}</td>
+                        <td>{{ result.2 }}</td>
+                    </tr>
+                {% endfor %}
+            </table>
+            <form action="{% url 'activity_start' slug %}" method="post">
+                {% csrf_token %}
+                <div class="activity-return">
+                    <button class="btn btn-primary">Repeat Activity</button>
+                    <a href="{% url 'dashboard' %}" class="btn">Return to Activity List</a>
+                </div>
+            </form>
+        </div>
+    </div>
+{% endblock %}
