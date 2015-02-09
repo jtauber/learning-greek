@@ -189,6 +189,12 @@ AUTHENTICATION_BACKENDS = [
 ]
 
 ACTIVITIES = {
+    "demographic": "learning_greek.activities.surveys.DemographicSurvey",
+    "spoken-languages": "learning_greek.activities.surveys.SpokenLanguagesSurvey",
+    "goals": "learning_greek.activities.surveys.GoalsSurvey",
+    "previous-greek-knowledge": "learning_greek.activities.surveys.PreviousGreekKnowledge",
+    "suggestion-box": "learning_greek.activities.surveys.SuggestionBox",
+
     "uppercase": "learning_greek.activities.alphabet.UpperCaseQuiz",
     "lowercase": "learning_greek.activities.alphabet.LowerCaseQuiz",
     "letter-familiarity": "learning_greek.activities.alphabet.LetterFamiliarity",
