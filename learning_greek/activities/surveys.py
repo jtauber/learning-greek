@@ -16,7 +16,7 @@ class SuggestionBox(Survey):
             "label": "Suggestion",
             "field_class": forms.CharField,
             "extra_args": {
-                "widget": forms.Textarea(attrs={"rows": "5", "class": "span8"}),
+                "widget": forms.Textarea(attrs={"rows": "5", "class": "col-md-8"}),
             }
         }
     ]
