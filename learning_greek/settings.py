@@ -189,4 +189,5 @@ AUTHENTICATION_BACKENDS = [
 ]
 
 ACTIVITIES = {
+    "uppercase": "learning_greek.activities.alphabet.UpperCaseQuiz",
 }
