@@ -135,6 +135,8 @@ INSTALLED_APPS = [
     "metron",
     "biblion",
 
+    "pinax.lms.activities",
+
     # project
     "learning_greek",
 ]
