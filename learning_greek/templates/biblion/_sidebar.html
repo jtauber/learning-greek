@@ -1,0 +1,15 @@
+{% if not user.is_authenticated %}
+    <p>
+        I&rsquo;m building <span style="font-weight: 300">Learning</span><b>Greek</b> partly to help people learn Koine Greek and partly to research how to improve the way people learn Koine Greek.
+    </p>
+
+    <p>
+        I&rsquo;m starting small but have ambitious goals. I&rsquo;m eventually going to need a lot of people to use the site to get the data I need. But I also want to teach a lot of people Koine Greek.
+    </p>
+
+    <p>
+        Whether you're a student, a scholar or just an interested developer…
+        <br>
+        <a href="{% url 'account_signup' %}" class="pull-right btn btn-success">Sign Up Now</a>
+    </p>
+{% endif %}

@@ -133,6 +133,7 @@ INSTALLED_APPS = [
     "account",
     "eventlog",
     "metron",
+    "biblion",
 
     # project
     "learning_greek",
