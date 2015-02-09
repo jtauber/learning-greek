@@ -1,0 +1,15 @@
+key: LKFI7T8H48A
+vcs: git
+runtime: python-2.7.3
+requirements_file: requirements.txt
+on_deploy:
+    - manage.py upgradedb --execute
+    - manage.py collectstatic --noinput
+static_urls:
+    - /site_media:
+        root: site_media/
+wsgi:
+    entry_point: learning_greek.wsgi:application
+    gunicorn:
+        worker_class: sync
+    use_environment_cache: true

@@ -5,15 +5,32 @@ PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), os.pardir
 PACKAGE_ROOT = os.path.abspath(os.path.dirname(__file__))
 BASE_DIR = PACKAGE_ROOT
 
-DEBUG = True
+SITE_ID = int(os.environ.get("SITE_ID", 1))
+DEBUG = SITE_ID == 1
 TEMPLATE_DEBUG = DEBUG
 
-DATABASES = {
-    "default": {
-        "ENGINE": "django.db.backends.sqlite3",
-        "NAME": "dev.db",
+if "GONDOR_DATABASE_URL" in os.environ:
+    urlparse.uses_netloc.append("postgres")
+    url = urlparse.urlparse(os.environ["GONDOR_DATABASE_URL"])
+    DATABASES = {
+        "default": {
+            "ENGINE": {
+                "postgres": "django.db.backends.postgresql_psycopg2"
+            }[url.scheme],
+            "NAME": url.path[1:],
+            "USER": url.username,
+            "PASSWORD": url.password,
+            "HOST": url.hostname,
+            "PORT": url.port
+        }
     }
-}
+else:
+    DATABASES = {
+        "default": {
+            "ENGINE": "django.db.backends.postgresql_psycopg2",
+            "NAME": "learning_greek",
+        }
+    }
 
 ALLOWED_HOSTS = []
 
