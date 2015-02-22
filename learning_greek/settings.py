@@ -222,4 +222,5 @@ ACTIVITIES = {
     "koine-pronunciation": "learning_greek.activities.alphabet.KoinePronunciation",
 
     "recessive-verb-accent": "learning_greek.activities.ltrg.RecessiveVerbAccentQuiz",
+    "persistent-accent": "learning_greek.activities.ltrg.PersistentAccentQuiz",
 }

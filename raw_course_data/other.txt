@@ -1,0 +1,27 @@
+1|εἰς/ἐς|(prep. + acc.) to, toward; into; against; with a view to, regarding
+1|ἐκ/ἐξ|(prep. + gen.) (out) from, out of; resulting from, in accordance with
+1|ἐν|(prep. + dat.) in, on; among, in the presence of
+1|καί|(conj.) and; (adv.) even, also
+1|περί|(prep. + gen.) concerning, about; (prep. + dat.) around; (prep. + acc.) around; concerning, about
+1|σύν/ξύν|(prep. + dat.) (along) with; with the aid of; in accordance with
+1|ὦ|(interj.) O
+
+2|ἀλλά|(conj.) but
+2|ἀπό|(prep. + gen.) (away) from
+2|διά|(prep. + gen.) through; (prep. + acc.) on account of, because of
+2|ἤ|(conj.) or
+2|μή|(adv.) not
+2|μόνον|(adv.) only
+2|οὐ, οὐκ, οὐχ|(adv.) not
+
+3|ἆρα|(interrog. particle) introduces a question
+3|γάρ|(postpositive conj.) explanatory, for; confirming, indeed, in fact
+3|δέ|(postpositive conj.) adversative, but; connective, and
+3|εὖ|(adv.) well
+3|μέν|(postpositive particle) on the one hand
+3|νῦν|(adv.) now
+3|πολλάκις|(adv.) many times, often
+3|πότε|(interrog. adv.) when
+3|πρός|(prep. + gen.) form; by; in the name of; (prep. + dat.) near; in addition to; (prep. + acc.) toward; against; in reply to, in the face of, in relation to
+3|πῶς|(interrog. adv.) how
+3|ὑπό|(prep. + gen.) (from) under; by; at the hands of; (prep. + dat.) under; under the power of; (prep. + acc.) under; during

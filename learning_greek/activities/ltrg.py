@@ -64,6 +64,6 @@ class PersistentAccentQuiz(ShortAnswerQuiz):
         questions = []
 
         for word in random.sample(set(non_verbs()), 10):
-            questions.append((word, remove(word)))
+            questions.append((remove(word), word))
 
         return questions

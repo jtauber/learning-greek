@@ -1,0 +1,16 @@
+2|ἀγαθός, ἀγαθή, ἀγαθόν|good
+2|Ἀθηναῖος, Ἀθηναίᾱ, Ἀθηναῖον|Athenian; masc. pl. subst., Athenians
+2|δεινός, δεινή, δεινόν|fearsome, terrible; marvelous, strange; clever
+2|δίκαιος, δικαίᾱ, δίκαιον|right, just	(revised)
+2|ἐχθρός, ἐχθρᾱ́, ἐχθρόν|hated, hateful; hostile; masc. subst., enemy
+2|κακός, κακή, κακόν|bad, evil
+2|καλός, καλή, καλόν|beautiful; noble; fine
+2|Λακεδαιμόνιος, Λακεδαιμονίᾱ, Λακεδαιμόνιον|Lacedaemonian, Spartan; masc. pl. subst., Lacedaemonians, Spartans
+2|μόνος, μόνη, μόνον|only, alone
+2|σοφός, σοφή, σοφόν|wise
+2|φίλος, φίλη, φίλον|(be)loved, dear; loving, friendly; masc./fem. subst., friend; loved one
+2|ἄδικος, ἄδικον|unjust
+2|ἀθάνατος, ἀθάνατον|deathless, immortal
+
+3|αἰσχρός, αἰσχρᾱ́, αἰσχρόν|disgraceful, shameful; ugly
+3|κοινός, κοινή, κοινόν|common (to), shared (with); (+ gen. or dat.) public

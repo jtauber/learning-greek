@@ -1,0 +1,49 @@
+1|ἀγορᾱ́, ἀγορᾶς, ἡ||agora, marketplace
+1|οἰκίᾱ, οἰκίᾱς, ἡ||house
+1|σοφίᾱ, σοφίᾱς, ἡ||wisdom
+1|συμφορᾱ́, συμφορᾶς, ἡ||circumstance; misfortune, disaster
+1|χώρᾱ, χώρᾱς, ἡ||land; country
+1|βουλή, βουλῆς, ἡ||will; plan; council; advice
+1|γνώμη, γνώμης, ἡ||judgment; spirit, inclination; opinion
+1|δίκη, δίκης, ἡ||justice
+1|εἰρήνη, εἰρήνης, ἡ||peace
+1|Ἑλένη, Ἑλένης, ἡ||Helen
+1|μάχη, μάχης, ἡ||battle
+1|ψῡχή, ψῡχῆς, ἡ||soul; life force
+1|Ἀλέξανδρος, Ἀλεξάνδρου, ὁ||Alexander
+1|ἄνθρωπος, ἀνθρώπου, ὁ or ἡ||human being, man
+1|ἑταῖρος, ἑταίρου, ὁ||companion
+1|θεός, θεοῦ, ὁ or ἡ||god; goddess
+1|λόγος, λόγου, ὁ||word; speech; argument
+1|νῆσος, νήσου, ἡ||island
+1|νόμος, νόμου, ὁ||custom; law
+1|ὁδός, ὁδοῦ, ἡ||road, path; journey; way
+1|πόλεμος, πολέμου, ὁ||war
+1|Πρίαμος, Πριάμου, ὁ||Priam
+1|ἔργον, ἔργου, τό||task, work; deed
+1|ζῷον, ζῴου, τό||living being; animal
+1|ὅπλον, ὅπλου, τό||tool; pl., arms, weapons
+1|τέκνον, τέκνου, τό||child
+
+2|αἰτίᾱ, αἰτίᾱς, ἡ||cause; responsibility
+2|ἀρχή, ἀρχῆς, ἡ||beginning; (supreme) power, rule; empire
+2|δόξα, δόξης, ἡ||opinion, belief; reputation; glory; expectation
+2|θάλαττα, θαλάττης, ἡ||sea
+2|ἀλήθεια, ἀληθείᾱς, ἡ||truth
+2|μοῖρα, μοίρᾱς, ἡ||fate
+2|Γοργίᾱς, Γοργίου, ὁ||Gorgias
+2|νεᾱνίᾱς, νεᾱνίου, ὁ||young man
+2|Ἅιδης, Ἅιδου, ὁ||Hades
+2|Ἀτρείδης, Ἀτρείδου, ὁ||Atreides, son of Atreus
+2|Εὐρῑπίδης, Εὐρῑπίδου, ὁ||Euripides
+2|ποιητής, ποιητοῦ, ὁ||maker; poet
+2|πολῑ́της, πολῑ́του, ὁ||citizen
+2|δῆμος, δήμου, ὁ||(the) people
+2|φόβος, φόβου, ὁ||fear
+
+3|γαῖα, γαίᾱς, ἡ||earth; land
+3|γῆ, γῆς, ἡ|st|earth; land
+3|ξένος, ξένου, ὁ||host, guest, guest-friend; stranger, foreigner
+3|οὐρανός, οὐρανοῦ, ὁ||sky, heaven
+3|πόνος, πόνου, ὁ||labor, toil; distress, suffering
+3|σύμμαχος, συμμάχου, ὁ||ally
