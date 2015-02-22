@@ -1,4 +1,5 @@
 import os
+import urllib.parse
 
 
 PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), os.pardir))
@@ -10,8 +11,8 @@ DEBUG = SITE_ID == 1
 TEMPLATE_DEBUG = DEBUG
 
 if "GONDOR_DATABASE_URL" in os.environ:
-    urlparse.uses_netloc.append("postgres")
-    url = urlparse.urlparse(os.environ["GONDOR_DATABASE_URL"])
+    urllib.parse.uses_netloc.append("postgres")
+    url = urllib.parse.urlparse(os.environ["GONDOR_DATABASE_URL"])
     DATABASES = {
         "default": {
             "ENGINE": {
