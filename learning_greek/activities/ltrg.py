@@ -2,9 +2,9 @@
 
 import random
 
-from pinax.lms.activities.base import ShortAnswerQuiz
+from pinax.lms.activities.base import ShortAnswerQuiz, MultipleShortAnswerQuiz
 
-from .utils import remove, verbs, nouns, adjectives, others
+from .utils import remove, verbs, nouns, adjectives, others, articles
 from accentuation import recessive
 
 
@@ -65,5 +65,36 @@ class PersistentAccentQuiz(ShortAnswerQuiz):
 
         for word in random.sample(set(non_verbs()), 10):
             questions.append((remove(word), word))
+
+        return questions
+
+
+class DeclineArticleQuiz(MultipleShortAnswerQuiz):
+
+    title = "Decline Article Quiz"
+    description = "given a gender, decline the definite article"
+
+    repeatable = True
+
+    def construct_quiz(self):
+
+        ARTICLE = {}
+        for article in articles:
+            ARTICLE[article["cng"]] = article["form"]
+
+        gender = random.choice([("masculine", "M"), ("feminine", "F"), ("neuter", "N")])
+
+        questions = [(
+            gender[0], [(cn[0], ARTICLE[cn[1] + gender[1]]) for cn in [
+                ("nominative singular", "NS"),
+                ("genitive singular", "GS"),
+                ("dative singular", "DS"),
+                ("accusative singular", "AS"),
+                ("nominative plural", "NP"),
+                ("genitive plural", "GP"),
+                ("dative plural", "DP"),
+                ("accusative plural", "AP"),
+            ]]
+        )]
 
         return questions
