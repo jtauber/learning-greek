@@ -15,8 +15,8 @@ urlpatterns = patterns(
     url(r"^account/settings/$", SettingsView.as_view(), name="account_settings"),
     url(r"^account/", include("account.urls")),
 
-    url(r"^blog/", include("biblion.urls")),
-    url(r"^feeds/blog/(?P<section>\w+)/$", "biblion.views.blog_feed", {"section": "all"}, name="blog_feed"),
+    # url(r"^blog/", include("biblion.urls")),
+    # url(r"^feeds/blog/(?P<section>\w+)/$", "biblion.views.blog_feed", {"section": "all"}, name="blog_feed"),
 
     url(r"^activity/", include("pinax.lms.activities.urls")),
     url(r"^dashboard/", "learning_greek.views.dashboard", name="dashboard"),

@@ -150,7 +150,7 @@ INSTALLED_APPS = [
     "account",
     "eventlog",
     "metron",
-    "biblion",
+    # "biblion",
 
     "pinax.lms.activities",
 
@@ -219,4 +219,6 @@ ACTIVITIES = {
     "uppercase-with-answers": "learning_greek.activities.alphabet.UpperCaseWithAnswersQuiz",
     "greek-keyboard": "learning_greek.activities.alphabet.GreekKeyboard",
     "koine-pronunciation": "learning_greek.activities.alphabet.KoinePronunciation",
+
+    "recessive-verb-accent": "learning_greek.activities.ltrg.RecessiveVerbAccentQuiz",
 }

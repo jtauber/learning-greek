@@ -1,0 +1,16 @@
+# verbs form LTRG so far
+# pipe-delimited
+# first field is chapter
+# second field is lemma
+# third field is comma-delimited list of principal parts (we care about 1st, 2nd, 6th)
+# fourth field is active gloss
+# fifth field is middle gloss
+
+3|ἄρχω|ἄρχω, ἄρξω, ἦρξα, ἦρχα, ἦργμαι, ἦρχθην|rule (+ gen.)|begin (+ gen.)
+3|διδάσκω|διδάσκω, διδάξω, ἐδίδαξα, δεδίδαχα, δεδίδαγμαι, ἐδιδάχθην|teach; explain|cause (someone) to be taught
+3|θέλω|θέλω/ἐθέλω, ἐθελήσω, ἠθέλησα, ἠθέληκα, ---, ---|be willing, wish|
+3|λέγω|λέγω, λέξω, ἔλεξα/εἶπον, ---, λέλεγμαι, ἐλέχθην|say; speak (of) tell (of), recount|
+3|μέλλω|μέλλω, μελλήσω, ἐμέλλησα, ---, ---, ---|intend, be about, be likely (+ inf.)|
+3|παύω|παύω, παύσω, ἔπαυσα, πέπαυκα, πέπαυμαι, ἐπαύθην|stop (trans.)|stop (intrans.), cease
+3|πείθω|πείθω, πείσω, ἔπεισα, πέπεικα, πέπεισμαι, ἐπείσθην|persuade|obey; heed; believe (+ dat.)
+3|πέμπω|πέμπω, πέμψω, ἔπεμψα, πέπομφα, πέπεμμαι, ἐπέμφθην|send|
