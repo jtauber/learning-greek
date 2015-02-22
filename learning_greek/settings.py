@@ -224,4 +224,5 @@ ACTIVITIES = {
     "recessive-verb-accent": "learning_greek.activities.ltrg.RecessiveVerbAccentQuiz",
     "persistent-accent": "learning_greek.activities.ltrg.PersistentAccentQuiz",
     "decline-article": "learning_greek.activities.ltrg.DeclineArticleQuiz",
+    "decline-demonstrative1": "learning_greek.activities.ltrg.DeclineDemonstrative1Quiz",
 }

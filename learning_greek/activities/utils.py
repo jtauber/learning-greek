@@ -38,8 +38,7 @@ nouns = list(load_file("raw_course_data/nouns.txt", ["chapter", "citation-form",
 adjectives = list(load_file("raw_course_data/adjectives.txt", ["chapter", "citation-form", "gloss"]))
 others = list(load_file("raw_course_data/other.txt", ["chapter", "citation-form", "gloss"]))
 articles = list(load_file("raw_course_data/article.txt", ["cng", "form"]))
-
-# demonstratives1 = load_file("raw_course_data/demonstrative1.txt", ["cng", "form"])
+demonstratives1 = list(load_file("raw_course_data/demonstrative1.txt", ["cng", "form"]))
 
 # def get_nominal_forms(noun, NS, GS, ART):
 #     if NS.endswith("ᾱ") and GS.endswith("ᾱς") and ART == "ἡ":

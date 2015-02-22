@@ -4,7 +4,7 @@ import random
 
 from pinax.lms.activities.base import ShortAnswerQuiz, MultipleShortAnswerQuiz
 
-from .utils import remove, verbs, nouns, adjectives, others, articles
+from .utils import remove, verbs, nouns, adjectives, others, articles, demonstratives1
 from accentuation import recessive
 
 
@@ -86,6 +86,37 @@ class DeclineArticleQuiz(MultipleShortAnswerQuiz):
 
         questions = [(
             gender[0], [(cn[0], ARTICLE[cn[1] + gender[1]]) for cn in [
+                ("nominative singular", "NS"),
+                ("genitive singular", "GS"),
+                ("dative singular", "DS"),
+                ("accusative singular", "AS"),
+                ("nominative plural", "NP"),
+                ("genitive plural", "GP"),
+                ("dative plural", "DP"),
+                ("accusative plural", "AP"),
+            ]]
+        )]
+
+        return questions
+
+
+class DeclineDemonstrative1Quiz(MultipleShortAnswerQuiz):
+
+    title = "Decline οὗτος Quiz"
+    description = "given a gender, decline the demonstrative οὗτος"
+
+    repeatable = True
+
+    def construct_quiz(self):
+
+        DEMONSTRATIVE = {}
+        for demonstrative in demonstratives1:
+            DEMONSTRATIVE[demonstrative["cng"]] = demonstrative["form"]
+
+        gender = random.choice([("masculine", "M"), ("feminine", "F"), ("neuter", "N")])
+
+        questions = [(
+            gender[0], [(cn[0], DEMONSTRATIVE[cn[1] + gender[1]]) for cn in [
                 ("nominative singular", "NS"),
                 ("genitive singular", "GS"),
                 ("dative singular", "DS"),
