@@ -1,15 +1,18 @@
-Django==1.7.4
-pinax-theme-bootstrap==5.7.1
-django-user-accounts==1.0.1
+Django==1.8.5
+pinax-theme-bootstrap==7.1.0
+django-bootstrap-form==3.2
+django-user-accounts==1.2
+pytz==2015.6
+django-appconf==1.0.1
 metron==1.3.5
-eventlog==0.9.0
-django-jsonfield==0.9.13
+pinax-eventlog==1.0.0
+django-jsonfield==0.9.15
 
 # pinax-blog==3.1.3
 pinax-lms-activities==0.2.0
 
 gondor==1.2.5
-gunicorn==19.1.1
-psycopg2==2.5.4
+gunicorn==19.3.0
+psycopg2==2.6.1
 
-greek-accentuation==0.8
+greek-accentuation==0.9.1
